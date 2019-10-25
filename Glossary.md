@@ -32,7 +32,7 @@ Determine whether observations made in one variable are the reason for an effect
 
 ### CLASSIFICATION
 
-Classification in [machine learning](#MACHINE-LEARNING) can identify the class that previously unseen, unlabeled examples belong to, for instance by naming an object shown in a photograph. The [construction](#MODEL-FITTING) of a classifier requires training [data](#DATA) that provides labels for each example data point (or photo). The requirement of given labels for training is the main difference between classification and [clustering](#CLUSTERING).
+Classification in [machine learning](#MACHINE-LEARNING) can identify the class that previously unseen, unlabeled examples belong to, such as naming an object shown in a photograph. The [construction](#MODEL-FITTING) of a classifier requires training [data](#DATA) that provides labels for each example data point (or photo). The requirement of given labels for training is the main difference between classification and [clustering](#CLUSTERING).
 
 ### CLOUD COMPUTING
 
@@ -44,7 +44,7 @@ A compute cluster is a [network](#NETWORK) of computers (or compute nodes) that 
 
 ### CLUSTERING
 
-Clustering is a task in [machine learning](#MACHINE-LEARNING) that groups examples or points to optimize some measure of distance among or similarity within groups of points, or so-called clusters, to uncover information about hidden structure in the data. As opposed to [classification](#CLASSIFICATION) clustering does not require labelled training data and is a type of unsupervised learning.
+Clustering is a task in [machine learning](#MACHINE-LEARNING) that groups examples or points to optimize some measure of distance among or similarity within groups of points, or so-called clusters, to uncover information about hidden structure in the data. As opposed to [classification](#CLASSIFICATION), clustering does not require labelled training data, which is called unsupervised learning.
 
 ### COMPUTING WITH DATA
 
@@ -77,11 +77,11 @@ An analytical process where large datasets are explored or "mined" in search of 
 
 ### DATA MODELING
 
-Construction of a [computational representation](#ALGORITHM) via [machine learning](#MACHINE-LEARNING) that imitates the behaviour of some real-world process captured in [data](#DATA). Two main approaches are [generative modeling](#GENERATIVE-MODELING) and [predictive modeling](#PREDICTIVE-ANALYTICS) producing new possible data examples or determining hidden attributes of given examples, respectively.
+Construction of a [computational representation](#ALGORITHM) via [machine learning](#MACHINE-LEARNING) that imitates the behaviour of some real-world process captured in [data](#DATA). Two main approaches are [generative modeling](#GENERATIVE-MODELING) and [predictive modeling](#PREDICTIVE-ANALYTICS), which produce new possible data examples or determine hidden attributes of given examples, respectively.
 
 ### DATA REPRESENTATION AND TRANSFORMATION
 
-Data representation refers to the form in which [data](#DATA) is stored, processed, and transmitted retaining the information content and [context within the original data](#METADATA) to the greatest degree possible. Choices of data representation can be influenced by constraints in hardware, software or other resources needed for processing and analysis. Data transformation converts data into different representations that may be more insightful, for instance converting [unstructured data](#UNSTRUCTURED-DATA), such as text, numbers, photo, or music, into [forms](#STRUCTURED-DATA) that can be analysed further. [^28]
+Data representation refers to the form in which [data](#DATA) is stored, processed, and transmitted retaining the information content and [context within the original data](#METADATA) to the greatest degree possible. Choices of data representation can be influenced by constraints in hardware, software or other resources needed for processing and analysis. Data transformation converts data into different representations that may be more insightful, for instance converting [unstructured data](#UNSTRUCTURED-DATA), such as text, numbers, photos, or music, into [forms](#STRUCTURED-DATA) that can be analysed further. [^28]
 
 ### DATA SCIENCE
 
