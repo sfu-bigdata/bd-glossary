@@ -20,7 +20,7 @@ The process of using [statistical models](#MACHINE-LEARNING) and software to [tr
 
 ### ARTIFICIAL INTELLIGENCE
 
-A branch of computer science that allows machines to acquire and apply knowledge to handle new inputs and analyze patterns to solve different problems. [^39]
+A branch of computer science that allows machines to acquire and apply knowledge to handle new inputs and analyze patterns to solve diverse problems. [^39]
 
 ### BEHAVIOUR(AL) ANALYTICS
 
@@ -32,11 +32,11 @@ Refers to the massive amounts of [data](#DATA) generated around the world that i
 
 ### CAUSAL INFERENCE
 
-Determine whether observations made in one variable are the reason for an effect observed in another variable, possibly occurring at a later time. See also [correlation mining](#CORRELATION-MINING) and [predictive analytics](#PREDICTIVE-ANALYTICS).
+Determines whether observations made in one variable are the reason for an effect observed in another variable, possibly occurring at a later time. See also [correlation mining](#CORRELATION-MINING) and [predictive analytics](#PREDICTIVE-ANALYTICS).
 
 ### CLASSIFICATION
 
-An approach in [machine learning](#MACHINE-LEARNING) where a program is [trained](#MODEL-FITTING) with labeled [data](#DATA) to determine which category a new  observation belongs to. See also, [clustering](#CLUSTERING).
+An approach in [machine learning](#MACHINE-LEARNING) where a program is [trained](#MODEL-FITTING) with labeled [data](#DATA) to determine which category a new  observation belongs to. See also [clustering](#CLUSTERING).
 
 ### CLOUD COMPUTING
 
@@ -48,7 +48,7 @@ A [network](#NETWORK) of computers (or compute nodes) that work on tasks togethe
 
 ### CLUSTERING
 
-A [machine learning](#MACHINE-LEARNING) technique that groups similar data points together to uncover hidden structure. As opposed to [classification](#CLASSIFICATION), clustering does not require labelled training data and is a type of unsupervised learning.
+A [machine learning](#MACHINE-LEARNING) technique that groups similar data points together to uncover hidden structure. Unlike [classification](#CLASSIFICATION), clustering does not require labelled training data and is a type of unsupervised learning.
 
 ### COMPUTING WITH DATA
 
@@ -60,7 +60,7 @@ As a measure of association between two variables, correlation can be used for [
 
 ### CYBERSECURITY
 
-See [Secure Computing](#SECURE-COMPUTING).
+A model in information security designed to govern and evaluate how an organization handles data when it is stored, transmitted or processed. This model emphasizes that data should not be accessed without authorization, should not be altered or compromised without authorization, and should be accessible upon legitimate request. See [Secure Computing](#SECURE-COMPUTING). [^40]
 
 ### DATA
 
@@ -68,11 +68,15 @@ Collection of examples, observations, measurements, facts, points, or other item
 
 ### DATABASE
 
-Organized collection of [data](#DATA) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#NO-SQL-DATABASE) options.[^3]
+An organized collection of [data](#DATA) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#NO-SQL-DATABASE) options.[^3]
+
+### DATA CLEANING
+
+Careful removal of erroneous or unreliable data points.
 
 ### DATA EXPLORATION AND PREPARATION
 
-Exploratory data analysis (EDA) is a formative step in the [creation of models](#MODEL-FITTING). [Views of the data](#VISUALIZATION) are used to learn about patterns or relationships among variables. This includes data cleaning (careful removal of erroneous or unreliable data points) and manipulation for further analysis.
+Exploratory data analysis (EDA) is a formative step in the [creation of models](#MODEL-FITTING). [Views of the data](#VISUALIZATION) are used to learn about patterns or relationships among variables. This includes [data cleaning](#DATA-CLEANING) and manipulation for further analysis.
 
 ### DATA INTEGRATION
 
@@ -84,11 +88,11 @@ An analytical process where large datasets are explored or "mined" in search of 
 
 ### DATA REPRESENTATION
 
-The form in which [data](#DATA) is stored, processed and transmitted such that its [information content](#INFORMATION) and [context](#METADATA) are retained as much as possible. Choices of form are influenced by hardware, software or other constraints around processing and analysis resources. [^28]
+The form in which [data](#DATA) are stored, processed and transmitted such that its [information content](#INFORMATION) and [context](#METADATA) are retained as much as possible. Choices of form are influenced by hardware, software or other constraints around processing and analysis resources. [^28]
 
 ## DATA TRANSFORMATION
 
-The process of converting data from [one form into another](#DATA-REPRESENTATION) to gain better [insight](#INSIGHT), for instance, converting [unstructured data](#UNSTRUCTURED-DATA) into [structured form](#STRUCTURED-DATA) that can be analyzed further.
+The process of converting data from [one form into another](#DATA-REPRESENTATION) to gain better [insight](#INSIGHT). For instance, converting [unstructured data](#UNSTRUCTURED-DATA) into [structured form](#STRUCTURED-DATA) that can be analyzed further.
 
 ### DATA SCIENCE
 
@@ -137,7 +141,7 @@ A system of [connected](#NETWORK), "smart" objects, including smartphones, weara
 
 ### KNOWLEDGE DISCOVERY
 
-Knowledge discovery (KDD) aims to extract [insight](#INSIGHT) from data in [databases](#DATABASE). It involves a [number of steps](#DATA-SCIENCE) including the evaluation and possibly [interpretation](#VISUALIZATION) of [patterns](#DATA-MINING) to gather [insight](#INSIGHT) and knowledge.[^35]
+Aims to extract [insight](#INSIGHT) from data in [databases](#DATABASE). It involves a [number of steps](#DATA-SCIENCE) including the evaluation and possibly [interpretation](#VISUALIZATION) of [patterns](#DATA-MINING) to gather [insight](#INSIGHT) and knowledge.[^35]
 
 ### MACHINE LEARNING
 
@@ -145,7 +149,7 @@ A part of [artificial intelligence](#ARTIFICIAL-INTELLIGENCE) that enables machi
 
 ### METADATA
 
-Also called "data about data," it provides a [structured description](#STRUCTURED-DATA) and context for a data point (document, image, or file) to help organize, find and understand the data. [^33]
+Also called "data about data," it provides a [structured description](#STRUCTURED-DATA) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33]
 
 ### MODEL FITTING
 
@@ -157,7 +161,7 @@ A system where multiple computing devices are connected to each other to exchang
 
 ### NETWORK ANALYSIS
 
-Mapping and measuring the relationships between people, groups, organizations, computers and other connected entities. It is used to simplify complex relationships, making them easier to analyze. [^21]
+Mapping and measuring the relationships between people, groups, organizations, computers and other connected entities. It is used to simplify complex relationships, to make them easier to analyze. [^21]
 
 ### NO-SQL DATABASE
 
@@ -181,7 +185,7 @@ Relationship mining examines associations between two or more variables in a dat
 
 ### SECURE COMPUTING
 
-Efforts to ensure privacy and to protect data, devices and computing systems from harm (such as hacking, damage, and malpractice), and mitigate service disruptions. [^22],[^4]
+Efforts to ensure privacy and to protect data, devices and computing systems from harm such as hacking, damage, and malpractice, and mitigate service disruptions. [^22],[^4]
 
 ### SQL
 
@@ -197,7 +201,7 @@ Data items or observations that are organized as rows that contain values under 
 
 ### TEXT MINING
 
-Text mining is a process of analyzing [text](#UNSTRUCTURED-DATA) to capture key concepts, themes, relationships and trends.[^36]
+A process of analyzing [text](#UNSTRUCTURED-DATA) to capture key concepts, themes, relationships and trends.[^36]
 
 ### UNSTRUCTURED DATA
 
@@ -219,6 +223,7 @@ The categories offer an alternative grouping that helps to find related terms.
 
 [ADVANCED RESEARCH COMPUTING](#ADVANCED-RESEARCH-COMPUTING)  
 [ANALYTICS](#ANALYTICS)  
+[ARTIFICIAL INTELLIGENCE](#ARTIFICIAL-INTELLIGENCE)  
 [BIG DATA](#BIG-DATA)  
 [CLOUD COMPUTING](#CLOUD-COMPUTING)  
 [COMPUTING WITH DATA](#COMPUTING-WITH-DATA)  
@@ -253,6 +258,7 @@ The categories offer an alternative grouping that helps to find related terms.
 
 [ALGORITHM](#ALGORITHM)  
 [DATA AGGREGATION](#DATA-INTEGRATION)  
+[DATA CLEANING](#DATA-CLEANING)  
 [DATA EXPLORATION AND PREPARATION](#DATA-EXPLORATION-AND-PREPARATION)  
 [DATA REPRESENTATION](#DATA-REPRESENTATION)  
 [DATA TRANSFORMATION](#DATA-TRANSFORMATION)  
@@ -337,24 +343,26 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^28]: Donoho, D. (2017). 50 years of data science. *Journal of Computational and Graphical Statistics*, *26*(4), 745-766.
 
-[^29]:"The Data Science Venn Diagram".  Available: <http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram>
+[^29]:"The Data Science Venn Diagram" \[Online\]. Available: <http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram>
 
-[^30]: "Introduction to Tabular Data" Available: <https://papl.cs.brown.edu/2016/intro-tabular-data.html>
+[^30]: "Introduction to Tabular Data" \[Online\]. Available: <https://papl.cs.brown.edu/2016/intro-tabular-data.html>
 
-[^31]: "Tabular Database". Available: <https://www.techopedia.com/definition/26181/tabular-database>
+[^31]: "Tabular Database" \[Online\]. Available: <https://www.techopedia.com/definition/26181/tabular-database>
 
-[^32]: "Data Modeling Introduction". Available: <https://docs.mongodb.com/manual/core/data-modeling-introduction/>
+[^32]: "Data Modeling Introduction" \[Online\]. Available: <https://docs.mongodb.com/manual/core/data-modeling-introduction/>
 
 [^33]: Greenberg, J. (2003). Metadata and the world wide web. *Encyclopedia of library and information science*, *3*, 1876-1888.
 
-[^34]: "SQL Tutorial". Available:  https://www.w3schools.com/sql/
+[^34]: "SQL Tutorial" \[Online\]. Available:  https://www.w3schools.com/sql/
 
-[^35]: "Overview of the KDD Process". Available: http://www2.cs.uregina.ca/~dbd/cs831/notes/kdd/1_kdd.html
+[^35]: "Overview of the KDD Process" \[Online\]. Available: http://www2.cs.uregina.ca/~dbd/cs831/notes/kdd/1_kdd.html
 
-[^36]: "About Text Mining". Available: https://www.ibm.com/support/knowledgecenter/en/SS3RA7_15.0.0/com.ibm.spss.ta.help/tm_intro_tm_defined.htm
+[^36]: "About Text Mining" \[Online\]. Available: https://www.ibm.com/support/knowledgecenter/en/SS3RA7_15.0.0/com.ibm.spss.ta.help/tm_intro_tm_defined.htm
 
-[^37]: "Introduction to Correlation". Available: https://www.datascience.com/blog/introduction-to-correlation-learn-data-science-tutorials
+[^37]: "Introduction to Correlation" \[Online\]. Available: https://www.datascience.com/blog/introduction-to-correlation-learn-data-science-tutorials
 
-[^38]: "Data vs. Information vs. Insight". Available: https://online.ben.edu/programs/mba/resources/data-vs-information-vs-insight
+[^38]: "Data vs. Information vs. Insight" \[Online\]. Available: https://online.ben.edu/programs/mba/resources/data-vs-information-vs-insight
 
-[^39]: "Artificial Intelligence". Available: https://www.techopedia.com/definition/190/artificial-intelligence-ai
+[^39]: "Artificial Intelligence" \[Online\]. Available: https://www.techopedia.com/definition/190/artificial-intelligence-ai
+
+[^40]: "EI-ISAC Cybersecurity Spotlight – CIA Triad" \[Online\]. Available: https://www.cisecurity.org/spotlight/ei-isac-cybersecurity-spotlight-cia-triad/
