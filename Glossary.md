@@ -154,7 +154,7 @@ The mapping and measuring of relationships and flows between people, groups, org
 
 ### NO-SQL DATABASE
 
-NoSQL databases offer more [flexible](#FLEXIBLE-SCHEMA) ways of data access than generic [SQL](#SQL) databases to [optimize other requirements](#ADVANCED-RESEARCH-COMPUTING), for instance, to give faster access to data organized contiguously in [columns](#TABULAR-SCHEMA), collections of documents, graph structures of items with connections, or key-value pairs.
+NoSQL databases offer more [flexible](#FLEXIBLE-SCHEMA) ways of data access than generic [SQL](#SQL) databases to [optimize other requirements](#ADVANCED-RESEARCH-COMPUTING), for example, to give faster access to graph structures of items with connections (such as a social network) or collections of documents.
 
 ### PREDICTIVE ANALYTICS
 
