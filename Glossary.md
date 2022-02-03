@@ -1,14 +1,14 @@
 ![](https://www.sfu.ca/big-data/sites/default/files/SFU_BigData_logo_horz_RGB.png =200x)
 
-**[Table of Contents](#Table-of-Contents)**
+**[Table of Contents](#table-of-contents)**
 
-**[Term Categories](#Categories)**
+**[Term Categories](#categories)**
 
 # Glossary
 
 ### ADVANCED RESEARCH COMPUTING
 
-Advanced research computing (ARC) provides massive computational horsepower and [storage](#Storage-and-Physical-Data-Sources) in a [cloud environment](#CLOUD-COMPUTING) to handle problems and data that are too complex for a single desktop computer. [^1],[^2]
+Advanced research computing (ARC) provides massive computational horsepower and [storage](#storage-and-physical-data-sources) in a [cloud environment](#cloud-computing) to handle problems and data that are too complex for a single desktop computer. [^1],[^2]
 [#disciplines](#disciplines)
 
 ### ALGORITHM
@@ -18,7 +18,7 @@ A sequence of instructions telling a computer how to answer a specific question.
 
 ### ANALYTICS
 
-The process of using [statistical models](#MACHINE-LEARNING) and software to [transform data](#DATA-TRANSFORMATION) into useful [information](#INFORMATION) and to draw conclusions towards effective decision making.[^3],[^4]
+The process of using [statistical models](#machine-learning) and software to [transform data](#data-transformation) into useful [information](#information) and to draw conclusions towards effective decision making.[^3],[^4]
 [#disciplines](#disciplines)
 
 ### ARTIFICIAL INTELLIGENCE
@@ -28,36 +28,36 @@ A branch of computer science that allows machines to acquire and apply knowledge
 
 ### BEHAVIOUR(AL) ANALYTICS
 
-A type of business [analytics](#ANALYTICS) that examines behavioural data about people to understand how and why individuals act the way they do and to make more accurate predictions for future behaviour.[^5],[^6]
+A type of business [analytics](#analytics) that examines behavioural data about people to understand how and why individuals act the way they do and to make more accurate predictions for future behaviour.[^5],[^6]
 [#data-analysis](#data-analysis)
 
 ### BIG DATA
 
-Refers to the massive amounts of [data](#DATA) generated around the world that is too large, complex or varied for traditional processing software. Its potential to be analyzed for valuable information is enabled by technology such as [advanced research computing](#ADVANCED-RESEARCH-COMPUTING). [^7],[^8]
+Refers to the massive amounts of [data](#data) generated around the world that is too large, complex or varied for traditional processing software. Its potential to be analyzed for valuable information is enabled by technology such as [advanced research computing](#advanced-research-computing). [^7],[^8]
 [#disciplines](#disciplines)
 
 ### CAUSAL INFERENCE
 
-Determines whether observations made in one variable are the reason for an effect observed in another variable, possibly occurring at a later time. See also [correlation mining](#CORRELATION-MINING) and [predictive analytics](#PREDICTIVE-ANALYTICS).
+Determines whether observations made in one variable are the reason for an effect observed in another variable, possibly occurring at a later time. See also [correlation mining](#correlation-mining) and [predictive analytics](#predictive-analytics).
 [#data-analysis](#data-analysis)
 
 ### CLASSIFICATION
 
-An approach in [machine learning](#MACHINE-LEARNING) where a program is [trained](#MODEL-FITTING) with labeled [data](#DATA) to determine which category a new  observation belongs to. See also [clustering](#CLUSTERING).
+An approach in [machine learning](#machine-learning) where a program is [trained](#model-fitting) with labeled [data](#data) to determine which category a new  observation belongs to. See also [clustering](#clustering).
 [#data-analysis](#data-analysis)
 
 ### CLOUD COMPUTING
 
-Access to data, [storage](#DISTRIBUTED-FILE-SYSTEM), applications, and other computing resources made available to many users on-demand over the [Internet](#NETWORK) to improve [scalable computing power](#ADVANCED-RESEARCH-COMPUTING) and reliability. [^9],[^10]
+Access to data, [storage](#distributed-file-system), applications, and other computing resources made available to many users on-demand over the [Internet](#network) to improve [scalable computing power](#advanced-research-computing) and reliability. [^9],[^10]
 [#disciplines](#disciplines)
 
 ### CLUSTER
 
-A [network](#NETWORK) of computers (or compute nodes) that work on tasks together in parallel. The concept is different from [clustering](#CLUSTERING).
+A [network](#network) of computers (or compute nodes) that work on tasks together in parallel. The concept is different from [clustering](#clustering).
 
 ### CLUSTERING
 
-A [machine learning](#MACHINE-LEARNING) technique that groups similar data points together to uncover hidden structure. Unlike [classification](#CLASSIFICATION), clustering does not require labelled training data and is a type of unsupervised learning.
+A [machine learning](#machine-learning) technique that groups similar data points together to uncover hidden structure. Unlike [classification](#classification), clustering does not require labelled training data and is a type of unsupervised learning.
 [#data-analysis](#data-analysis)
 
 ### COMPUTING WITH DATA
@@ -67,21 +67,21 @@ Learning from data using computing tools and programming languages, such as Pyth
 
 ### CORRELATION MINING
 
-As a measure of association between two variables, correlation can be used for [prediction](#PREDICTIVE-ANALYTICS) and indicate the presence of [causal relationship](#CAUSAL-INFERENCE). It does, however, not sufficiently imply causation. [^37]
+As a measure of association between two variables, correlation can be used for [prediction](#predictive-analytics) and indicate the presence of [causal relationship](#causal-inference). It does, however, not sufficiently imply causation. [^37]
 [#data-analysis](#data-analysis)
 
 ### CYBERSECURITY
 
-A model in information security designed to govern and evaluate how an organization handles data when it is stored, transmitted or processed. This model emphasizes that data should not be accessed without authorization, should not be altered or compromised without authorization, and should be accessible upon legitimate request. See [Secure Computing](#SECURE-COMPUTING). [^40]
+A model in information security designed to govern and evaluate how an organization handles data when it is stored, transmitted or processed. This model emphasizes that data should not be accessed without authorization, should not be altered or compromised without authorization, and should be accessible upon legitimate request. See [Secure Computing](#secure-computing). [^40]
 [#disciplines](#disciplines)
 
 ### DATA
 
-Collection of examples, observations, measurements, facts, points, or other items of information that can be represented in [structured](#STRUCTURED-DATA) or [unstructured](#UNSTRUCTURED-DATA) form.
+Collection of examples, observations, measurements, facts, points, or other items of information that can be represented in [structured](#structured-data) or [unstructured](#unstructured-data) form.
 
 ### DATABASE
 
-An organized collection of [data](#DATA) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#NO-SQL-DATABASE) options.[^3]
+An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3]
 [#storage](#storage)
 
 ### DATA AGGREGATION
@@ -95,7 +95,7 @@ Careful removal of erroneous or unreliable data points.
 
 ### DATA EXPLORATION AND PREPARATION
 
-Exploratory data analysis (EDA) is a formative step in the [creation of models](#MODEL-FITTING). [Views of the data](#VISUALIZATION) are used to learn about patterns or relationships among variables. This includes [data cleaning](#DATA-CLEANING) and manipulation for further analysis.
+Exploratory data analysis (EDA) is a formative step in the [creation of models](#model-fitting). [Views of the data](#visualization) are used to learn about patterns or relationships among variables. This includes [data cleaning](#data-cleaning) and manipulation for further analysis.
 [#processing](#processing)
 
 ### DATA INTEGRATION
@@ -105,22 +105,22 @@ The process of combining information from different data sources in preparation 
 
 ### DATA MINING
 
-An analytical process where large datasets are explored or "mined" in search of meaningful patterns, relationships or insights. The process can include statistics, [machine learning](#MACHINE-LEARNING) or other forms of artificial intelligence.[^3],[^4]
+An analytical process where large datasets are explored or "mined" in search of meaningful patterns, relationships or insights. The process can include statistics, [machine learning](#machine-learning) or other forms of artificial intelligence.[^3],[^4]
 [#disciplines](#disciplines)
 
 ### DATA REPRESENTATION
 
-The form in which [data](#DATA) are stored, processed and transmitted such that its [information content](#INFORMATION) and [context](#METADATA) are retained as much as possible. Choices of form are influenced by hardware, software or other constraints around processing and analysis resources. [^28]
+The form in which [data](#data) are stored, processed and transmitted such that its [information content](#information) and [context](#metadata) are retained as much as possible. Choices of form are influenced by hardware, software or other constraints around processing and analysis resources. [^28]
 [#processing](#processing)
 
 ### DATA TRANSFORMATION
 
-The process of converting data from [one form into another](#DATA-REPRESENTATION) to gain better [insight](#INSIGHT). For instance, converting [unstructured data](#UNSTRUCTURED-DATA) into [structured form](#STRUCTURED-DATA) that can be analyzed further.
+The process of converting data from [one form into another](#data-representation) to gain better [insight](#insight). For instance, converting [unstructured data](#unstructured-data) into [structured form](#structured-data) that can be analyzed further.
 [#processing](#processing)
 
 ### DATA SCIENCE
 
-A multidisciplinary activity combining programming skills, math and statistical analysis, and sector-specific expertise to extract [insights](#INSIGHT) from [data](#DATA). Often performed in stages: 1. [Data Exploration and Preparation](#DATA-EXPLORATION-AND-PREPARATION), 2. [Data Representation](#DATA-REPRESENTATION) and [Transformation](#DATA-TRANSFORMATION), 3. [Computing with Data](#COMPUTING-WITH-DATA), 4. [Machine Learning](#MACHINE-LEARNING), 5. [Data Visualization and Presentation](#VISUALIZATION). [^28],[^29]
+A multidisciplinary activity combining programming skills, math and statistical analysis, and sector-specific expertise to extract [insights](#insight) from [data](#data). Often performed in stages: 1. [Data Exploration and Preparation](#data-exploration-and-preparation), 2. [Data Representation](#data-representation) and [Transformation](#data-transformation), 3. [Computing with Data](#computing-with-data), 4. [Machine Learning](#machine-learning), 5. [Data Visualization and Presentation](#visualization). [^28],[^29]
 [#disciplines](#disciplines)
 
 ### DESCRIPTIVE ANALYTICS
@@ -135,20 +135,20 @@ A mechanism that stores files on servers and allows clients, with permission, to
 
 ### FEATURE
 
-A key property that characterizes a data point (representing some real-world object) in the context of a [machine learning](#MACHINE-LEARNING) problem or other type of [analysis](#ANALYTICS).
+A key property that characterizes a data point (representing some real-world object) in the context of a [machine learning](#machine-learning) problem or other type of [analysis](#analytics).
 
 ### FEATURE ENGINEERING
 
-A human-driven process of finding the most important [features](#FEATURE) to develop [predictive](#PREDICTIVE-ANALYTICS) models. Formerly, as "art" to the "science" of [machine learning](#MACHINE-LEARNING), [big data](#BIG-DATA) increasingly moves towards automated representation learning.
+A human-driven process of finding the most important [features](#feature) to develop [predictive](#predictive-analytics) models. Formerly, as "art" to the "science" of [machine learning](#machine-learning), [big data](#big-data) increasingly moves towards automated representation learning.
 
 ### FLEXIBLE SCHEMA
 
-Unlike [SQL](#SQL) databases with a [tabular](#TABULAR-DATA) [structure](#STRUCTURED-DATA), objects or documents stored in a flexible schema can be different from one another.[^32]
+Unlike [SQL](#sql) databases with a [tabular](#tabular-data) [structure](#structured-data), objects or documents stored in a flexible schema can be different from one another.[^32]
 [#data-types](#data-types)
 
 ### GENERATIVE MODELING
 
-[Fitting](#MODEL-FITTING) a [model](#MACHINE-LEARNING) that can generate synthetic data beyond [given observations](#DATA). 
+[Fitting](#model-fitting) a [model](#machine-learning) that can generate synthetic data beyond [given observations](#data). 
 For example, a language model trained on a collection of text can be used to suggest possible words to modify or continue a given phrase. [^28]
 
 ### GOODNESS OF FIT
@@ -158,35 +158,35 @@ Summarizes how well the values observed in the data agree with those values expe
 
 ### INFORMATION
 
-Meaning encoded in [data](#DATA) that answers questions to better understand a concept by interpreting data within the context of its problem setting or domain. See also data analysis [algorithms](#ALGORITHM) and information [visualization](#VISUALIZATION).  [^38]
+Meaning encoded in [data](#data) that answers questions to better understand a concept by interpreting data within the context of its problem setting or domain. See also data analysis [algorithms](#algorithm) and information [visualization](#visualization).  [^38]
 
 ### INSIGHT
 
-Actionable [information](#INFORMATION) gained by interpreting [data analysis](#ANALYTICS) results, helping people to make more informed decisions. [^38]
+Actionable [information](#information) gained by interpreting [data analysis](#analytics) results, helping people to make more informed decisions. [^38]
 
 ### IOT (INTERNET OF THINGS)
 
-A system of [connected](#NETWORK), "smart" objects, including smartphones, wearables and smart-appliances, that collect and exchange information without requiring human interaction. The IoT is a huge generator of data.[^17],[^18]
+A system of [connected](#network), "smart" objects, including smartphones, wearables and smart-appliances, that collect and exchange information without requiring human interaction. The IoT is a huge generator of data.[^17],[^18]
 [#storage](#storage)
 
 ### KNOWLEDGE DISCOVERY
 
-Aims to extract [insight](#INSIGHT) from data in [databases](#DATABASE). It involves a [number of steps](#DATA-SCIENCE) including the evaluation and possibly [interpretation](#VISUALIZATION) of [patterns](#DATA-MINING) to gather [insight](#INSIGHT) and knowledge.[^35]
+Aims to extract [insight](#insight) from data in [databases](#database). It involves a [number of steps](#data-science) including the evaluation and possibly [interpretation](#visualization) of [patterns](#data-mining) to gather [insight](#insight) and knowledge.[^35]
 [#disciplines](#disciplines)
 
 ### MACHINE LEARNING
 
-A part of [artificial intelligence](#ARTIFICIAL-INTELLIGENCE) that enables machines to learn from experience to perform certain tasks by using [algorithmic](#ALGORITHM) models that are [trained](#MODEL-FITTING) to imitate patterns present in [data](#DATA) to support [prediction](#PREDICTIVE-ANALYTICS), [data generation](#GENERATIVE-MODELING) and other forms of [data analytics](#ANALYTICS).
+A part of [artificial intelligence](#artificial-intelligence) that enables machines to learn from experience to perform certain tasks by using [algorithmic](#algorithm) models that are [trained](#model-fitting) to imitate patterns present in [data](#data) to support [prediction](#predictive-analytics), [data generation](#generative-modeling) and other forms of [data analytics](#analytics).
 [#disciplines](#disciplines)
 
 ### METADATA
 
-Also called "data about data," it provides a [structured description](#STRUCTURED-DATA) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33]
+Also called "data about data," it provides a [structured description](#structured-data) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33]
 [#data-types](#data-types)
 
 ### MODEL FITTING
 
-Optimizes [how well](#GOODNESS-OF-FIT) a [machine learning model](#MACHINE-LEARNING) can make predictions for previously unseen test data. 
+Optimizes [how well](#goodness-of-fit) a [machine learning model](#machine-learning) can make predictions for previously unseen test data. 
 
 ### NETWORK
 
@@ -198,26 +198,26 @@ Mapping and measuring the relationships between people, groups, organizations, c
 
 ### NO-SQL DATABASE
 
-A type of database designed to handle [large](#ADVANCED-RESEARCH-COMPUTING) volumes of data that [may not have a structure](#FLEXIBLE-SCHEMA). 
+A type of database designed to handle [large](#advanced-research-computing) volumes of data that [may not have a structure](#flexible-schema). 
 [#storage](#storage)
 
 ### PREDICTIVE ANALYTICS
 
-A process for analyzing current [data](#DATA) to determine future events or other unknowns. Related to [descriptive](#DESCRIPTIVE-ANALYTICS) and [prescriptive analytics](#PRESCRIPTIVE-ANALYTICS), it draws on techniques from [data mining](#DATA-MINING), modeling, [machine learning](#MACHINE-LEARNING) and statistics.[^3],[^28]
+A process for analyzing current [data](#data) to determine future events or other unknowns. Related to [descriptive](#descriptive-analytics) and [prescriptive analytics](#prescriptive-analytics), it draws on techniques from [data mining](#data-mining), modeling, [machine learning](#machine-learning) and statistics.[^3],[^28]
 
 ### PRESCRIPTIVE ANALYTICS
 
-A type of [analytics](#ANALYTICS) with the goal of using data to determine the best course of action for a specific scenario. [^3]
+A type of [analytics](#analytics) with the goal of using data to determine the best course of action for a specific scenario. [^3]
 [#data-analysis](#data-analysis)
 
 ### REGRESSION
 
-A type of [statistical model](#MACHINE-LEARNING) that [predicts](#PREDICTIVE-ANALYTICS) numerical values (instead of [class labels](#CLASSIFICATION)).
+A type of [statistical model](#machine-learning) that [predicts](#predictive-analytics) numerical values (instead of [class labels](#classification)).
 [#data-analysis](#data-analysis)
 
 ### RELATIONSHIP MINING
 
-Relationship mining examines associations between two or more variables in a dataset, for example, by [correlation mining](#CORRELATION-MINING) and [causal mining](#CAUSAL-INFERENCE).
+Relationship mining examines associations between two or more variables in a dataset, for example, by [correlation mining](#correlation-mining) and [causal mining](#causal-inference).
 [#data-analysis](#data-analysis)
 
 ### SECURE COMPUTING
@@ -227,12 +227,12 @@ Efforts to ensure privacy and to protect data, devices and computing systems fro
 
 ### SQL
 
-SQL is a language that works with structured, [tabular data](#TABULAR-DATA) allowing to query and construct such data. It forms a standard for many [database](#DATABASE) systems. [28]
+SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [28]
 [#processing](#processing)
 
 ### STRUCTURED DATA
 
-[Data](#DATA) that is organized into clearly defined fields associated with variables or attributes, such as dates, words, or numbers that are recorded for each observation or item. Items are often represented as rows of  [tabular spreadsheets](#TABULAR-DATA) that can be stored in a [database](#DATABASE) for easy processing and analysis.[^24],[^25]
+[Data](#data) that is organized into clearly defined fields associated with variables or attributes, such as dates, words, or numbers that are recorded for each observation or item. Items are often represented as rows of  [tabular spreadsheets](#tabular-data) that can be stored in a [database](#database) for easy processing and analysis.[^24],[^25]
 [#data-types](#data-types)
 
 ### TABULAR DATA
@@ -242,7 +242,7 @@ Data items or observations that are organized as rows that contain values under 
 
 ### TEXT MINING
 
-A process of analyzing [text](#UNSTRUCTURED-DATA) to capture key concepts, themes, relationships and trends.[^36]
+A process of analyzing [text](#unstructured-data) to capture key concepts, themes, relationships and trends.[^36]
 [#data-analysis](#data-analysis)
 
 ### UNSTRUCTURED DATA
@@ -257,7 +257,7 @@ Visual representation of data including plots, charts, maps and infographics to 
 
 ### VISUALIZATION DASHBOARD
 
-Multiple interactive graphical views of [data](#DATA) that would be too complex if presented in a [single visualization](#VISUALIZATION), for instance, to support complex narratives and [insights](#INSIGHT) by showing key performance indicators (KPIs) for monitoring of a business or other processes.
+Multiple interactive graphical views of [data](#data) that would be too complex if presented in a [single visualization](#visualization), for instance, to support complex narratives and [insights](#insight) by showing key performance indicators (KPIs) for monitoring of a business or other processes.
 [#data-analysis](#data-analysis)
 
 # Categories
