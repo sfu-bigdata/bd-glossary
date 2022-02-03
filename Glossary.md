@@ -248,7 +248,7 @@ A process of analyzing [text](#UNSTRUCTURED-DATA) to capture key concepts, theme
 ### UNSTRUCTURED DATA
 
 Data that is not organized in a pre-defined way under a single data model. Examples include text, images, audio, or video. [^26],[^27]
-[#data-types](#data-types)
+[#data-types](#data-types), [#lesson-01](#lesson-01)
 
 ### VISUALIZATION
 
@@ -274,6 +274,13 @@ The categories offer an alternative grouping that helps to find related terms.
 
 ## Types of Data <a id="data-types"/>
 
+# Lessons
+
+## Lessons 01 and 02 <a id="lesson-01"/>
+
+## Lesson 03 <a id="lesson-03"/>
+
+## Lesson 04 <a id="lesson-04"/>
 
 # Table of Contents
 
