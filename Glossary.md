@@ -1,8 +1,7 @@
-![](https://www.sfu.ca/big-data/sites/default/files/SFU_BigData_logo_horz_RGB.png =200x)
+<!-- ![](https://www.sfu.ca/content/dam/sfu/images/brand_extension/SFU-Big-Data_Logo.png) -->
+<!-- **[Table of Contents](#table-of-contents)** -->
 
-**[Table of Contents](#table-of-contents)**
-
-**[Term Categories](#categories)**
+<!-- **[Term Categories](#categories)** -->
 
 # Glossary
 
@@ -233,7 +232,7 @@ The categories offer an alternative grouping that helps to find related terms.
 
 ## Types of Data <a id="data-types"/>
 
-# Lessons
+# Lessons Index
 
 ## Lessons 01 and 02 <a id="lesson-01"/>
 
@@ -241,9 +240,9 @@ The categories offer an alternative grouping that helps to find related terms.
 
 ## Lesson 04 <a id="lesson-04"/>
 
-# Table of Contents
+<!-- # Table of Contents -->
 
-[TOC]
+<!-- [TOC] -->
 
 # References
 
