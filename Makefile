@@ -19,6 +19,10 @@ md2word: Glossary.md
 
 	@echo "Markdown to Word..."
 
+htmlheadings: 
+	# Add CSS and <header> sections
+	(cd generated; pandoc -s --toc --css ../templates/template.css -H ../templates/header.html Glossary.html -o Glossary.html)
+
 clean_all:
 	@echo "Removing generated HTML and Word..."
 	-rm generated/Glossary.html generated/Glossary.docx
