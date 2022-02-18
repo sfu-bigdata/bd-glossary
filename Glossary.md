@@ -1,3 +1,4 @@
+
 <!-- ![](https://www.sfu.ca/content/dam/sfu/images/brand_extension/SFU-Big-Data_Logo.png) -->
 <!-- **[Table of Contents](#table-of-contents)** -->
 
@@ -65,10 +66,6 @@ A model in information security designed to govern and evaluate how an organizat
 
 Collection of examples, observations, measurements, facts, points, or other items of information that can be represented in [structured](#structured-data) or [unstructured](#unstructured-data) form.
 
-### DATABASE
-
-An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3] [#storage](#storage)
-
 ### DATA AGGREGATION
 
 - TODO
@@ -93,13 +90,17 @@ An analytical process where large datasets are explored or "mined" in search of 
 
 The form in which [data](#data) are stored, processed and transmitted such that its [information content](#information) and [context](#metadata) are retained as much as possible. Choices of form are influenced by hardware, software or other constraints around processing and analysis resources. [^28] [#processing](#processing)
 
+### DATA SCIENCE
+
+A multidisciplinary activity combining programming skills, math and statistical analysis, and sector-specific expertise to extract [insights](#insight) from [data](#data). Often performed in stages: 1. [Data Exploration and Preparation](#data-exploration-and-preparation), 2. [Data Representation](#data-representation) and [Transformation](#data-transformation), 3. [Computing with Data](#computing-with-data), 4. [Machine Learning](#machine-learning), 5. [Data Visualization and Presentation](#visualization). [^28],[^29] [#disciplines](#disciplines)
+
 ### DATA TRANSFORMATION
 
 The process of converting data from [one form into another](#data-representation) to gain better [insight](#insight). For instance, converting [unstructured data](#unstructured-data) into [structured form](#structured-data) that can be analyzed further. [#processing](#processing)
 
-### DATA SCIENCE
+### DATABASE
 
-A multidisciplinary activity combining programming skills, math and statistical analysis, and sector-specific expertise to extract [insights](#insight) from [data](#data). Often performed in stages: 1. [Data Exploration and Preparation](#data-exploration-and-preparation), 2. [Data Representation](#data-representation) and [Transformation](#data-transformation), 3. [Computing with Data](#computing-with-data), 4. [Machine Learning](#machine-learning), 5. [Data Visualization and Presentation](#visualization). [^28],[^29] [#disciplines](#disciplines)
+An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3] [#storage](#storage)
 
 ### DESCRIPTIVE ANALYTICS
 
