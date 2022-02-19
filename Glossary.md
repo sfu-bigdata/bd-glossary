@@ -251,13 +251,13 @@ The categories offer an alternative grouping that helps to find related terms.
 
 [^2]: "Compute Canada. Update January 11, 2017." [Online]. Available: <https://www.computecanada.ca/wp-content/uploads/2015/02/Update-January-11-2017.pdf>
 
-[^3]: "A beginner's guide to big data terminology." [Online].  Available: <http://dataconomy.com/2016/05/a-beginners-guide-to-big-data-terminology>
+[^3]: "A beginner's guide to big data terminology." [Online]. Available: <http://dataconomy.com/2016/05/a-beginners-guide-to-big-data-terminology>
 
-[^4]: "Mini-glossary: Big data terms you should know." [Online].  Available: <http://www.techrepublic.com/article/mini-glossary-big-data-terms-you-should-know>
+[^4]: "Mini-glossary: Big data terms you should know." [Online]. Available: <http://www.techrepublic.com/article/mini-glossary-big-data-terms-you-should-know>
 
-[^5]: "Behavioral analytics, definition by Techopedia." [Online].  Available: <https://www.techopedia.com/definition/30308/behavioral-analytics>
+[^5]: "Behavioral analytics, definition by Techopedia." [Online]. Available: <https://www.techopedia.com/definition/30308/behavioral-analytics>
 
-[^6]: "Detecting advanced threats with user behavior analytics."  [Online]. Available: <http://www.networkworld.com/article/2904356/security0/detecting-advanced-threats-with-user-behavior-analytics.html>
+[^6]: "Detecting advanced threats with user behavior analytics." [Online]. Available: <http://www.networkworld.com/article/2904356/security0/detecting-advanced-threats-with-user-behavior-analytics.html>
 
 [^7]: "Big data definition by Tech Target." [Online]. Available: <http://searchcloudcomputing.techtarget.com/definition/big-data-Big-Data>
 
@@ -274,7 +274,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^13]: "Descriptive analytics definition by Tech Target." [Online]. Available: <http://whatis.techtarget.com/definition/descriptive-analytics>
 
-[^14]: "Four Types of Big Data Analytics and Examples of Their Use."  [Online]. Available: <http://www.ingrammicroadvisor.com/data-center/four-types-of-big-data-analytics-and-examples-of-their-use>
+[^14]: "Four Types of Big Data Analytics and Examples of Their Use." [Online]. Available: <http://www.ingrammicroadvisor.com/data-center/four-types-of-big-data-analytics-and-examples-of-their-use>
 
 [^15]: "Distributed file system definition by Tech Target." [Online]. Available: <http://searchwindowsserver.techtarget.com/definition/distributed-file-system-DFS>
 
@@ -286,9 +286,9 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^19]: "Computer network definition by Techopedia." [Online]. Available: <https://www.techopedia.com/definition/25597/computer-network>
 
-[^20]: "What is computer networking?" [O#data-analysisnline]. Available: <https://www.lifewire.com/what-is-computer-networking-816249) [www.lifewire.com/what-is-computer-networking-816249.](https://www.lifewire.com/what-is-computer-networking-816249>
+[^20]: "What is computer networking?" [Online]. Available: <https://www.lifewire.com/what-is-computer-networking-816249) [www.lifewire.com/what-is-computer-networking-816249.](https://www.lifewire.com/what-is-computer-networking-816249>
 
-[^21]: "Social Network Analysis: An Introduction by Orgnet,LLC."  [Online]. Available: <http://www.orgnet.com/sna.html>
+[^21]: "Social Network Analysis: An Introduction by Orgnet,LLC." [Online]. Available: <http://www.orgnet.com/sna.html>
 
 [^22]: "The myth of secure computing." [Online]. Available: <https://hbr.org/2003/06/the-myth-of-secure-computing) [hbr.org/2003/06/the-myth-of-secure-computing.](https://hbr.org/2003/06/the-myth-of-secure-computing>
 
