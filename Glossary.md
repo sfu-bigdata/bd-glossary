@@ -30,6 +30,15 @@ A type of business [analytics](#analytics) that examines behavioural data about 
 
 Refers to the massive amounts of [data](#data) generated around the world that is too large, complex or varied for traditional processing software. Its potential to be analyzed for valuable information is enabled by technology such as [advanced research computing](#advanced-research-computing). [^7],[^8] [#disciplines](#disciplines)
 
+### Big data isn't always big.
+
+Many describe it with “[The Four V’s](http://www.ibmbigdatahub.com/infographic/four-vs-big-data)” and there exist other definitions as well, including the [5 Vs](https://bicorner.com/2015/04/17/why-only-one-of-the-5-vs-of-big-data-really-matters/)' or [7 V's](http://dataconomy.com/seven-vs-big-data/). [#disciplines](#disciplines) [#lesson-04](#lesson-04)
+
+- Volume: includes the amount of data.
+- Velocity: is data that arrives quickly and constantly, for example, streaming data.
+- Variety: includes many differently-structured (or less-structured) input data sets.
+- Veracity: is some data that might be incorrect or of unknown correctness.
+
 ### CAUSAL INFERENCE
 
 Determines whether observations made in one variable are the reason for an effect observed in another variable, possibly occurring at a later time. See also [correlation mining](#correlation-mining) and [predictive analytics](#predictive-analytics). [#data-analysis](#data-analysis)
@@ -62,9 +71,13 @@ As a measure of association between two variables, correlation can be used for [
 
 A model in information security designed to govern and evaluate how an organization handles data when it is stored, transmitted or processed. This model emphasizes that data should not be accessed without authorization, should not be altered or compromised without authorization, and should be accessible upon legitimate request. See [Secure Computing](#secure-computing). [^40] [#disciplines](#disciplines)
 
+### Critical Thinking
+
+The objective analysis and evaluation of an issue to form a judgement [^43]. The process of analysing information in order to make a logical decision about the extent to which you believe something to be true or false [^44]. [#disciplines](#disciplines) [#lesson-04](#lesson-04)
+
 ### Crowdsourcing
 
-- TODO. [#lesson-03](#lesson-03)
+TODO. [#lesson-03](#lesson-03)
 
 ### DATA
 
@@ -72,7 +85,7 @@ Collection of examples, observations, measurements, facts, points, or other item
 
 ### DATA AGGREGATION
 
-- TODO
+TODO:
 
 ### DATA CLEANING
 
@@ -114,9 +127,26 @@ An initial stage of data processing that involves creating a summary of historic
 
 A mechanism that stores files on servers and allows clients, with permission, to store and process files as if they were stored on their own computer.[^15],[^16] [#storage](#storage)
 
+### Data (Clean, Dirty)
+
+Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being Outdated, insecure, incomplete, incomplete (missing), Inaccurate data, Misplaced data, Inconsistent, or duplicated.[^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
+
+### Data Bias
+
+Whether the (sample) data’s [balance](#balance) in the is representative [#sample] or not. If the balance is representative, then there is No Bias. When the balance is not representative, then the dataset is biased. [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
+
 ### Data Literacy 
 
 Data literacy is the intersection of verbal, numerical and graphical literacy. It is not label reserved for data scientists or specialists. Data literacy should be thought of as “the ability of non-specialists to make use of data” and measure “a person’s ability to read, work with, analyze and argue with data”, presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
+
+### Data Privacy
+
+Refers to the vast range of technologies, protocols, and concepts that give individual users or other parties more privacy protections in their online use. Online privacy takes many forms, including mandatory privacy statements on websites, data sharing controls, data transparency initiatives and more. [^49] [#disciplines](#disciplines) [#lesson-04](#lesson-04)
+
+### Data Quality 
+
+The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate, consistent, complete and accurate. 
+TODO: Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
 
 ### Data types
 
@@ -224,6 +254,10 @@ A process for analyzing current [data](#data) to determine future events or othe
 
 A type of [analytics](#analytics) with the goal of using data to determine the best course of action for a specific scenario. [^3] [#data-analysis](#data-analysis)
 
+### Population
+
+A collection of items under consideration. [^47] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
+
 ### REGRESSION
 
 A type of [statistical model](#machine-learning) that [predicts](#predictive-analytics) numerical values (instead of [class labels](#classification)). [#data-analysis](#data-analysis)
@@ -243,6 +277,10 @@ SQL is a language that works with structured, [tabular data](#tabular-data) allo
 ### STRUCTURED DATA
 
 [Data](#data) that is organized into clearly defined fields associated with variables or attributes, such as dates, words, or numbers that are recorded for each observation or item. Items are often represented as rows of [tabular spreadsheets](#tabular-data) that can be stored in a [database](#database) for easy processing and analysis.[^24],[^25] [#data-types](#data-types) [#lesson-03](#lesson-03)
+
+### Sample (Representative, Proxy)
+
+A subset of the units of a [population](#population). The sample serves as a proxy, or representative sample subset of the true nature of the [population](#population). [^48] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
 ### TABULAR DATA
 
@@ -270,6 +308,10 @@ A _tree_ is a widely used data type that simulates a hierarchical tree structure
 ### UNSTRUCTURED DATA
 
 Data that is not organized in a pre-defined way under a single data model. Examples include text, images, audio, or video. [^26],[^27] [#data-types](#data-types), [#lesson-03](#lesson-03)
+
+### Unbalanced Data
+
+Whether majority or minorities groups exist in a dataset; imbalance is common and sometimes expected. [#lesson-04](#lesson-04)
 
 ### VISUALIZATION
 
@@ -300,28 +342,6 @@ The categories offer an alternative grouping that helps to find related terms.
 ## Lesson 03 <a id="lesson-03"/>
 
 ## Lesson 04 <a id="lesson-04"/>
-
-## Lesson 05 <a id="lesson-05"/>
-
-## Lesson 06 <a id="lesson-06"/>
-
-## Lesson 07 <a id="lesson-07"/>
-
-## Lesson 08 <a id="lesson-08"/>
-
-## Lesson 09 <a id="lesson-09"/>
-
-## Lesson 10 <a id="lesson-10"/>
-
-## Lesson 11 <a id="lesson-11"/>
-
-## Lesson 12 <a id="lesson-12"/>
-
-## Lesson 13 <a id="lesson-13"/>
-
-## Lesson 14 <a id="lesson-14"/>
-
-## Lesson 15 <a id="lesson-15"/>
 
 <!-- # Table of Contents -->
 
@@ -413,3 +433,17 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 [^41]: "Data Literacy: What It Is and How to Measure It in the Public Service". Statistics Canada. [Online]. Available at: https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2019003-eng.htm
  
 [^42]: "Tree" from the National Institute of Standards and Technology. [Online]. Available at: https://xlinux.nist.gov/dads/HTML/tree.html
+
+[^43] “Critical Thinking”. [Online]. Available at: https://www.lexico.com/definition/critical_thinking 
+
+[^44] “Critical Thinking”. [Online]. Available at: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking 
+
+[^45] “Data, statistical information and statistics: Data quality” [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch3/quality-qualite/5214788-eng.htm.
+
+[^46]: “The 7 Most Common Types of Dirty Data (and how to clean them)”. [Online]. Available: https://www.ringlead.com/blog/the-7-most-common-types-of-dirty-data-and-how-to-clean-them
+
+[^47]: “Population”. [Online]. Available at: https://www.lexico.com/definition/population
+
+[^48]: “Statistics: Power from Data! Glossary” [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#Sample
+
+[^49]: “Internet Privacy.” [Online]. Available: https://www.techopedia.com/definition/24954/internet-privacy
