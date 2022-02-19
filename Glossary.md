@@ -301,6 +301,28 @@ The categories offer an alternative grouping that helps to find related terms.
 
 ## Lesson 04 <a id="lesson-04"/>
 
+## Lesson 05 <a id="lesson-05"/>
+
+## Lesson 06 <a id="lesson-06"/>
+
+## Lesson 07 <a id="lesson-07"/>
+
+## Lesson 08 <a id="lesson-08"/>
+
+## Lesson 09 <a id="lesson-09"/>
+
+## Lesson 10 <a id="lesson-10"/>
+
+## Lesson 11 <a id="lesson-11"/>
+
+## Lesson 12 <a id="lesson-12"/>
+
+## Lesson 13 <a id="lesson-13"/>
+
+## Lesson 14 <a id="lesson-14"/>
+
+## Lesson 15 <a id="lesson-15"/>
+
 <!-- # Table of Contents -->
 
 <!-- [TOC] -->
