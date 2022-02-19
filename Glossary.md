@@ -28,7 +28,7 @@ A type of business [analytics](#analytics) that examines behavioural data about 
 
 ### BIG DATA
 
-Refers to the massive amounts of [data](#data) generated around the world that is too large, complex or varied for traditional processing software. Its potential to be analyzed for valuable information is enabled by technology such as [advanced research computing](#advanced-research-computing). [^7],[^8] [#disciplines](#disciplines)
+Refers to the massive amounts of [data](#data) generated around the world that is too large, complex or varied for traditional processing software. Its potential to be analyzed for valuable information is enabled by technology such as [advanced research computing](#advanced-research-computing). [^7],[^8] [#disciplines](#disciplines) [#lesson-04](#lesson-04)
 
 ### Big data isn't always big.
 
@@ -70,6 +70,10 @@ As a measure of association between two variables, correlation can be used for [
 ### CYBERSECURITY
 
 A model in information security designed to govern and evaluate how an organization handles data when it is stored, transmitted or processed. This model emphasizes that data should not be accessed without authorization, should not be altered or compromised without authorization, and should be accessible upon legitimate request. See [Secure Computing](#secure-computing). [^40] [#disciplines](#disciplines)
+
+### Correlation
+
+Correlation or dependence is any statistical relationship between two random variables or bivariate data, whether causal or not. In the broadest sense, correlation is any statistical association, though it accurately refers to the degree to which a pair of variables are linearly related. [#lesson-05](#lesson-05)
 
 ### Critical Thinking
 
@@ -146,6 +150,7 @@ Refers to the vast range of technologies, protocols, and concepts that give indi
 ### Data Quality 
 
 The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate, consistent, complete and accurate. 
+
 TODO: Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
 
 ### Data types
@@ -195,7 +200,7 @@ _JavaScript Object Notation_ is a human-readable file format that stores [struct
 _eXtensible Markup Language_ is human-readable file format that stores [structured](#structured-data) data using _tags_, _elements_ and _attributes_. The XML format is commonly used across the Internet.
 
 #### YAML
-_Yet Another Markup Language_ is a human-readable file format that stores data using indents, hyphens (-) and colon punctuation (:) to impose [structured](#structured-data). YAML is a compact format and is commonly used to share configurations, settings and unsophisticated data files.
+_Yet Another Markup Language_ is a human-readable file format that stores data using indents, hyphens (–) and colon punctuation (:) to impose [structured](#structured-data). YAML is a compact format and is commonly used to share configurations, settings and unsophisticated data files.
 
 ### GENERATIVE MODELING
 
@@ -205,6 +210,10 @@ For example, a language model trained on a collection of text can be used to sug
 ### GOODNESS OF FIT
 
 Summarizes how well the values observed in the data agree with those values expected by the model. [#processing](#processing)
+
+### Histogram
+
+A histogram is a graphical representation that organizes a group of data points into user-specified ranges. Similar in appearance to a bar graph, the histogram condenses a data series into an easily interpreted [#visualization](#visualization) by taking many data points and grouping them into logical, ordered ranges or bins. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
 
 ### INFORMATION
 
@@ -282,11 +291,20 @@ SQL is a language that works with structured, [tabular data](#tabular-data) allo
 
 A subset of the units of a [population](#population). The sample serves as a proxy, or representative sample subset of the true nature of the [population](#population). [^48] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
+### Standard Deviation
+
+Standard deviation is the square root of [variance](#variance). It is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)
+
+### Statistics
+
+Statistics is the discipline concerned with developing and studying methods for collecting, organizing, analyzing, interpreting and presenting empirical data. Common statistical metrics are mean (average), median, mode and percentiles. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
+
 ### TABULAR DATA
 
 Data items or observations that are organized as rows that contain values under columns that correspond to specific variables or properties. [^30],[^31] [#data-types](#data-types) [#lesson-03](#lesson-03)
+
 - Synonyms: row(s), record(s), example(s), observation(s), measurement(s), fact(s), point(s) and other items of information
-- Synonyms: column(s) also referred to as field(s), header(s), attribute(s), [feature](#feature)(s), property(ies), variable(s), key(s) (as in key-value), factor(s), dimension(s)
+- Synonyms: column(s) also referred to as field(s), header(s), attribute(s), [feature(s)](#feature), property(ies), variable(s), key(s) (as in key-value), factor(s), dimension(s)
 - Synonyms: pairs, key-value, attribute-value
 
 #### Narrow table format
@@ -315,11 +333,20 @@ Whether majority or minorities groups exist in a dataset; imbalance is common an
 
 ### VISUALIZATION
 
-Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11],[^12]  [#data-analysis](#data-analysis)
+Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11],[^12] [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
+
+### Visualization
+
+The technique for creating images, diagrams, or animations to communicate a message. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
+
 
 ### VISUALIZATION DASHBOARD
 
-Multiple interactive graphical views of [data](#data) that would be too complex if presented in a [single visualization](#visualization), for instance, to support complex narratives and [insights](#insight) by showing key performance indicators (KPIs) for monitoring of a business or other processes. [#data-analysis](#data-analysis)
+Multiple interactive graphical views of [data](#data) that would be too complex if presented in a [single visualization](#visualization), for instance, to support complex narratives and [insights](#insight) by showing key performance indicators (KPIs) for monitoring of a business or other processes. [#data-analysis](#data-analysis) 
+
+### Variance
+
+In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its [population](#population) mean or [sample](#sample) mean. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)
 
 # Categories
 
@@ -434,11 +461,11 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
  
 [^42]: "Tree" from the National Institute of Standards and Technology. [Online]. Available at: https://xlinux.nist.gov/dads/HTML/tree.html
 
-[^43] “Critical Thinking”. [Online]. Available at: https://www.lexico.com/definition/critical_thinking 
+[^43]: “Critical Thinking”. [Online]. Available at: https://www.lexico.com/definition/critical_thinking 
 
-[^44] “Critical Thinking”. [Online]. Available at: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking 
+[^44]: “Critical Thinking”. [Online]. Available at: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking 
 
-[^45] “Data, statistical information and statistics: Data quality” [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch3/quality-qualite/5214788-eng.htm.
+[^45]: “Data, statistical information and statistics: Data quality” [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch3/quality-qualite/5214788-eng.htm.
 
 [^46]: “The 7 Most Common Types of Dirty Data (and how to clean them)”. [Online]. Available: https://www.ringlead.com/blog/the-7-most-common-types-of-dirty-data-and-how-to-clean-them
 
