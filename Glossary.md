@@ -116,7 +116,7 @@ A mechanism that stores files on servers and allows clients, with permission, to
 
 ### Data Literacy 
 
-Data literacy is the intersection of verbal, numerical and graphical literacy. It is not be a label reserved for data scientists or specialists. Data literacy should be thought of as “the ability of non-specialists to make use of data” and measure “a person’s ability to read, work with, analyze and argue with data”, presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
+Data literacy is the intersection of verbal, numerical and graphical literacy. It is not label reserved for data scientists or specialists. Data literacy should be thought of as “the ability of non-specialists to make use of data” and measure “a person’s ability to read, work with, analyze and argue with data”, presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
 
 ### Data types
 
@@ -153,19 +153,19 @@ TODO intro [#data-types](#data-types) [#lesson-03](#lesson-03)
 A generic file format which may hold [structured](#structured-data) data. The structure is preserved with a delimiter or separator; comma, semicolon or tab indentations are common separators.
 
 #### CSV
-A text file which uses commas as a delimiter. Often the file extension is .csv but the generic .txt is also used.  The structured in the text file are _comma_-separated values.
+A text file that uses commas as a delimiter. Often the file extension is .csv but the generic .txt is also used. The structured in the text file are _comma_-separated values.
 
 #### TSV
-A text file which uses tab indentation as a delimiter. Often the file extension is .tsv but the generic .txt is also used. The structured in the text file are _tab_-separated values.
+A text file that uses tab indentation as a delimiter. Often the file extension is .tsv but the generic .txt is also used. The structured in the text file are _tab_-separated values.
 
 #### JSON
-_JavaScript Object Notation_ is a human readable file format that stores [structured](#structured-data) data as attribute-value pairs. JSON is a language-independent data format and is a common format for use with web applications,
+_JavaScript Object Notation_ is a human-readable file format that stores [structured](#structured-data) data as attribute-value pairs. JSON is a language-independent data format and is a common format for use with web applications,
 
 #### XML
-_eXtensible Markup Language_ is human readable file format that stores [structured](#structured-data) data using _tags_, _elements_ and _attributes_. The XML format is commonly used across the Internet.
+_eXtensible Markup Language_ is human-readable file format that stores [structured](#structured-data) data using _tags_, _elements_ and _attributes_. The XML format is commonly used across the Internet.
 
 #### YAML
-_Yet Another Markup Language_ is a human readable file format that stores data using indents, hyphens (-) and colon punctuation (:) to impose [structured](#structured-data). YAML is a compact format and is commonly used to share configurations, settings and unsophisticated data files.
+_Yet Another Markup Language_ is a human-readable file format that stores data using indents, hyphens (-) and colon punctuation (:) to impose [structured](#structured-data). YAML is a compact format and is commonly used to share configurations, settings and unsophisticated data files.
 
 ### GENERATIVE MODELING
 
@@ -242,7 +242,7 @@ SQL is a language that works with structured, [tabular data](#tabular-data) allo
 
 ### STRUCTURED DATA
 
-[Data](#data) that is organized into clearly defined fields associated with variables or attributes, such as dates, words, or numbers that are recorded for each observation or item. Items are often represented as rows of  [tabular spreadsheets](#tabular-data) that can be stored in a [database](#database) for easy processing and analysis.[^24],[^25] [#data-types](#data-types) [#lesson-03](#lesson-03)
+[Data](#data) that is organized into clearly defined fields associated with variables or attributes, such as dates, words, or numbers that are recorded for each observation or item. Items are often represented as rows of [tabular spreadsheets](#tabular-data) that can be stored in a [database](#database) for easy processing and analysis.[^24],[^25] [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 ### TABULAR DATA
 
@@ -273,7 +273,7 @@ Data that is not organized in a pre-defined way under a single data model. Examp
 
 ### VISUALIZATION
 
-Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operation using a radar screen that displays sensor data in real-time. [^11],[^12]  [#data-analysis](#data-analysis)
+Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11],[^12]  [#data-analysis](#data-analysis)
 
 ### VISUALIZATION DASHBOARD
 
