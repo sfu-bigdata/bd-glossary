@@ -1,13 +1,15 @@
 """
-Adapted grom https://github.com/Logan-Lin/SortMarkdown
-All headings (with their sections) of a specififed level are sorted.
-
+Usage: 
 `python SortMarkdown.py --input Glossary.md --output Glossary-sorted.md --header 3`
+
 Level 3 headings in Glossary.md will re-ordered alphabetically and saved in Glossary-sorted.md
+All headings (with their sections) of a specified level are sorted.
 
 Assumptions:
 1. The section to be sorted is a contiguous level.
 2. The new heading after the section to be sorted starts with level one heading = "# "
+
+Adapted from https://github.com/Logan-Lin/SortMarkdown
 """
 
 import sys
