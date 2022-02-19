@@ -20,7 +20,7 @@ The process of using [statistical models](#machine-learning) and software to [tr
 
 ### ARTIFICIAL INTELLIGENCE
 
-A branch of computer science that allows machines to acquire and apply knowledge to handle new inputs and analyze patterns to solve diverse problems. [^39] [#disciplines](#disciplines)
+A branch of computer science that allows machines to acquire and apply knowledge to handle new inputs and analyze patterns to solve diverse problems. [^39] [#disciplines](#disciplines) [#lesson-03](#lesson-03)
 
 ### BEHAVIOUR(AL) ANALYTICS
 
@@ -62,9 +62,13 @@ As a measure of association between two variables, correlation can be used for [
 
 A model in information security designed to govern and evaluate how an organization handles data when it is stored, transmitted or processed. This model emphasizes that data should not be accessed without authorization, should not be altered or compromised without authorization, and should be accessible upon legitimate request. See [Secure Computing](#secure-computing). [^40] [#disciplines](#disciplines)
 
+### Crowdsourcing
+
+- TODO. [#lesson-03](#lesson-03)
+
 ### DATA
 
-Collection of examples, observations, measurements, facts, points, or other items of information that can be represented in [structured](#structured-data) or [unstructured](#unstructured-data) form.
+Collection of examples, observations, measurements, facts, points, or other items of information that can be represented in [structured](#structured-data) or [unstructured](#unstructured-data) form. [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 ### DATA AGGREGATION
 
@@ -96,7 +100,7 @@ A multidisciplinary activity combining programming skills, math and statistical 
 
 ### DATA TRANSFORMATION
 
-The process of converting data from [one form into another](#data-representation) to gain better [insight](#insight). For instance, converting [unstructured data](#unstructured-data) into [structured form](#structured-data) that can be analyzed further. [#processing](#processing)
+The process of converting data from [one form into another](#data-representation) to gain better [insight](#insight). For instance, converting [unstructured data](#unstructured-data) into [structured form](#structured-data) that can be analyzed further. [#processing](#processing) [#lesson-03](#lesson-03) [#lesson-03](#lesson-03) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
 
 ### DATABASE
 
@@ -110,6 +114,26 @@ An initial stage of data processing that involves creating a summary of historic
 
 A mechanism that stores files on servers and allows clients, with permission, to store and process files as if they were stored on their own computer.[^15],[^16] [#storage](#storage)
 
+### Data Literacy 
+
+Data literacy is the intersection of verbal, numerical and graphical literacy. It is not be a label reserved for data scientists or specialists. Data literacy should be thought of as “the ability of non-specialists to make use of data” and measure “a person’s ability to read, work with, analyze and argue with data”, presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
+
+### Data types
+
+TODO intro. [#data-types](#data-types) [#lesson-03](#lesson-03)
+
+#### Float
+Any number, whole or fraction, with unknown decimal places.
+
+#### Integer
+A whole number.
+
+#### String
+Multiple characters together are called strings. e.g ‘aeiou’ is a string of the characters ‘a’, ‘e’, ‘i’, ‘o’, ‘u’.
+
+#### Date / Datetime
+A representation of a date (may include time) e.g. `YYYYMMDD` or  `YYYYMMDDhhmmss`. 
+
 ### FEATURE
 
 A key property that characterizes a data point (representing some real-world object) in the context of a [machine learning](#machine-learning) problem or other type of [analysis](#analytics).
@@ -121,6 +145,27 @@ A human-driven process of finding the most important [features](#feature) to dev
 ### FLEXIBLE SCHEMA
 
 Unlike [SQL](#sql) databases with a [tabular](#tabular-data) [structure](#structured-data), objects or documents stored in a flexible schema can be different from one another.[^32] [#data-types](#data-types)
+
+### File Formats
+TODO intro [#data-types](#data-types) [#lesson-03](#lesson-03)
+
+#### TXT
+A generic file format which may hold [structured](#structured-data) data. The structure is preserved with a delimiter or separator; comma, semicolon or tab indentations are common separators.
+
+#### CSV
+A text file which uses commas as a delimiter. Often the file extension is .csv but the generic .txt is also used.  The structured in the text file are _comma_-separated values.
+
+#### TSV
+A text file which uses tab indentation as a delimiter. Often the file extension is .tsv but the generic .txt is also used. The structured in the text file are _tab_-separated values.
+
+#### JSON
+_JavaScript Object Notation_ is a human readable file format that stores [structured](#structured-data) data as attribute-value pairs. JSON is a language-independent data format and is a common format for use with web applications,
+
+#### XML
+_eXtensible Markup Language_ is human readable file format that stores [structured](#structured-data) data using _tags_, _elements_ and _attributes_. The XML format is commonly used across the Internet.
+
+#### YAML
+_Yet Another Markup Language_ is a human readable file format that stores data using indents, hyphens (-) and colon punctuation (:) to impose [structured](#structured-data). YAML is a compact format and is commonly used to share configurations, settings and unsophisticated data files.
 
 ### GENERATIVE MODELING
 
@@ -149,11 +194,11 @@ Aims to extract [insight](#insight) from data in [databases](#database). It invo
 
 ### MACHINE LEARNING
 
-A part of [artificial intelligence](#artificial-intelligence) that enables machines to learn from experience to perform certain tasks by using [algorithmic](#algorithm) models that are [trained](#model-fitting) to imitate patterns present in [data](#data) to support [prediction](#predictive-analytics), [data generation](#generative-modeling) and other forms of [data analytics](#analytics). [#disciplines](#disciplines)
+A part of [artificial intelligence](#artificial-intelligence) that enables machines to learn from experience to perform certain tasks by using [algorithmic](#algorithm) models that are [trained](#model-fitting) to imitate patterns present in [data](#data) to support [prediction](#predictive-analytics), [data generation](#generative-modeling) and other forms of [data analytics](#analytics). [#disciplines](#disciplines) [#lesson-03](#lesson-03)
 
 ### METADATA
 
-Also called "data about data," it provides a [structured description](#structured-data) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33] [#data-types](#data-types)
+Also called "data about data," it provides a [structured description](#structured-data) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33] [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 ### MODEL FITTING
 
@@ -197,19 +242,34 @@ SQL is a language that works with structured, [tabular data](#tabular-data) allo
 
 ### STRUCTURED DATA
 
-[Data](#data) that is organized into clearly defined fields associated with variables or attributes, such as dates, words, or numbers that are recorded for each observation or item. Items are often represented as rows of  [tabular spreadsheets](#tabular-data) that can be stored in a [database](#database) for easy processing and analysis.[^24],[^25] [#data-types](#data-types)
+[Data](#data) that is organized into clearly defined fields associated with variables or attributes, such as dates, words, or numbers that are recorded for each observation or item. Items are often represented as rows of  [tabular spreadsheets](#tabular-data) that can be stored in a [database](#database) for easy processing and analysis.[^24],[^25] [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 ### TABULAR DATA
 
-Data items or observations that are organized as rows that contain values under columns that correspond to specific variables or properties. [^30],[^31] [#data-types](#data-types)
+Data items or observations that are organized as rows that contain values under columns that correspond to specific variables or properties. [^30],[^31] [#data-types](#data-types) [#lesson-03](#lesson-03)
+- Synonyms: row(s), record(s), example(s), observation(s), measurement(s), fact(s), point(s) and other items of information
+- Synonyms: column(s) also referred to as field(s), header(s), attribute(s), [feature](#feature)(s), property(ies), variable(s), key(s) (as in key-value), factor(s), dimension(s)
+- Synonyms: pairs, key-value, attribute-value
+
+#### Narrow table format
+
+TODO: one column contains all the attributes and another column contains the lists of values. [#data-types](#data-types) [#lesson-03](#lesson-03)
+
+#### Wide table format 
+
+TODO: each holds different attributes in separate columns. [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 ### TEXT MINING
 
 A process of analyzing [text](#unstructured-data) to capture key concepts, themes, relationships and trends.[^36] [#data-analysis](#data-analysis)
 
+### Tree structure
+
+A _tree_ is a widely used data type that simulates a hierarchical tree structure, with a root value, branches, leaves, and subtrees of children with a parent node. [^42] [#data-types](#data-types) [#data-types](#data-types) [#lesson-03](#lesson-03)
+
 ### UNSTRUCTURED DATA
 
-Data that is not organized in a pre-defined way under a single data model. Examples include text, images, audio, or video. [^26],[^27] [#data-types](#data-types), [#lesson-01](#lesson-01)
+Data that is not organized in a pre-defined way under a single data model. Examples include text, images, audio, or video. [^26],[^27] [#data-types](#data-types), [#lesson-03](#lesson-03)
 
 ### VISUALIZATION
 
@@ -327,3 +387,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 [^39]: "Artificial Intelligence" [Online]. Available: https://www.techopedia.com/definition/190/artificial-intelligence-ai
 
 [^40]: "EI-ISAC Cybersecurity Spotlight – CIA Triad" [Online]. Available: https://www.cisecurity.org/spotlight/ei-isac-cybersecurity-spotlight-cia-triad/
+
+[^41]: "Data Literacy: What It Is and How to Measure It in the Public Service". Statistics Canada. [Online]. Available at: https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2019003-eng.htm
+ 
+[^42]: "Tree" from the National Institute of Standards and Technology. [Online]. Available at: https://xlinux.nist.gov/dads/HTML/tree.html
