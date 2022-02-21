@@ -22,7 +22,17 @@ The process of using [statistical models](#machine-learning) and software to [tr
 
 A branch of computer science that allows machines to acquire and apply knowledge to handle new inputs and analyze patterns to solve diverse problems. [^39] [#disciplines](#disciplines) [#lesson-03](#lesson-03)
 
-### BEHAVIOUR(AL) ANALYTICS
+### Aggregations
+
+A cluster of things that have come or been brought together. [^53] [#operations](#operations) [#lesson-08](#lesson-08)
+
+
+### Arithmetic operations
+
+Includes basic statistics: such as _sums_, _counts_, _means_ (or _averages_), _medians_, _percentiles_, or [_standard deviations_](#standard-deviation). [#operations](#operations) [#lesson-08](#lesson-08)
+
+
+### BEHAVIOUR(AL) ANALYTICS <a id="behavioural-analytics"/>
 
 A type of business [analytics](#analytics) that examines behavioural data about people to understand how and why individuals act the way they do and to make more accurate predictions for future behaviour.[^5],[^6] [#data-analysis](#data-analysis)
 
@@ -38,6 +48,14 @@ Many describe it with “[The Four V’s](http://www.ibmbigdatahub.com/infograph
 - Velocity: is data that arrives quickly and constantly, for example, streaming data.
 - Variety: includes many differently-structured (or less-structured) input data sets.
 - Veracity: is some data that might be incorrect or of unknown correctness.
+
+### Binning
+
+An operation on a range of numbers values in which the entire range is divided into _bins_ (or _intervals_) of a _bin width_ (or _bin size_, _step size_). Another name for binning is *bucketing* [#operations](#operations) [#lesson-08](#lesson-08)
+
+### Bucketing
+
+Another name for bucketing is [binning](#binning). [#operations](#operations) [#lesson-08](#lesson-08)
 
 ### CAUSAL INFERENCE
 
@@ -93,7 +111,7 @@ TODO:
 
 ### DATA CLEANING
 
-Careful removal of erroneous or unreliable data points. [#processing](#processing)
+Careful removal of erroneous or unreliable data points. Also see [clean and dirty data](#clean). [#processing](#processing)
 
 ### DATA EXPLORATION AND PREPARATION
 
@@ -117,7 +135,7 @@ A multidisciplinary activity combining programming skills, math and statistical 
 
 ### DATA TRANSFORMATION
 
-The process of converting data from [one form into another](#data-representation) to gain better [insight](#insight). For instance, converting [unstructured data](#unstructured-data) into [structured form](#structured-data) that can be analyzed further. [#processing](#processing) [#lesson-03](#lesson-03) [#lesson-03](#lesson-03) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
+The process of converting data from [one form into another](#data-representation) to gain better [insight](#insight). For instance, converting [unstructured data](#unstructured-data) into [structured form](#structured-data) that can be analyzed further. [#processing](#processing) [#operations](#operations) [#lesson-03](#lesson-03) [#lesson-03](#lesson-03) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
 
 ### DATABASE
 
@@ -131,7 +149,7 @@ An initial stage of data processing that involves creating a summary of historic
 
 A mechanism that stores files on servers and allows clients, with permission, to store and process files as if they were stored on their own computer.[^15],[^16] [#storage](#storage)
 
-### Data (Clean, Dirty) <a id="clean"/>
+### Data (Clean, Dirty) <a id="clean-dirty"/>
 
 Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being Outdated, insecure, incomplete, incomplete (missing), Inaccurate data, Misplaced data, Inconsistent, or duplicated.[^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
 
@@ -184,6 +202,10 @@ Unlike [SQL](#sql) databases with a [tabular](#tabular-data) [structure](#struct
 ### File Formats
 TODO intro [#data-types](#data-types) [#lesson-03](#lesson-03)
 
+### Filter
+
+TODO: [#operations](#operations) [#lesson-07](#lesson-07)
+
 #### TXT
 A generic file format which may hold [structured](#structured-data) data. The structure is preserved with a delimiter or separator; comma, semicolon or tab indentations are common separators.
 
@@ -211,6 +233,10 @@ For example, a language model trained on a collection of text can be used to sug
 
 Summarizes how well the values observed in the data agree with those values expected by the model. [#processing](#processing)
 
+### Groupby
+
+TODO: Collect and [aggregations](#aggregation) and [transformations](#data-transformations) summarize.... [#operations](#operations) [#lesson-07](#lesson-07)
+
 ### Histogram
 
 A histogram is a graphical representation that organizes a group of data points into user-specified ranges. Similar in appearance to a bar graph, the histogram condenses a data series into an easily interpreted [#visualization](#visualization) by taking many data points and grouping them into logical, ordered ranges or bins. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
@@ -230,6 +256,10 @@ A system of [connected](#network), "smart" objects, including smartphones, weara
 ### KNOWLEDGE DISCOVERY
 
 Aims to extract [insight](#insight) from data in [databases](#database). It involves a [number of steps](#data-science) including the evaluation and possibly [interpretation](#visualization) of [patterns](#data-mining) to gather [insight](#insight) and knowledge.[^35] [#disciplines](#disciplines)
+
+### Logical operations
+
+Operations and manipulations according to the rules of logic and boolean algebra. Logical operations evaluate _truth values_ (true or false) of a logical statement. Logical statements are constructed with statements including conjunction (_and_), the disjunction (_or_), and the negation (_not_), along with comparators _greater than_, _less than_, and _equals to_. [#operations](#operations) [#lesson-08](#lesson-08)
 
 ### MACHINE LEARNING
 
@@ -267,13 +297,17 @@ A process for analyzing current [data](#data) to determine future events or othe
 
 A type of [analytics](#analytics) with the goal of using data to determine the best course of action for a specific scenario. [^3] [#data-analysis](#data-analysis)
 
+### Pivot
+
+Pivoting is an extension of the [transpose](#transpose) operation. The pivot operation converts between [wide-](#wide-table-format) and [narrow-](#narrow-table-format) table formats. [#operations](#operations) [#lesson-03](#lesson-03) [#lesson-08](#lesson-08)
+
 ### Population
 
 A collection of items under consideration. [^47] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
 ### Query (Data) <a id="query"/>
 
-TODO: check
+TODO: check. Queries are not restricted to SQL
 A query is a request for data or information from a [table](#tabular) or combination of tables. This data may be generated as results returned by Structured Query Language ([SQL](#sql)) or as pictorials, graphs or complex results, e.g., trend analyses from data-mining tools. [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
 
 ### REGRESSION
@@ -300,6 +334,14 @@ SQL (pronounced "ess-que-el" or “sequel”) stands for Structured [Query](#que
 
 A subset of the units of a [population](#population). The sample serves as a proxy, or representative sample subset of the true nature of the [population](#population). [^48] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
+### Select
+
+TODO: [#operations](#operations) [#lesson-07](#lesson-07)
+
+### Sort
+
+TODO: Also called _rank_... [transformations](#data-transformations).... [#operations](#operations) [#lesson-07](#lesson-07)
+
 ### Standard Deviation
 
 Standard deviation is the square root of [variance](#variance). It is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)
@@ -307,6 +349,22 @@ Standard deviation is the square root of [variance](#variance). It is a measure 
 ### Statistics
 
 Statistics is the discipline concerned with developing and studying methods for collecting, organizing, analyzing, interpreting and presenting empirical data. Common statistical metrics are mean (average), median, mode and percentiles. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
+
+### String or character operations
+
+Manipulations with [string data types](#data-types). [#operations](#operations) [#lesson-08](#lesson-08)
+
+#### Parse
+
+To analyze (a string or text) into logical syntactic components.[^52]
+
+#### Indexing
+
+Indexing (or selecting) string characters by their position, _zero-th_ character, _first_ character 
+
+#### Concatenation
+
+Combining strings end-to-end.
 
 ### TABULAR DATA
 
@@ -318,11 +376,11 @@ Data items or observations that are organized as rows that contain values under 
 
 #### Narrow table format
 
-TODO: one column contains all the attributes and another column contains the lists of values. [#data-types](#data-types) [#lesson-03](#lesson-03)
+TODO: one column contains all the attributes and another column contains the lists of values [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 #### Wide table format 
 
-TODO: each holds different attributes in separate columns. [#data-types](#data-types) [#lesson-03](#lesson-03)
+TODO: each holds different attributes in separate columns [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 ### TEXT MINING
 
@@ -337,6 +395,10 @@ Datasets are commonly messy. Getting data into tidy [^51] format requires upfron
 3.	Each value must have its own cell.
 
 [#lesson-06](#lesson-06)
+
+### Transpose
+
+A mathematical operation on a table where a new table is obtained by interchanging each row and the corresponding column. [#operations](#operations) [#lesson-08](#lesson-08)
 
 ### Tree structure
 
@@ -503,15 +565,15 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
  
 [^42]: "Tree" from the National Institute of Standards and Technology. [Online]. Available: https://xlinux.nist.gov/dads/HTML/tree.html
 
-[^43]: "Critical Thinking". [Online]. Available: https://www.lexico.com/definition/critical_thinking
+[^43]: "Critical Thinking". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/critical_thinking
 
-[^44]: "Critical Thinking". [Online]. Available: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking 
+[^44]: "Critical Thinking". Oxford University Press. [Online]. Available: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking 
 
 [^45]: "Data, statistical information and statistics: Data quality" [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch3/quality-qualite/5214788-eng.htm.
 
 [^46]: "The 7 Most Common Types of Dirty Data (and how to clean them)". [Online]. Available: https://www.ringlead.com/blog/the-7-most-common-types-of-dirty-data-and-how-to-clean-them
 
-[^47]: "Population". [Online]. Available: https://www.lexico.com/definition/population
+[^47]: "Population". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/population
 
 [^48]: "Statistics: Power from Data! Glossary" [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#Sample
 
@@ -520,3 +582,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 [^50]: "Null (SQL)". [Online]. Wikipedia, The Free Encyclopedia. Available: https://en.wikipedia.org/w/index.php?title=Null_(SQL)
 
 [^51]: "Tidy Data". [Online]. R for Data Science. Available: https://r4ds.had.co.nz/tidy-data.html
+
+[^52]: "Parse". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/parse
+
+[^53]: "Aggregations". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/aggregation
