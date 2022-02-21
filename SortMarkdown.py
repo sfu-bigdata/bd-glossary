@@ -41,7 +41,7 @@ def sort_subsection(markdown_strings, output_filename, header_tag):
     for i in range(len(header_indexes)-1):
         headers.append(lines[header_indexes[i]][len(header_tag):]) # no need of +1 because the space afte "##" is incorporated into header tag
     
-    sorted_headers = sorted(headers)
+    sorted_headers = sorted(headers, key=str.lower)
 
     for sorted_header in sorted_headers:
         index = headers.index(sorted_header)
