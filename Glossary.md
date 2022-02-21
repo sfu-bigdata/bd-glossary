@@ -48,7 +48,7 @@ Refers to the massive amounts of [data](#data) generated around the world that i
 
 ### Big data isn't always big.
 
-Many describe it with “[The Four V’s](http://www.ibmbigdatahub.com/infographic/four-vs-big-data)” and there exist other definitions as well, including the [5 Vs](https://bicorner.com/2015/04/17/why-only-one-of-the-5-vs-of-big-data-really-matters/)' or [7 V's](http://dataconomy.com/seven-vs-big-data/). [#disciplines](#disciplines) [#lesson-04](#lesson-04)
+Many describe it with "[The Four V’s](http://www.ibmbigdatahub.com/infographic/four-vs-big-data)" and there exist other definitions as well, including the [5 Vs](https://bicorner.com/2015/04/17/why-only-one-of-the-5-vs-of-big-data-really-matters/)' or [7 V's](http://dataconomy.com/seven-vs-big-data/). [#disciplines](#disciplines) [#lesson-04](#lesson-04)
 
 - Volume: includes the amount of data.
 - Velocity: is data that arrives quickly and constantly, for example, streaming data.
@@ -79,7 +79,7 @@ TODO: [#lesson-14](#lesson-14)
 
 An approach in [machine learning](#machine-learning) where a program is [trained](#model-fitting) with labeled [data](#data) to determine which category a new  observation belongs to. See also [clustering](#clustering). [#data-analysis](#data-analysis)
 
-### Cloud (“The Cloud”) <a id="cloud"/>
+### Cloud ("The Cloud") <a id="cloud"/>
 
 Any resource stored on the internet (instead of locally on a PC) is said to be stored on the cloud. Cloud storage is convenient in that clients do not have to manage the storage and infrastructure; they just access it from other internet-connected devices. [#disciplines] [#lesson-10](#lesson-10)
 
@@ -89,9 +89,9 @@ Access to data, [storage](#distributed-file-system), applications, and other com
 
 ### Cloud Storage
 
-Cloud storage is a [cloud](#cloud) computing model that stores data on the Internet through a cloud computing provider who manages and operates data storage as a service. It’s delivered on demand with just-in-time capacity and costs, and eliminates buying and managing your own data storage infrastructure. This gives you agility, global scale and durability, with “anytime, anywhere” data access. [^] [#storage](#storage) [#lesson-11](#lesson-11)
+Cloud storage is a [cloud](#cloud) computing model that stores data on the Internet through a cloud computing provider who manages and operates data storage as a service. It’s delivered on demand with just-in-time capacity and costs, and eliminates buying and managing your own data storage infrastructure. This gives you agility, global scale and durability, with "anytime, anywhere" data access. [^] [#storage](#storage) [#lesson-11](#lesson-11)
 
-[^]: “What is Cloud Storage? | AWS” . [Online]. Available: https://aws.amazon.com/what-is-cloud-storage/
+[^]: "What is Cloud Storage? | AWS" . [Online]. Available: https://aws.amazon.com/what-is-cloud-storage/
 
 ### CLUSTER (Compute)
 
@@ -173,7 +173,7 @@ A data lake is a storage repository that holds a vast amount of raw data in its 
 
 ### Data Literacy 
 
-Data literacy is the intersection of verbal, numerical and graphical literacy. It is not label reserved for data scientists or specialists. Data literacy should be thought of as “the ability of non-specialists to make use of data” and measure “a person’s ability to read, work with, analyze and argue with data”, presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
+Data literacy is the intersection of verbal, numerical and graphical literacy. It is not label reserved for data scientists or specialists. Data literacy should be thought of as "the ability of non-specialists to make use of data" and measure "a person’s ability to read, work with, analyze and argue with data", presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
 
 ### DATA MINING
 
@@ -319,7 +319,7 @@ A geographic information system (GIS) is a system that creates, manages, analyze
 
 Summarizes how well the values observed in the data agree with those values expected by the model. [#processing](#processing)
 
-### Groupby
+### Group by
 
 TODO: Collect and [aggregations](#aggregation) and [transformations](#data-transformations) summarize.... [#operations](#operations) [#lesson-07](#lesson-07)
 
@@ -355,7 +355,7 @@ A system of [connected](#network), "smart" objects, including smartphones, weara
 
 A _join_ operation is used to [combine](#data-transformation) rows from two or more tables, based on a related column between them. [^] [#query](#query) [#operations](#operations) [#lesson-12](#lesson-06)[#lesson-06] (#lesson-08)[#lesson-08] (#lesson-12)
 
-[^]: “SQL Joins – W3 Schools”. [Online]. Available: https://www.w3schools.com/sql/sql_join.asp
+[^]: "SQL Joins – W3 Schools". [Online]. Available: https://www.w3schools.com/sql/sql_join.asp
 
 ### KNOWLEDGE DISCOVERY
 
@@ -488,7 +488,7 @@ TODO: Also called _rank_... [transformations](#data-transformations).... [#opera
 
 ### SQL
 
-SQL (pronounced "ess-que-el" or “sequel”) stands for Structured [Query](#query) Language. SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [28] [#processing](#processing) [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
+SQL (pronounced "ess-que-el" or "sequel") stands for Structured [Query](#query) Language. SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [28] [#processing](#processing) [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
 
 ### Standard Deviation
 
@@ -734,7 +734,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^28]: Donoho, D. (2017). 50 years of data science. *Journal of Computational and Graphical Statistics*, *26*(4), 745-766.
 
-[^29]:"The Data Science Venn Diagram" [Online]. Available: <http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram>
+[^29]: "The Data Science Venn Diagram" [Online]. Available: <http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram>
 
 [^30]: "Introduction to Tabular Data" [Online]. Available: <https://papl.cs.brown.edu/2016/intro-tabular-data.html>
 
@@ -784,4 +784,4 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^53]: "Aggregations". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/aggregation
 
-[^54]: “What is GIS?”. [Online]. Available: https://www.esri.com/en-us/what-is-gis/overview
+[^54]: "What is GIS?". [Online]. Available: https://www.esri.com/en-us/what-is-gis/overview
