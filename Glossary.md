@@ -77,11 +77,17 @@ An approach in [machine learning](#machine-learning) where a program is [trained
 
 ### Cloud (“The Cloud”) <a id="cloud"/>
 
-Any resource stored on the internet (instead of locally on a PC) is said to be stored on the cloud. Cloud storage is convenient in that clients do not have to manage the storage and infrastructure; they just access it from other internet-connected devices. [#lesson-10](#lesson-10)
+Any resource stored on the internet (instead of locally on a PC) is said to be stored on the cloud. Cloud storage is convenient in that clients do not have to manage the storage and infrastructure; they just access it from other internet-connected devices. [#disciplines] [#lesson-10](#lesson-10)
 
 ### CLOUD COMPUTING
 
 Access to data, [storage](#distributed-file-system), applications, and other computing resources made available to many users on-demand over the [Internet](#network) to improve [scalable computing power](#advanced-research-computing) and reliability. [^9],[^10] [#disciplines](#disciplines)
+
+### Cloud Storage
+
+Cloud storage is a [cloud](#cloud) computing model that stores data on the Internet through a cloud computing provider who manages and operates data storage as a service. It’s delivered on demand with just-in-time capacity and costs, and eliminates buying and managing your own data storage infrastructure. This gives you agility, global scale and durability, with “anytime, anywhere” data access. [^] [#storage](#storage) [#lesson-11](#lesson-11)
+
+[^]: “What is Cloud Storage? | AWS” .[Online]. Available: https://aws.amazon.com/what-is-cloud-storage/
 
 ### CLUSTER (Compute)
 
@@ -147,6 +153,12 @@ Exploratory data analysis (EDA) is a formative step in the [creation of models](
 
 The process of combining information from different data sources in preparation for data processing. [^4] [#processing](#processing) [#lesson-06](#lesson-06) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
 
+### Data Lake
+
+A data lake is a storage repository that holds a vast amount of raw data in its native format until it is needed for analytics applications. While a traditional [data warehouse](#data warehouse) stores data in hierarchical dimensions and tables, a data lake uses a flat architecture to store data, primarily in files or object storage. [^] [#storage](#storage) [#lesson-11](#lesson-11)
+
+[^]: What Is a Data Lake? Definition from SearchDataManagement. https://searchdatamanagement.techtarget.com/definition/data-lake
+
 ### Data Literacy 
 
 Data literacy is the intersection of verbal, numerical and graphical literacy. It is not label reserved for data scientists or specialists. Data literacy should be thought of as “the ability of non-specialists to make use of data” and measure “a person’s ability to read, work with, analyze and argue with data”, presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
@@ -154,6 +166,10 @@ Data literacy is the intersection of verbal, numerical and graphical literacy. I
 ### DATA MINING
 
 An analytical process where large datasets are explored or "mined" in search of meaningful patterns, relationships or insights. The process can include statistics, [machine learning](#machine-learning) or other forms of artificial intelligence.[^3],[^4] [#disciplines](#disciplines)
+
+### Data Model
+
+A data model (or datamodel) is an abstract model that organizes elements of data and standardizes how they relate to one another and to attributes of real-world entities. [^] [#storage](#storage) [#lesson-11](#lesson-11)
 
 ### Data Privacy
 
@@ -193,9 +209,27 @@ Multiple characters together are called strings. e.g ‘aeiou’ is a string of 
 #### Date / Datetime
 A representation of a date (may include time) e.g. `YYYYMMDD` or  `YYYYMMDDhhmmss`. 
 
+### Data Warehouse
+
+In computing, a data warehouse, also known as an enterprise data warehouse, is a system used for reporting and data analysis and is considered a core component of business intelligence. DWs are central repositories of integrated data from one or more disparate sources. [^] [#storage](#storage) [#lesson-11](#lesson-11)
+
+[^]: Data Warehouse Interview Questions | TestDome. https://www.testdome.com/d/data-warehouse-interview-questions/1203
+
 ### DATABASE
 
 An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3] [#storage](#storage) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) 
+
+### Database 2
+
+A database is an organized collection of [structured](#structured) information, or data, typically stored electronically in a computer system. [#storage](#storage) [#lesson-11](#lesson-11)
+
+[^]: https://www.coursehero.com/file/76896898/databasepdf/
+
+### Database Model
+
+A database model is a type of [data model](#data-model) that determines its logical structure. It fundamentally determines in which manner data can be stored, organized and manipulated. The most popular example of a database model is the relational model, which uses a table-based format. [^] [#storage](#storage) [#lesson-11](#lesson-11)
+
+[^]: Database model - Wikipedia. https://en.wikipedia.org/wiki/Database_model
 
 ### Dendrogram
 
@@ -208,6 +242,12 @@ An initial stage of data processing that involves creating a summary of historic
 ### DISTRIBUTED FILE SYSTEM
 
 A mechanism that stores files on servers and allows clients, with permission, to store and process files as if they were stored on their own computer.[^15],[^16] [#storage](#storage)
+
+### Entity–Relationship Model
+
+An entity–relationship model (or ER model) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between entities (instances of those entity types). For end-users of a database, the ER model is part of the [metadata](#metadata). [^] [#storage](#storage) [#lesson-11](#lesson-11)
+
+[^]: Entity–relationship model wiki | TheReaderWiki. https://thereaderwiki.com/en/Entity_relationship_diagram
 
 ### FEATURE
 
@@ -375,6 +415,12 @@ Sometimes abbreviated as _repo_, it is a synonym for [database](#database). [#st
 ### Sample (Representative, Proxy) <a id="sample"/>
 
 A subset of the units of a [population](#population). The sample serves as a proxy, or representative sample subset of the true nature of the [population](#population). [^48] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
+
+### Schema (Database)
+
+The [database](#database) schema is its structure described in a formal language supported by the database management system (DBMS). The term "schema" refers to the organization of data as a blueprint of how the database is constructed. [^] [#storage](#storage) [#lesson-11](#lesson-11)
+
+[^]: Database schema - CodeDocs. https://codedocs.org/what-is/database-schema
 
 ### SECURE COMPUTING
 
