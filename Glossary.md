@@ -10,6 +10,10 @@
 
 Advanced research computing (ARC) provides massive computational horsepower and [storage](#storage-and-physical-data-sources) in a [cloud environment](#cloud-computing) to handle problems and data that are too complex for a single desktop computer. [^1],[^2] [#disciplines](#disciplines)
 
+### Aggregations
+
+A cluster of things that have come or been brought together. [^53] [#operations](#operations) [#lesson-08](#lesson-08)
+
 ### ALGORITHM
 
 A sequence of instructions telling a computer how to answer a specific question. [^3],[^4] [#processing](#processing)
@@ -18,19 +22,17 @@ A sequence of instructions telling a computer how to answer a specific question.
 
 The process of using [statistical models](#machine-learning) and software to [transform data](#data-transformation) into useful [information](#information) and to draw conclusions towards effective decision making.[^3],[^4] [#disciplines](#disciplines)
 
-### ARTIFICIAL INTELLIGENCE
-
-A branch of computer science that allows machines to acquire and apply knowledge to handle new inputs and analyze patterns to solve diverse problems. [^39] [#disciplines](#disciplines) [#lesson-03](#lesson-03)
-
-### Aggregations
-
-A cluster of things that have come or been brought together. [^53] [#operations](#operations) [#lesson-08](#lesson-08)
-
-
 ### Arithmetic operations
 
 Includes basic statistics: such as _sums_, _counts_, _means_ (or _averages_), _medians_, _percentiles_, or [_standard deviations_](#standard-deviation). [#operations](#operations) [#lesson-08](#lesson-08)
 
+### ARTIFICIAL INTELLIGENCE
+
+A branch of computer science that allows machines to acquire and apply knowledge to handle new inputs and analyze patterns to solve diverse problems. [^39] [#disciplines](#disciplines) [#lesson-03](#lesson-03)
+
+### Bar Chart
+
+TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
 
 ### BEHAVIOUR(AL) ANALYTICS <a id="behavioural-analytics"/>
 
@@ -39,10 +41,6 @@ A type of business [analytics](#analytics) that examines behavioural data about 
 ### BIG DATA
 
 Refers to the massive amounts of [data](#data) generated around the world that is too large, complex or varied for traditional processing software. Its potential to be analyzed for valuable information is enabled by technology such as [advanced research computing](#advanced-research-computing). [^7],[^8] [#disciplines](#disciplines) [#lesson-04](#lesson-04)
-
-### Bar Chart
-
-TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
 
 ### Big data isn't always big.
 
@@ -89,17 +87,13 @@ A [machine learning](#machine-learning) technique that groups similar data point
 
 Learning from data using computing tools and programming languages, such as Python or R with large ecosystems of libraries providing a convenient level of abstraction and statistical methods that can be organized into data processing pipelines.[^28] [#disciplines](#disciplines)
 
-### CORRELATION MINING
-
-As a measure of association between two variables, correlation can be used for [prediction](#predictive-analytics) and indicate the presence of [causal relationship](#causal-inference). It does, however, not sufficiently imply causation. [^37] [#data-analysis](#data-analysis)
-
-### CYBERSECURITY
-
-A model in information security designed to govern and evaluate how an organization handles data when it is stored, transmitted or processed. This model emphasizes that data should not be accessed without authorization, should not be altered or compromised without authorization, and should be accessible upon legitimate request. See [Secure Computing](#secure-computing). [^40] [#disciplines](#disciplines)
-
 ### Correlation
 
 Correlation or dependence is any statistical relationship between two random variables or bivariate data, whether causal or not. In the broadest sense, correlation is any statistical association, though it accurately refers to the degree to which a pair of variables are linearly related. Correlation is not equivalent to [causation](#causal-inference). [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09)
+
+### CORRELATION MINING
+
+As a measure of association between two variables, correlation can be used for [prediction](#predictive-analytics) and indicate the presence of [causal relationship](#causal-inference). It does, however, not sufficiently imply causation. [^37] [#data-analysis](#data-analysis)
 
 ### Critical Thinking
 
@@ -109,13 +103,29 @@ The objective analysis and evaluation of an issue to form a judgement [^43]. The
 
 TODO. [#lesson-03](#lesson-03)
 
+### CYBERSECURITY
+
+A model in information security designed to govern and evaluate how an organization handles data when it is stored, transmitted or processed. This model emphasizes that data should not be accessed without authorization, should not be altered or compromised without authorization, and should be accessible upon legitimate request. See [Secure Computing](#secure-computing). [^40] [#disciplines](#disciplines)
+
 ### DATA
 
 Collection of examples, observations, measurements, facts, points, or other items of information that can be represented in [structured](#structured-data) or [unstructured](#unstructured-data) form. [#data-types](#data-types) [#lesson-03](#lesson-03)
 
+### Data (Clean, Dirty) <a id="clean-dirty"/>
+
+Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being Outdated, insecure, incomplete, incomplete (missing), Inaccurate data, Misplaced data, Inconsistent, or duplicated.[^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
+
 ### DATA AGGREGATION
 
 TODO:
+
+### Data Analysis [TODO: Seems more like a definition for Data Transformation(?)]
+
+Data analysis is a process of inspecting, cleansing, transforming, and modelling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. [#lesson-09](#lesson-09)
+
+### Data Bias
+
+Whether the (sample) data’s [balance](#balance) in the is representative [sample](#sample) or not. If the balance is representative, then there is No Bias. When the balance is not representative, then the dataset is biased. [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
 ### DATA CLEANING
 
@@ -129,9 +139,23 @@ Exploratory data analysis (EDA) is a formative step in the [creation of models](
 
 The process of combining information from different data sources in preparation for data processing. [^4] [#processing](#processing) [#lesson-06](#lesson-06) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
 
+### Data Literacy 
+
+Data literacy is the intersection of verbal, numerical and graphical literacy. It is not label reserved for data scientists or specialists. Data literacy should be thought of as “the ability of non-specialists to make use of data” and measure “a person’s ability to read, work with, analyze and argue with data”, presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
+
 ### DATA MINING
 
 An analytical process where large datasets are explored or "mined" in search of meaningful patterns, relationships or insights. The process can include statistics, [machine learning](#machine-learning) or other forms of artificial intelligence.[^3],[^4] [#disciplines](#disciplines)
+
+### Data Privacy
+
+Refers to the vast range of technologies, protocols, and concepts that give individual users or other parties more privacy protections in their online use. Online privacy takes many forms, including mandatory privacy statements on websites, data sharing controls, data transparency initiatives and more. [^49] [#disciplines](#disciplines) [#lesson-04](#lesson-04)
+
+### Data Quality 
+
+The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate, consistent, complete and accurate. 
+
+TODO: Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
 
 ### DATA REPRESENTATION
 
@@ -144,44 +168,6 @@ A multidisciplinary activity combining programming skills, math and statistical 
 ### DATA TRANSFORMATION
 
 The process of converting data from [one form into another](#data-representation) to gain better [insight](#insight). For instance, converting [unstructured data](#unstructured-data) into [structured form](#structured-data) that can be analyzed further. [#processing](#processing) [#operations](#operations) [#lesson-03](#lesson-03) [#lesson-03](#lesson-03) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
-
-### DATABASE
-
-An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3] [#storage](#storage)
-
-### DESCRIPTIVE ANALYTICS
-
-An initial stage of data processing that involves creating a summary of historical data with the goal of answering the question, "What happened?"[^13],[^14] [#data-analysis](#data-analysis)
-
-### DISTRIBUTED FILE SYSTEM
-
-A mechanism that stores files on servers and allows clients, with permission, to store and process files as if they were stored on their own computer.[^15],[^16] [#storage](#storage)
-
-### Data (Clean, Dirty) <a id="clean-dirty"/>
-
-Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being Outdated, insecure, incomplete, incomplete (missing), Inaccurate data, Misplaced data, Inconsistent, or duplicated.[^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
-
-### Data Analysis [TODO: Seems more like a definition for Data Transformation(?)]
-
-Data analysis is a process of inspecting, cleansing, transforming, and modelling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. [#lesson-09](#lesson-09)
-
-### Data Bias
-
-Whether the (sample) data’s [balance](#balance) in the is representative [sample](#sample) or not. If the balance is representative, then there is No Bias. When the balance is not representative, then the dataset is biased. [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
-
-### Data Literacy 
-
-Data literacy is the intersection of verbal, numerical and graphical literacy. It is not label reserved for data scientists or specialists. Data literacy should be thought of as “the ability of non-specialists to make use of data” and measure “a person’s ability to read, work with, analyze and argue with data”, presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
-
-### Data Privacy
-
-Refers to the vast range of technologies, protocols, and concepts that give individual users or other parties more privacy protections in their online use. Online privacy takes many forms, including mandatory privacy statements on websites, data sharing controls, data transparency initiatives and more. [^49] [#disciplines](#disciplines) [#lesson-04](#lesson-04)
-
-### Data Quality 
-
-The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate, consistent, complete and accurate. 
-
-TODO: Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
 
 ### Data types
 
@@ -199,9 +185,21 @@ Multiple characters together are called strings. e.g ‘aeiou’ is a string of 
 #### Date / Datetime
 A representation of a date (may include time) e.g. `YYYYMMDD` or  `YYYYMMDDhhmmss`. 
 
+### DATABASE
+
+An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3] [#storage](#storage)
+
 ### Dendrogram
 
 A dendrogram is a [diagram](#visualization) representing a tree. This diagrammatic representation is frequently used in different contexts: in hierarchical [clustering](# clustering), it illustrates the arrangement of the clusters produced by the corresponding analyses. [#lesson-09](#lesson-09)
+
+### DESCRIPTIVE ANALYTICS
+
+An initial stage of data processing that involves creating a summary of historical data with the goal of answering the question, "What happened?"[^13],[^14] [#data-analysis](#data-analysis)
+
+### DISTRIBUTED FILE SYSTEM
+
+A mechanism that stores files on servers and allows clients, with permission, to store and process files as if they were stored on their own computer.[^15],[^16] [#storage](#storage)
 
 ### FEATURE
 
@@ -210,10 +208,6 @@ A key property that characterizes a data point (representing some real-world obj
 ### FEATURE ENGINEERING
 
 A human-driven process of finding the most important [features](#feature) to develop [predictive](#predictive-analytics) models. Formerly, as "art" to the "science" of [machine learning](#machine-learning), [big data](#big-data) increasingly moves towards automated representation learning.
-
-### FLEXIBLE SCHEMA
-
-Unlike [SQL](#sql) databases with a [tabular](#tabular-data) [structure](#structured-data), objects or documents stored in a flexible schema can be different from one another.[^32] [#data-types](#data-types)
 
 ### File Formats
 TODO intro [#data-types](#data-types) [#lesson-03](#lesson-03)
@@ -239,6 +233,10 @@ _eXtensible Markup Language_ is human-readable file format that stores [structur
 
 #### YAML
 _Yet Another Markup Language_ is a human-readable file format that stores data using indents, hyphens (–) and colon punctuation (:) to impose [structured](#structured-data). YAML is a compact format and is commonly used to share configurations, settings and unsophisticated data files.
+
+### FLEXIBLE SCHEMA
+
+Unlike [SQL](#sql) databases with a [tabular](#tabular-data) [structure](#structured-data), objects or documents stored in a flexible schema can be different from one another.[^32] [#data-types](#data-types)
 
 ### GENERATIVE MODELING
 
@@ -293,13 +291,13 @@ A part of [artificial intelligence](#artificial-intelligence) that enables machi
 
 Also called "data about data," it provides a [structured description](#structured-data) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33] [#data-types](#data-types) [#lesson-03](#lesson-03) [#lesson-11](#lesson-11)
 
-### MODEL FITTING
-
-Optimizes [how well](#goodness-of-fit) a [machine learning model](#machine-learning) can make predictions for previously unseen test data. 
-
 ### Model
 
 TODO: [#lesson-09](#lesson-09)
+
+### MODEL FITTING
+
+Optimizes [how well](#goodness-of-fit) a [machine learning model](#machine-learning) can make predictions for previously unseen test data. 
 
 ### NETWORK
 
@@ -317,14 +315,6 @@ A type of database designed to handle [large](#advanced-research-computing) volu
 
 Null or NULL is a special marker to indicate that a value does not exist. A null value indicates a lack of a value, which is not the same thing as a value of zero. [^50] [#lesson-06](#lesson-06)
 
-### PREDICTIVE ANALYTICS
-
-A process for analyzing current [data](#data) to determine future events or other unknowns. Related to [descriptive](#descriptive-analytics) and [prescriptive analytics](#prescriptive-analytics), it draws on techniques from [data mining](#data-mining), modeling, [machine learning](#machine-learning) and statistics.[^3],[^28]
-
-### PRESCRIPTIVE ANALYTICS
-
-A type of [analytics](#analytics) with the goal of using data to determine the best course of action for a specific scenario. [^3] [#data-analysis](#data-analysis)
-
 ### Pair plot
 
 [Plot](#visualization) pairwise relationships in a dataset. [#lesson-09](#lesson-09)
@@ -341,6 +331,14 @@ Pivoting is an extension of the [transpose](#transpose) operation. The pivot ope
 
 A collection of items under consideration. [^47] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
+### PREDICTIVE ANALYTICS
+
+A process for analyzing current [data](#data) to determine future events or other unknowns. Related to [descriptive](#descriptive-analytics) and [prescriptive analytics](#prescriptive-analytics), it draws on techniques from [data mining](#data-mining), modeling, [machine learning](#machine-learning) and statistics.[^3],[^28]
+
+### PRESCRIPTIVE ANALYTICS
+
+A type of [analytics](#analytics) with the goal of using data to determine the best course of action for a specific scenario. [^3] [#data-analysis](#data-analysis)
+
 ### Query (Data) <a id="query"/>
 
 TODO: check. Queries are not restricted to SQL
@@ -354,21 +352,13 @@ A type of [statistical model](#machine-learning) that [predicts](#predictive-ana
 
 Relationship mining examines associations between two or more variables in a dataset, for example, by [correlation mining](#correlation-mining) and [causal mining](#causal-inference). [#data-analysis](#data-analysis)
 
-### SECURE COMPUTING
-
-Efforts to ensure privacy and to protect data, devices and computing systems from harm such as hacking, damage, and malpractice, and mitigate service disruptions. [^22],[^4] [#disciplines](#disciplines)
-
-### SQL
-
-SQL (pronounced "ess-que-el" or “sequel”) stands for Structured [Query](#query) Language. SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [28] [#processing](#processing) [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
-
-### STRUCTURED DATA
-
-[Data](#data) that is organized into clearly defined fields associated with variables or attributes, such as dates, words, or numbers that are recorded for each observation or item. Items are often represented as rows of [tabular spreadsheets](#tabular-data) that can be stored in a [database](#database) for easy processing and analysis.[^24],[^25] [#data-types](#data-types) [#lesson-03](#lesson-03)
-
 ### Sample (Representative, Proxy) <a id="sample"/>
 
 A subset of the units of a [population](#population). The sample serves as a proxy, or representative sample subset of the true nature of the [population](#population). [^48] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
+
+### SECURE COMPUTING
+
+Efforts to ensure privacy and to protect data, devices and computing systems from harm such as hacking, damage, and malpractice, and mitigate service disruptions. [^22],[^4] [#disciplines](#disciplines)
 
 ### Select
 
@@ -381,6 +371,10 @@ Skewness refers to a distortion or asymmetry that deviates from the symmetrical 
 ### Sort
 
 TODO: Also called _rank_... [transformations](#data-transformations).... [#operations](#operations) [#lesson-07](#lesson-07)
+
+### SQL
+
+SQL (pronounced "ess-que-el" or “sequel”) stands for Structured [Query](#query) Language. SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [28] [#processing](#processing) [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
 
 ### Standard Deviation
 
@@ -405,6 +399,10 @@ Indexing (or selecting) string characters by their position, _zero-th_ character
 #### Concatenation
 
 Combining strings end-to-end.
+
+### STRUCTURED DATA
+
+[Data](#data) that is organized into clearly defined fields associated with variables or attributes, such as dates, words, or numbers that are recorded for each observation or item. Items are often represented as rows of [tabular spreadsheets](#tabular-data) that can be stored in a [database](#database) for easy processing and analysis.[^24],[^25] [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 ### TABULAR DATA
 
@@ -444,13 +442,21 @@ A mathematical operation on a table where a new table is obtained by interchangi
 
 A _tree_ is a widely used data type that simulates a hierarchical tree structure, with a root value, branches, leaves, and subtrees of children with a parent node. [^42] [#data-types](#data-types) [#data-types](#data-types) [#lesson-03](#lesson-03)
 
+### Unbalanced Data
+
+Whether majority or minorities groups exist in a dataset; imbalance is common and sometimes expected. [#lesson-04](#lesson-04)
+
 ### UNSTRUCTURED DATA
 
 Data that is not organized in a pre-defined way under a single data model. Examples include text, images, audio, or video. [^26],[^27] [#data-types](#data-types), [#lesson-03](#lesson-03)
 
-### Unbalanced Data
+### Variance
 
-Whether majority or minorities groups exist in a dataset; imbalance is common and sometimes expected. [#lesson-04](#lesson-04)
+In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its [population](#population) mean or [sample](#sample) mean. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)
+
+### Violin Plot
+
+TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
 
 ### VISUALIZATION
 
@@ -464,17 +470,9 @@ The technique for creating images, diagrams, or animations to communicate a mess
 
 Multiple interactive graphical views of [data](#data) that would be too complex if presented in a [single visualization](#visualization), for instance, to support complex narratives and [insights](#insight) by showing key performance indicators (KPIs) for monitoring of a business or other processes. [#data-analysis](#data-analysis) 
 
-### Variance
-
-In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its [population](#population) mean or [sample](#sample) mean. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)
-
-### Violin Plot
-
-TODO: [#lesson-09](#lesson-09)
-
 ### Word Cloud
 
-TODO: [#lesson-09](#lesson-09)
+TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
 
 # Categories
 
