@@ -1,5 +1,4 @@
 
-
 <!-- ![](https://www.sfu.ca/content/dam/sfu/images/brand_extension/SFU-Big-Data_Logo.png) -->
 <!-- **[Table of Contents](#table-of-contents)** -->
 
@@ -132,13 +131,13 @@ An initial stage of data processing that involves creating a summary of historic
 
 A mechanism that stores files on servers and allows clients, with permission, to store and process files as if they were stored on their own computer.[^15],[^16] [#storage](#storage)
 
-### Data (Clean, Dirty)
+### Data (Clean, Dirty) <a id="clean"/>
 
 Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being Outdated, insecure, incomplete, incomplete (missing), Inaccurate data, Misplaced data, Inconsistent, or duplicated.[^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
 
 ### Data Bias
 
-Whether the (sample) data’s [balance](#balance) in the is representative [#sample] or not. If the balance is representative, then there is No Bias. When the balance is not representative, then the dataset is biased. [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
+Whether the (sample) data’s [balance](#balance) in the is representative [sample](#sample) or not. If the balance is representative, then there is No Bias. When the balance is not representative, then the dataset is biased. [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
 ### Data Literacy 
 
@@ -224,7 +223,7 @@ Meaning encoded in [data](#data) that answers questions to better understand a c
 
 Actionable [information](#information) gained by interpreting [data analysis](#analytics) results, helping people to make more informed decisions. [^38]
 
-### IOT (INTERNET OF THINGS)
+### IOT (INTERNET OF THINGS) <a id="iot"/>
 
 A system of [connected](#network), "smart" objects, including smartphones, wearables and smart-appliances, that collect and exchange information without requiring human interaction. The IoT is a huge generator of data.[^17],[^18] [#storage](#storage)
 
@@ -272,6 +271,11 @@ A type of [analytics](#analytics) with the goal of using data to determine the b
 
 A collection of items under consideration. [^47] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
+### Query (Data) <a id="query"/>
+
+TODO: check
+A query is a request for data or information from a [table](#tabular) or combination of tables. This data may be generated as results returned by Structured Query Language ([SQL](#sql)) or as pictorials, graphs or complex results, e.g., trend analyses from data-mining tools. [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
+
 ### REGRESSION
 
 A type of [statistical model](#machine-learning) that [predicts](#predictive-analytics) numerical values (instead of [class labels](#classification)). [#data-analysis](#data-analysis)
@@ -286,13 +290,13 @@ Efforts to ensure privacy and to protect data, devices and computing systems fro
 
 ### SQL
 
-SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [28] [#processing](#processing)
+SQL (pronounced "ess-que-el" or “sequel”) stands for Structured [Query](#query) Language. SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [28] [#processing](#processing) [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
 
 ### STRUCTURED DATA
 
 [Data](#data) that is organized into clearly defined fields associated with variables or attributes, such as dates, words, or numbers that are recorded for each observation or item. Items are often represented as rows of [tabular spreadsheets](#tabular-data) that can be stored in a [database](#database) for easy processing and analysis.[^24],[^25] [#data-types](#data-types) [#lesson-03](#lesson-03)
 
-### Sample (Representative, Proxy)
+### Sample (Representative, Proxy) <a id="sample"/>
 
 A subset of the units of a [population](#population). The sample serves as a proxy, or representative sample subset of the true nature of the [population](#population). [^48] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
@@ -375,6 +379,8 @@ The categories offer an alternative grouping that helps to find related terms.
 ## Storage and Physical Data Sources <a id="storage"/>
 
 ## Types of Data <a id="data-types"/>
+
+## Operations <a id="operations"/>
 
 # Lessons Index
 
