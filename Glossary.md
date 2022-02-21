@@ -36,7 +36,7 @@ A branch of computer science that allows machines to acquire and apply knowledge
 
 ### Bar Chart
 
-TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
+TODO: ....vertical, horizontal, grouped, stacked. [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### BEHAVIOUR(AL) ANALYTICS <a id="behavioural-analytics"/>
 
@@ -71,6 +71,10 @@ Another name for bucketing is [binning](#binning). [#operations](#operations) [#
 
 Determines whether observations made in one variable are the reason for an effect observed in another variable, possibly occurring at a later time. See also [correlation mining](#correlation-mining) and [predictive analytics](#predictive-analytics). [#data-analysis](#data-analysis)
 
+### Chartjunk
+
+TODO: [#lesson-14](#lesson-14)
+
 ### CLASSIFICATION
 
 An approach in [machine learning](#machine-learning) where a program is [trained](#model-fitting) with labeled [data](#data) to determine which category a new  observation belongs to. See also [clustering](#clustering). [#data-analysis](#data-analysis)
@@ -87,7 +91,7 @@ Access to data, [storage](#distributed-file-system), applications, and other com
 
 Cloud storage is a [cloud](#cloud) computing model that stores data on the Internet through a cloud computing provider who manages and operates data storage as a service. It’s delivered on demand with just-in-time capacity and costs, and eliminates buying and managing your own data storage infrastructure. This gives you agility, global scale and durability, with “anytime, anywhere” data access. [^] [#storage](#storage) [#lesson-11](#lesson-11)
 
-[^]: “What is Cloud Storage? | AWS” .[Online]. Available: https://aws.amazon.com/what-is-cloud-storage/
+[^]: “What is Cloud Storage? | AWS” . [Online]. Available: https://aws.amazon.com/what-is-cloud-storage/
 
 ### CLUSTER (Compute)
 
@@ -96,6 +100,10 @@ A [network](#network) of computers (or compute nodes) that work on tasks togethe
 ### CLUSTERING
 
 A [machine learning](#machine-learning) technique that groups similar data points together to uncover hidden structure. Unlike [classification](#classification), clustering does not require labelled training data and is a type of unsupervised learning. [#data-analysis](#data-analysis)
+
+### Colour
+
+TODO: Synonyms: Color map, Color palette, Color scheme. Color(Hue), Color(Shade) [visualization](#visualization) .... [[#lesson-14](#lesson-14)
 
 ### COMPUTING WITH DATA
 
@@ -219,6 +227,10 @@ In computing, a data warehouse, also known as an enterprise data warehouse, is a
 
 [^]: Data Warehouse Interview Questions | TestDome. https://www.testdome.com/d/data-warehouse-interview-questions/1203
 
+### Data-to-ink ratio
+
+ TODO: to include or not include ?. [#lesson-14](#lesson-14)
+
 ### DATABASE
 
 An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3] [#storage](#storage) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) 
@@ -317,7 +329,7 @@ A heat map (or heatmap) is a data [visualization](#visualization) technique that
 
 ### Histogram
 
-A histogram is a graphical representation that organizes a group of data points into user-specified ranges. Similar in appearance to a bar graph, the histogram condenses a data series into an easily interpreted [#visualization](#visualization) by taking many data points and grouping them into logical, ordered ranges or bins. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
+A histogram is a graphical representation that organizes a group of data points into user-specified ranges. Similar in appearance to a bar graph, the histogram condenses a data series into an easily interpreted [#visualization](#visualization) by taking many data points and grouping them into logical, ordered ranges or bins. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### HTML
 
@@ -349,9 +361,13 @@ A _join_ operation is used to [combine](#data-transformation) rows from two or m
 
 Aims to extract [insight](#insight) from data in [databases](#database). It involves a [number of steps](#data-science) including the evaluation and possibly [interpretation](#visualization) of [patterns](#data-mining) to gather [insight](#insight) and knowledge.[^35] [#disciplines](#disciplines)
 
+### Lie factor
+
+TODO: [#lesson-14](#lesson-14)
+
 ### Line Plot
 
-TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
+TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### Logical operations
 
@@ -393,9 +409,13 @@ Null or NULL is a special marker to indicate that a value does not exist. A null
 
 [Plot](#visualization) pairwise relationships in a dataset. [#lesson-09](#lesson-09)
 
+### Pictographs Plot
+
+TODO: .... [visualization](#visualization) .... [#lesson-14](#lesson-14)
+
 ### Pie Chart
 
-TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
+TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### Pivot
 
@@ -439,6 +459,10 @@ Sometimes abbreviated as _repo_, it is a synonym for [database](#database). [#st
 ### Sample (Representative, Proxy) <a id="sample"/>
 
 A subset of the units of a [population](#population). The sample serves as a proxy, or representative sample subset of the true nature of the [population](#population). [^48] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
+
+### Scatter Plot
+
+TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### Schema (Database)
 
