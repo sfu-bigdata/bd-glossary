@@ -22,6 +22,10 @@ A sequence of instructions telling a computer how to answer a specific question.
 
 The process of using [statistical models](#machine-learning) and software to [transform data](#data-transformation) into useful [information](#information) and to draw conclusions towards effective decision making.[^3],[^4] [#disciplines](#disciplines)
 
+### API
+
+API is an acronym for Application Programming Interface. Through the API, a Program (like a website or code) accesses an Application (a database or another application) through a common language, protocol (or Interface) through which the two systems interact. [#lesson-10](#lesson-10)
+
 ### Arithmetic operations
 
 Includes basic statistics: such as _sums_, _counts_, _means_ (or _averages_), _medians_, _percentiles_, or [_standard deviations_](#standard-deviation). [#operations](#operations) [#lesson-08](#lesson-08)
@@ -71,13 +75,17 @@ Determines whether observations made in one variable are the reason for an effec
 
 An approach in [machine learning](#machine-learning) where a program is [trained](#model-fitting) with labeled [data](#data) to determine which category a new  observation belongs to. See also [clustering](#clustering). [#data-analysis](#data-analysis)
 
+### Cloud (“The Cloud”) <a id="cloud"/>
+
+Any resource stored on the internet (instead of locally on a PC) is said to be stored on the cloud. Cloud storage is convenient in that clients do not have to manage the storage and infrastructure; they just access it from other internet-connected devices. [#lesson-10](#lesson-10)
+
 ### CLOUD COMPUTING
 
 Access to data, [storage](#distributed-file-system), applications, and other computing resources made available to many users on-demand over the [Internet](#network) to improve [scalable computing power](#advanced-research-computing) and reliability. [^9],[^10] [#disciplines](#disciplines)
 
-### CLUSTER
+### CLUSTER (Compute)
 
-A [network](#network) of computers (or compute nodes) that work on tasks together in parallel. The concept is different from [clustering](#clustering).
+A [network](#network) of computers (or compute nodes) that work on tasks together in parallel. A cluster is one way to address [Big Data](#big-data) needs. The concept is different from [clustering](#clustering). [#lesson-10](#lesson-10)
 
 ### CLUSTERING
 
@@ -187,7 +195,7 @@ A representation of a date (may include time) e.g. `YYYYMMDD` or  `YYYYMMDDhhmms
 
 ### DATABASE
 
-An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3] [#storage](#storage)
+An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3] [#storage](#storage) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) 
 
 ### Dendrogram
 
@@ -243,6 +251,10 @@ Unlike [SQL](#sql) databases with a [tabular](#tabular-data) [structure](#struct
 [Fitting](#model-fitting) a [model](#machine-learning) that can generate synthetic data beyond [given observations](#data). 
 For example, a language model trained on a collection of text can be used to suggest possible words to modify or continue a given phrase. [^28]
 
+### GIS
+
+A geographic information system (GIS) is a system that creates, manages, analyzes, and maps all types of data. GIS connects data to a map, integrating location data (where things are) with all types of descriptive information (what things are like there). This provides a foundation for mapping and analysis that is used in science and almost every industry. GIS helps users understand patterns, relationships, and geographic context. The benefits include improved communication and efficiency as well as better management and decision making. [^54] [#storage](#storage) [#lesson-10](#lesson-10)
+
 ### GOODNESS OF FIT
 
 Summarizes how well the values observed in the data agree with those values expected by the model. [#processing](#processing)
@@ -258,6 +270,10 @@ A heat map (or heatmap) is a data [visualization](#visualization) technique that
 ### Histogram
 
 A histogram is a graphical representation that organizes a group of data points into user-specified ranges. Similar in appearance to a bar graph, the histogram condenses a data series into an easily interpreted [#visualization](#visualization) by taking many data points and grouping them into logical, ordered ranges or bins. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
+
+### HTML
+
+Hyper Text Markup Language is coding language for designing documents (webpages) to be displayed in a web browser. [#lesson-10](#lesson-10)
 
 ### INFORMATION
 
@@ -351,6 +367,10 @@ A type of [statistical model](#machine-learning) that [predicts](#predictive-ana
 ### RELATIONSHIP MINING
 
 Relationship mining examines associations between two or more variables in a dataset, for example, by [correlation mining](#correlation-mining) and [causal mining](#causal-inference). [#data-analysis](#data-analysis)
+
+### Repository (data repo) <a id="repository"/>
+
+Sometimes abbreviated as _repo_, it is a synonym for [database](#database). [#storage](#storage) [#lesson-10](#lesson-10)
 
 ### Sample (Representative, Proxy) <a id="sample"/>
 
@@ -450,6 +470,10 @@ Whether majority or minorities groups exist in a dataset; imbalance is common an
 
 Data that is not organized in a pre-defined way under a single data model. Examples include text, images, audio, or video. [^26],[^27] [#data-types](#data-types), [#lesson-03](#lesson-03)
 
+### URL
+
+The URL (short for Uniform Resource Locator) is the location of a webpage or file (including pictures, videos, or CSV) on the Internet. Files (or resources) stored on the cloud have unique URLs. [#lesson-10](#lesson-10)
+
 ### Variance
 
 In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its [population](#population) mean or [sample](#sample) mean. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)
@@ -469,6 +493,27 @@ The technique for creating images, diagrams, or animations to communicate a mess
 ### VISUALIZATION DASHBOARD
 
 Multiple interactive graphical views of [data](#data) that would be too complex if presented in a [single visualization](#visualization), for instance, to support complex narratives and [insights](#insight) by showing key performance indicators (KPIs) for monitoring of a business or other processes. [#data-analysis](#data-analysis) 
+
+### Web scraping
+
+TODO: Maybe(?)
+
+Web Scraping is when you programmatically extract data from a website
+
+Before Scraping
+
+* Check to see if CSV, JSON, or XML version of an HTML page are available
+* Check that you have permission/legality to scrape
+
+If you do scrape
+
+* Be careful to not to overburden the site with your requests
+* Test code on small requests
+* Save the results of each request, so you don’t have to repeat the request unnecessarily
+
+[#lesson-10](#lesson-10)
+
+[^]: CMPT 733
 
 ### Word Cloud
 
@@ -632,3 +677,5 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 [^52]: "Parse". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/parse
 
 [^53]: "Aggregations". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/aggregation
+
+[^54]: “What is GIS?”. [Online]. Available: https://www.esri.com/en-us/what-is-gis/overview
