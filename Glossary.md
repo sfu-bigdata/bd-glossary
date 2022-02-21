@@ -40,6 +40,10 @@ A type of business [analytics](#analytics) that examines behavioural data about 
 
 Refers to the massive amounts of [data](#data) generated around the world that is too large, complex or varied for traditional processing software. Its potential to be analyzed for valuable information is enabled by technology such as [advanced research computing](#advanced-research-computing). [^7],[^8] [#disciplines](#disciplines) [#lesson-04](#lesson-04)
 
+### Bar Chart
+
+TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
+
 ### Big data isn't always big.
 
 Many describe it with “[The Four V’s](http://www.ibmbigdatahub.com/infographic/four-vs-big-data)” and there exist other definitions as well, including the [5 Vs](https://bicorner.com/2015/04/17/why-only-one-of-the-5-vs-of-big-data-really-matters/)' or [7 V's](http://dataconomy.com/seven-vs-big-data/). [#disciplines](#disciplines) [#lesson-04](#lesson-04)
@@ -52,6 +56,10 @@ Many describe it with “[The Four V’s](http://www.ibmbigdatahub.com/infograph
 ### Binning
 
 An operation on a range of numbers values in which the entire range is divided into _bins_ (or _intervals_) of a _bin width_ (or _bin size_, _step size_). Another name for binning is *bucketing* [#operations](#operations) [#lesson-08](#lesson-08)
+
+### Box Plot 
+
+TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
 
 ### Bucketing
 
@@ -91,7 +99,7 @@ A model in information security designed to govern and evaluate how an organizat
 
 ### Correlation
 
-Correlation or dependence is any statistical relationship between two random variables or bivariate data, whether causal or not. In the broadest sense, correlation is any statistical association, though it accurately refers to the degree to which a pair of variables are linearly related. [#lesson-05](#lesson-05)
+Correlation or dependence is any statistical relationship between two random variables or bivariate data, whether causal or not. In the broadest sense, correlation is any statistical association, though it accurately refers to the degree to which a pair of variables are linearly related. Correlation is not equivalent to [causation](#causal-inference). [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09)
 
 ### Critical Thinking
 
@@ -111,7 +119,7 @@ TODO:
 
 ### DATA CLEANING
 
-Careful removal of erroneous or unreliable data points. Also see [clean and dirty data](#clean). [#processing](#processing)
+Careful removal of erroneous or unreliable data points. Also see [clean and dirty data](#clean-dirty). [#processing](#processing)
 
 ### DATA EXPLORATION AND PREPARATION
 
@@ -153,6 +161,10 @@ A mechanism that stores files on servers and allows clients, with permission, to
 
 Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being Outdated, insecure, incomplete, incomplete (missing), Inaccurate data, Misplaced data, Inconsistent, or duplicated.[^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
 
+### Data Analysis [TODO: Seems more like a definition for Data Transformation(?)]
+
+Data analysis is a process of inspecting, cleansing, transforming, and modelling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. [#lesson-09](#lesson-09)
+
 ### Data Bias
 
 Whether the (sample) data’s [balance](#balance) in the is representative [sample](#sample) or not. If the balance is representative, then there is No Bias. When the balance is not representative, then the dataset is biased. [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
@@ -186,6 +198,10 @@ Multiple characters together are called strings. e.g ‘aeiou’ is a string of 
 
 #### Date / Datetime
 A representation of a date (may include time) e.g. `YYYYMMDD` or  `YYYYMMDDhhmmss`. 
+
+### Dendrogram
+
+A dendrogram is a [diagram](#visualization) representing a tree. This diagrammatic representation is frequently used in different contexts: in hierarchical [clustering](# clustering), it illustrates the arrangement of the clusters produced by the corresponding analyses. [#lesson-09](#lesson-09)
 
 ### FEATURE
 
@@ -237,6 +253,10 @@ Summarizes how well the values observed in the data agree with those values expe
 
 TODO: Collect and [aggregations](#aggregation) and [transformations](#data-transformations) summarize.... [#operations](#operations) [#lesson-07](#lesson-07)
 
+### Heatmap
+
+A heat map (or heatmap) is a data [visualization](#visualization) technique that shows magnitude of a phenomenon as color in two dimensions. The variation in color may be by hue or intensity, giving obvious visual cues to the reader about how the phenomenon is clustered or varies over space. [#lesson-09](#lesson-09)
+
 ### Histogram
 
 A histogram is a graphical representation that organizes a group of data points into user-specified ranges. Similar in appearance to a bar graph, the histogram condenses a data series into an easily interpreted [#visualization](#visualization) by taking many data points and grouping them into logical, ordered ranges or bins. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
@@ -257,6 +277,10 @@ A system of [connected](#network), "smart" objects, including smartphones, weara
 
 Aims to extract [insight](#insight) from data in [databases](#database). It involves a [number of steps](#data-science) including the evaluation and possibly [interpretation](#visualization) of [patterns](#data-mining) to gather [insight](#insight) and knowledge.[^35] [#disciplines](#disciplines)
 
+### Line Plot
+
+TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
+
 ### Logical operations
 
 Operations and manipulations according to the rules of logic and boolean algebra. Logical operations evaluate _truth values_ (true or false) of a logical statement. Logical statements are constructed with statements including conjunction (_and_), the disjunction (_or_), and the negation (_not_), along with comparators _greater than_, _less than_, and _equals to_. [#operations](#operations) [#lesson-08](#lesson-08)
@@ -272,6 +296,10 @@ Also called "data about data," it provides a [structured description](#structure
 ### MODEL FITTING
 
 Optimizes [how well](#goodness-of-fit) a [machine learning model](#machine-learning) can make predictions for previously unseen test data. 
+
+### Model
+
+TODO: [#lesson-09](#lesson-09)
 
 ### NETWORK
 
@@ -296,6 +324,14 @@ A process for analyzing current [data](#data) to determine future events or othe
 ### PRESCRIPTIVE ANALYTICS
 
 A type of [analytics](#analytics) with the goal of using data to determine the best course of action for a specific scenario. [^3] [#data-analysis](#data-analysis)
+
+### Pair plot
+
+[Plot](#visualization) pairwise relationships in a dataset. [#lesson-09](#lesson-09)
+
+### Pie Chart
+
+TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
 
 ### Pivot
 
@@ -338,13 +374,17 @@ A subset of the units of a [population](#population). The sample serves as a pro
 
 TODO: [#operations](#operations) [#lesson-07](#lesson-07)
 
+### Skewness
+
+Skewness refers to a distortion or asymmetry that deviates from the symmetrical bell curve, or normal distribution, in a set of data. If the curve is shifted to the left or to the right, it is said to be skewed. [#lesson-09](#lesson-09)
+
 ### Sort
 
 TODO: Also called _rank_... [transformations](#data-transformations).... [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### Standard Deviation
 
-Standard deviation is the square root of [variance](#variance). It is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)
+Standard deviation is the square root of [variance](#variance). It is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)[#lesson-09](#lesson-09)
 
 ### Statistics
 
@@ -427,6 +467,14 @@ Multiple interactive graphical views of [data](#data) that would be too complex 
 ### Variance
 
 In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its [population](#population) mean or [sample](#sample) mean. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)
+
+### Violin Plot
+
+TODO: [#lesson-09](#lesson-09)
+
+### Word Cloud
+
+TODO: [#lesson-09](#lesson-09)
 
 # Categories
 
