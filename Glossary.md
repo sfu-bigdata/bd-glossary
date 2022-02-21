@@ -153,6 +153,10 @@ Exploratory data analysis (EDA) is a formative step in the [creation of models](
 
 The process of combining information from different data sources in preparation for data processing. [^4] [#processing](#processing) [#lesson-06](#lesson-06) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
 
+### Data Journalism
+
+TODO: [#disciplines](#disciplines) [#lesson-13](#lesson-13)
+
 ### Data Lake
 
 A data lake is a storage repository that holds a vast amount of raw data in its native format until it is needed for analytics applications. While a traditional [data warehouse](#data warehouse) stores data in hierarchical dimensions and tables, a data lake uses a flat architecture to store data, primarily in files or object storage. [^] [#storage](#storage) [#lesson-11](#lesson-11)
@@ -319,6 +323,10 @@ A histogram is a graphical representation that organizes a group of data points 
 
 Hyper Text Markup Language is coding language for designing documents (webpages) to be displayed in a web browser. [#lesson-10](#lesson-10)
 
+### Infographics
+
+TODO: [#visualization](#visualization) [#lesson-13](#lesson-13)
+
 ### INFORMATION
 
 Meaning encoded in [data](#data) that answers questions to better understand a concept by interpreting data within the context of its problem setting or domain. See also data analysis [algorithms](#algorithm) and information [visualization](#visualization).  [^38]
@@ -466,6 +474,10 @@ Standard deviation is the square root of [variance](#variance). It is a measure 
 
 Statistics is the discipline concerned with developing and studying methods for collecting, organizing, analyzing, interpreting and presenting empirical data. Common statistical metrics are mean (average), median, mode and percentiles. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
 
+### Storytelling
+
+TODO: [#disciplines](#disciplines) [#lesson-13](#lesson-13)
+
 ### String or character operations
 
 Manipulations with [string data types](#data-types). [#operations](#operations) [#lesson-08](#lesson-08)
@@ -516,6 +528,10 @@ Datasets are commonly messy. Getting data into tidy [^51] format requires upfron
 
 [#lesson-06](#lesson-06)
 
+### Time Series
+
+TODO: _(better connected with Video 8(?), but mentioned in 13)_ [#lesson-13](#lesson-13)
+
 ### Transpose
 
 A mathematical operation on a table where a new table is obtained by interchanging each row and the corresponding column. [#operations](#operations) [#lesson-08](#lesson-08)
@@ -550,11 +566,11 @@ TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
 
 ### VISUALIZATION
 
-Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11],[^12] [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
+Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11],[^12] [#data-analysis](#data-analysis) [#lesson-05] [#lesson-05] (#lesson-09)(#lesson-09) (#lesson-13)(#lesson-13)
 
 ### Visualization
 
-The technique for creating images, diagrams, or animations to communicate a message. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
+The technique for creating images, diagrams, or animations to communicate a message. Also referred to as _Viz_. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) (#lesson-09)(#lesson-09) (#lesson-13)(#lesson-13)
 
 ### VISUALIZATION DASHBOARD
 
