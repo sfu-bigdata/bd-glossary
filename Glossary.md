@@ -1,4 +1,5 @@
 
+
 <!-- ![](https://www.sfu.ca/content/dam/sfu/images/brand_extension/SFU-Big-Data_Logo.png) -->
 <!-- **[Table of Contents](#table-of-contents)** -->
 
@@ -101,7 +102,7 @@ Exploratory data analysis (EDA) is a formative step in the [creation of models](
 
 ### DATA INTEGRATION
 
-The process of combining information from different data sources in preparation for data processing. [^4] [#processing](#processing)
+The process of combining information from different data sources in preparation for data processing. [^4] [#processing](#processing) [#lesson-06](#lesson-06) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
 
 ### DATA MINING
 
@@ -237,7 +238,7 @@ A part of [artificial intelligence](#artificial-intelligence) that enables machi
 
 ### METADATA
 
-Also called "data about data," it provides a [structured description](#structured-data) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33] [#data-types](#data-types) [#lesson-03](#lesson-03)
+Also called "data about data," it provides a [structured description](#structured-data) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33] [#data-types](#data-types) [#lesson-03](#lesson-03) [#lesson-11](#lesson-11)
 
 ### MODEL FITTING
 
@@ -254,6 +255,10 @@ Mapping and measuring the relationships between people, groups, organizations, c
 ### NO-SQL DATABASE
 
 A type of database designed to handle [large](#advanced-research-computing) volumes of data that [may not have a structure](#flexible-schema).  [#storage](#storage)
+
+### Null values
+
+Null or NULL is a special marker to indicate that a value does not exist. A null value indicates a lack of a value, which is not the same thing as a value of zero. [^50] [#lesson-06](#lesson-06)
 
 ### PREDICTIVE ANALYTICS
 
@@ -319,6 +324,16 @@ TODO: each holds different attributes in separate columns. [#data-types](#data-t
 
 A process of analyzing [text](#unstructured-data) to capture key concepts, themes, relationships and trends.[^36] [#data-analysis](#data-analysis)
 
+### Tidy tables
+
+Datasets are commonly messy. Getting data into tidy [^51] format requires upfront work, but that work pays off in the long term. There are three interrelated rules which make a dataset tidy:
+
+1.	Each variable must have its own column.
+2.	Each observation must have its own row.
+3.	Each value must have its own cell.
+
+[#lesson-06](#lesson-06)
+
 ### Tree structure
 
 A _tree_ is a widely used data type that simulates a hierarchical tree structure, with a root value, branches, leaves, and subtrees of children with a parent node. [^42] [#data-types](#data-types) [#data-types](#data-types) [#lesson-03](#lesson-03)
@@ -338,7 +353,6 @@ Visual representation of data including plots, charts, maps and infographics to 
 ### Visualization
 
 The technique for creating images, diagrams, or animations to communicate a message. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
-
 
 ### VISUALIZATION DASHBOARD
 
@@ -479,20 +493,24 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^40]: "EI-ISAC Cybersecurity Spotlight – CIA Triad" [Online]. Available: https://www.cisecurity.org/spotlight/ei-isac-cybersecurity-spotlight-cia-triad/
 
-[^41]: "Data Literacy: What It Is and How to Measure It in the Public Service". Statistics Canada. [Online]. Available at: https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2019003-eng.htm
+[^41]: "Data Literacy: What It Is and How to Measure It in the Public Service". Statistics Canada. [Online]. Available: https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2019003-eng.htm
  
-[^42]: "Tree" from the National Institute of Standards and Technology. [Online]. Available at: https://xlinux.nist.gov/dads/HTML/tree.html
+[^42]: "Tree" from the National Institute of Standards and Technology. [Online]. Available: https://xlinux.nist.gov/dads/HTML/tree.html
 
-[^43]: “Critical Thinking”. [Online]. Available at: https://www.lexico.com/definition/critical_thinking 
+[^43]: "Critical Thinking". [Online]. Available: https://www.lexico.com/definition/critical_thinking
 
-[^44]: “Critical Thinking”. [Online]. Available at: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking 
+[^44]: "Critical Thinking". [Online]. Available: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking 
 
-[^45]: “Data, statistical information and statistics: Data quality” [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch3/quality-qualite/5214788-eng.htm.
+[^45]: "Data, statistical information and statistics: Data quality" [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch3/quality-qualite/5214788-eng.htm.
 
-[^46]: “The 7 Most Common Types of Dirty Data (and how to clean them)”. [Online]. Available: https://www.ringlead.com/blog/the-7-most-common-types-of-dirty-data-and-how-to-clean-them
+[^46]: "The 7 Most Common Types of Dirty Data (and how to clean them)". [Online]. Available: https://www.ringlead.com/blog/the-7-most-common-types-of-dirty-data-and-how-to-clean-them
 
-[^47]: “Population”. [Online]. Available at: https://www.lexico.com/definition/population
+[^47]: "Population". [Online]. Available: https://www.lexico.com/definition/population
 
-[^48]: “Statistics: Power from Data! Glossary” [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#Sample
+[^48]: "Statistics: Power from Data! Glossary" [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#Sample
 
-[^49]: “Internet Privacy.” [Online]. Available: https://www.techopedia.com/definition/24954/internet-privacy
+[^49]: "Internet Privacy" [Online]. Available: https://www.techopedia.com/definition/24954/internet-privacy
+
+[^50]: "Null (SQL)". [Online]. Wikipedia, The Free Encyclopedia. Available: https://en.wikipedia.org/w/index.php?title=Null_(SQL)
+
+[^51]: "Tidy Data". [Online]. R for Data Science. Available: https://r4ds.had.co.nz/tidy-data.html
