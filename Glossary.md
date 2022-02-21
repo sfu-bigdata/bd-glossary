@@ -286,6 +286,10 @@ _Yet Another Markup Language_ is a human-readable file format that stores data u
 
 Unlike [SQL](#sql) databases with a [tabular](#tabular-data) [structure](#structured-data), objects or documents stored in a flexible schema can be different from one another.[^32] [#data-types](#data-types)
 
+### Foreign key
+
+TODO: [#query](#query) [#lesson-12](#lesson-12)
+
 ### GENERATIVE MODELING
 
 [Fitting](#model-fitting) a [model](#machine-learning) that can generate synthetic data beyond [given observations](#data). 
@@ -326,6 +330,12 @@ Actionable [information](#information) gained by interpreting [data analysis](#a
 ### IOT (INTERNET OF THINGS) <a id="iot"/>
 
 A system of [connected](#network), "smart" objects, including smartphones, wearables and smart-appliances, that collect and exchange information without requiring human interaction. The IoT is a huge generator of data.[^17],[^18] [#storage](#storage)
+
+### Join
+
+A _join_ operation is used to [combine](#data-transformation) rows from two or more tables, based on a related column between them. [^] [#query](#query) [#operations](#operations) [#lesson-12](#lesson-06)[#lesson-06] (#lesson-08)[#lesson-08] (#lesson-12)
+
+[^]: “SQL Joins – W3 Schools”. [Online]. Available: https://www.w3schools.com/sql/sql_join.asp
 
 ### KNOWLEDGE DISCOVERY
 
@@ -394,6 +404,12 @@ A process for analyzing current [data](#data) to determine future events or othe
 ### PRESCRIPTIVE ANALYTICS
 
 A type of [analytics](#analytics) with the goal of using data to determine the best course of action for a specific scenario. [^3] [#data-analysis](#data-analysis)
+
+### Primary key
+
+In the [relational model](#database-model) of [databases](#database), a primary key is a specific choice of a minimal set of attributes that uniquely specify a tuple in a relation. Informally, a primary key is "which attributes uniquely identify a record," and in simple cases constitute a single attribute: a unique ID. [^] [#query](#query) [#lesson-12](#lesson-12)
+
+[^]: Models - Micron. https://kimtoo.gitbook.io/workspace/models
 
 ### Query (Data) <a id="query"/>
 
@@ -464,7 +480,7 @@ Indexing (or selecting) string characters by their position, _zero-th_ character
 
 #### Concatenation
 
-Combining strings end-to-end.
+Combining items (strings) end-to-end.
 
 ### STRUCTURED DATA
 
@@ -511,6 +527,10 @@ A _tree_ is a widely used data type that simulates a hierarchical tree structure
 ### Unbalanced Data
 
 Whether majority or minorities groups exist in a dataset; imbalance is common and sometimes expected. [#lesson-04](#lesson-04)
+
+### Union
+
+A _union_ operation is used to [combine](#data-transformation) tables with the same number and [types](#data-types) of columns. This operation is like vertical [concatenation](#concatenation). [^] [#query](#query) [#operations](#operations) [#lesson-12](#lesson-12)
 
 ### UNSTRUCTURED DATA
 
