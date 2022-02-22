@@ -37,7 +37,7 @@ A branch of computer science that allows machines to acquire and apply knowledge
 
 ### Bar Chart
 
-TODO: ....vertical, horizontal, grouped, stacked. [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
+TODO: Bar Chart ....vertical, horizontal, grouped, stacked. [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### BEHAVIOUR(AL) ANALYTICS <a id="behavioural-analytics"/>
 
@@ -62,7 +62,7 @@ An operation on a range of numbers values in which the entire range is divided i
 
 ### Box Plot 
 
-TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
+TODO: Box Plot .. [visualization](#visualization) .... [#lesson-09](#lesson-09)
 
 ### Bucketing
 
@@ -74,7 +74,8 @@ Determines whether observations made in one variable are the reason for an effec
 
 ### Chartjunk
 
-TODO: [#lesson-14](#lesson-14)
+TODO: Chartjunk [#lesson-14](#lesson-14)
+See also: [data-to-ink-ratio](#data-to-ink-ratio)
 
 ### CLASSIFICATION
 
@@ -104,7 +105,7 @@ A [machine learning](#machine-learning) technique that groups similar data point
 
 ### Colour
 
-TODO: Synonyms: Color map, Color palette, Color scheme. Color(Hue), Color(Shade) [visualization](#visualization) .... [[#lesson-14](#lesson-14)
+TODO: Colour ... Synonyms: Color map, Color palette, Color scheme. Color(Hue), Color(Shade) [visualization](#visualization) .... [[#lesson-14](#lesson-14)
 
 ### COMPUTING WITH DATA
 
@@ -128,7 +129,7 @@ The objective analysis and evaluation of an issue to form a judgement [^43]. The
 
 ### Crowdsourcing
 
-TODO: [#lesson-03](#lesson-03)
+TODO. Crowdsourcing [#lesson-03](#lesson-03)
 
 ### CYBERSECURITY
 
@@ -144,7 +145,7 @@ Data that contains erroneous or unreliable data points is called dirty data. Dir
 
 ### DATA AGGREGATION
 
-TODO:
+TODO: DATA AGGREGATION
 
 ### Data Analysis [TODO: Seems more like a definition for Data Transformation(?)]
 
@@ -168,7 +169,7 @@ The process of combining information from different data sources in preparation 
 
 ### Data Journalism
 
-TODO: [#disciplines](#disciplines) [#lesson-13](#lesson-13)
+TODO: Data Journalism [#disciplines](#disciplines) [#lesson-13](#lesson-13)
 
 ### Data Lake
 
@@ -196,7 +197,7 @@ Refers to the vast range of technologies, protocols, and concepts that give indi
 
 The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate, consistent, complete and accurate. 
 
-TODO: Consolidate. The current description is provided by BCA ("_this is how we want to define it_"). Our description is from _Stats Canada_: 
+TODO: Data Quality ... Consolidate. The current description is provided by BCA ("_this is how we want to define it_"). Our description is from _Stats Canada_: 
 Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
 
 ### DATA REPRESENTATION
@@ -235,7 +236,7 @@ In computing, a data warehouse, also known as an enterprise data warehouse, is a
 
 ### Data-to-ink ratio
 
- TODO: to include or not include ?. [#lesson-14](#lesson-14)
+A measure of conciseness of a [visualization](#visualization) that discourages the use of unnecessary decorations, but seeks to display all of the relevant data as clearly as possible. [#lesson-14](#lesson-14)
 
 ### DATABASE
 
@@ -305,7 +306,7 @@ _Yet Another Markup Language_ is a human-readable file format that stores data u
 
 ### Filter
 
-TODO: ...not restricted to [SQL](#sql)... [#operations](#operations) [#lesson-07](#lesson-07)
+TODO: Filter ...not restricted to [SQL](#sql)... [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### FLEXIBLE SCHEMA
 
@@ -313,7 +314,7 @@ Unlike [SQL](#sql) databases with a [tabular](#tabular-data) [structure](#struct
 
 ### Foreign key
 
-TODO: skip? ...not restricted to [SQL](#sql)... [#query](#query) [#lesson-12](#lesson-12)
+TODO: Foreign key, skip? ...not restricted to [SQL](#sql)... [#query](#query) [#lesson-12](#lesson-12)
 
 ### GENERATIVE MODELING
 
@@ -353,7 +354,7 @@ HyperText Markup Language is a coding language for designing documents (webpages
 
 ### Infographics
 
-TODO: [#visualization](#visualization) [#lesson-13](#lesson-13)
+TODO: Infographics ... [#visualization](#visualization) [#lesson-13](#lesson-13)
 
 ### INFORMATION
 
@@ -377,11 +378,11 @@ Aims to extract [insight](#insight) from data in [databases](#database). It invo
 
 ### Lie factor
 
-TODO: [#lesson-14](#lesson-14)
+TODO: Lie factor ... [#lesson-14](#lesson-14)
 
 ### Line Plot
 
-TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
+TODO: Line Plot .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### Logical operations
 
@@ -397,7 +398,7 @@ Also called "data about data," it provides a [structured description](#structure
 
 ### Model
 
-TODO: [#lesson-09](#lesson-09)
+TODO: Model .... [#lesson-09](#lesson-09)
 
 ### MODEL FITTING
 
@@ -425,11 +426,11 @@ Null or NULL is a special marker to indicate that a value does not exist. A null
 
 ### Pictographs Plot
 
-TODO: .... [visualization](#visualization) .... [#lesson-14](#lesson-14)
+TODO: Pictographs Plot .... [visualization](#visualization) .... [#lesson-14](#lesson-14)
 
 ### Pie Chart
 
-TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
+TODO: Pie Chart .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### Pivot
 
@@ -455,7 +456,7 @@ In the [relational model](#database-model) of [databases](#database), a primary 
 
 ### Query (Data) <a id="query"/>
 
-TODO: check. Queries are not restricted to SQL
+TODO: Query (data) check. Queries are not restricted to SQL
 A query is a request for data or information from a [table](#tabular) or combination of tables. This data may be generated as results returned by Structured Query Language ([SQL](#sql)) or as pictorials, graphs or complex results, e.g., trend analyses from data-mining tools. [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
 
 [^]: What is the definition of a query in a database .... https://answerthirst.com/what-is-the-definition-of-a-query-in-a-database/
@@ -478,7 +479,7 @@ A subset of the units of a [population](#population). The sample serves as a pro
 
 ### Scatter Plot
 
-TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
+TODO: Scatter Plot .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### Schema (Database)
 
@@ -492,7 +493,7 @@ Efforts to ensure privacy and to protect data, devices and computing systems fro
 
 ### Select
 
-TODO: ...not restricted to [SQL](#sql)... [#operations](#operations) [#lesson-07](#lesson-07)
+TODO: Select ...not restricted to [SQL](#sql)... [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### Skewness
 
@@ -500,7 +501,7 @@ Skewness refers to a distortion or asymmetry that deviates from the symmetrical 
 
 ### Sort
 
-TODO: skip? Also called _rank_... [transformations](#data-transformations).... [#operations](#operations) [#lesson-07](#lesson-07)
+TODO: Sort ..... skip? Also called _rank_... [transformations](#data-transformations).... [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### SQL
 
@@ -516,7 +517,7 @@ Statistics is the discipline concerned with developing and studying methods for 
 
 ### Storytelling
 
-TODO: [#disciplines](#disciplines) [#lesson-13](#lesson-13)
+TODO: Storytelling ...  [#disciplines](#disciplines) [#lesson-13](#lesson-13)
 
 ### String or character operations
 
@@ -548,11 +549,11 @@ Data items or observations that are organized as rows that contain values under 
 
 #### Narrow table format
 
-TODO: one column contains all the attributes and another column contains the lists of values [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
+TODO: narrow table format ... one column contains all the attributes and another column contains the lists of values [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 #### Wide table format 
 
-TODO: each holds different attributes in separate columns [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
+TODO: wide table format ... each holds different attributes in separate columns [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 ### TEXT MINING
 
@@ -570,7 +571,7 @@ Datasets are commonly messy. Getting data into tidy [^51] format requires upfron
 
 ### Time Series
 
-TODO: _(better connected with Video 8(?), but first mentioned in 13)_ [#lesson-13](#lesson-13)
+TODO: Time series ...._(better connected with Video 8(?), but first mentioned in 13)_ [#lesson-13](#lesson-13)
 
 ### Transpose
 
@@ -604,15 +605,15 @@ In probability theory and statistics, variance is the expectation of the squared
 
 ### Violin Plot
 
-TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
+Similar to a [histogram](#histogram), this plot type shows how values of a variable are distributed in a dataset, indicating more often occurring values with thickness that extends symmetrically around a central axis. The name refers to the typical look that most datasets have in this [visualization](#visualization) method. [box plots](#box-plot) [#lesson-09](#lesson-09)
 
 ### VISUALIZATION
 
-Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11],[^12] [#data-analysis](#data-analysis) [#lesson-05] [#lesson-05] (#lesson-09)(#lesson-09) (#lesson-13)(#lesson-13)
+Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11],[^12] [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13)
 
 ### Visualization
 
-The technique for creating images, diagrams, or animations to communicate a message. Also referred to as _Viz_. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) (#lesson-09)(#lesson-09) (#lesson-13)(#lesson-13)
+The technique for creating images, diagrams, or animations to communicate a message. Also referred to as _Viz_. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13)
 
 ### VISUALIZATION DASHBOARD
 
@@ -620,28 +621,12 @@ Multiple interactive graphical views of [data](#data) that would be too complex 
 
 ### Web scraping
 
-TODO: needed? skip or keep(?)
-
-Web Scraping is when you programmatically extract data from a website
-
-Before Scraping
-
-* Check to see if CSV, JSON, or XML version of an HTML page are available
-* Check that you have permission/legality to scrape
-
-If you do scrape
-
-* Be careful to not to overburden the site with your requests
-* Test code on small requests
-* Save the results of each request, so you don’t have to repeat the request unnecessarily
-
-[#lesson-10](#lesson-10)
-
-[^]: This is from CMPT 733, which we dont have to cite(?).
+The practice of extracting data from webpages by automatically requesting and processing the HTML source code of these pages. Alternatively, obtaining data via a structured file format or direct database or API access is usually preferred, whenever possible. Web search engines, such as Google or Bing, are based on getting their data via web scraping. [#lesson-10](#lesson-10)
 
 ### Word Cloud
 
-TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
+Text summary method that displays important words from a document indicating varying degree of relevance by varying the font size of the words. The most important words stand out at a glance, giving an rough idea of the topic of a text.
+[visualization](#visualization) [#lesson-09](#lesson-09)
 
 # Categories
 
