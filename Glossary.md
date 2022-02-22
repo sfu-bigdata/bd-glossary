@@ -119,7 +119,7 @@ As a measure of association between two variables, correlation can be used for [
 
 ### Critical Thinking
 
-The objective analysis and evaluation of an issue to form a judgement [^43]. The process of analysing information in order to make a logical decision about the extent to which you believe something to be true or false [^44]. [#disciplines](#disciplines) [#lesson-04](#lesson-04)
+The objective analysis and evaluation of an issue to form a judgement [^43]. The process of analyzing information in order to make a logical decision about the extent to which you believe something to be true or false [^44]. [#disciplines](#disciplines) [#lesson-04](#lesson-04)
 
 ### Crowdsourcing
 
@@ -143,11 +143,11 @@ TODO:
 
 ### Data Analysis [TODO: Seems more like a definition for Data Transformation(?)]
 
-Data analysis is a process of inspecting, cleansing, transforming, and modelling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. [#lesson-09](#lesson-09)
+Data analysis is a process of inspecting, cleansing, transforming, and modelling data to discover useful information, informing conclusions, and supporting decision-making. [#lesson-09](#lesson-09)
 
 ### Data Bias
 
-Whether the (sample) data’s [balance](#balance) in the is representative [sample](#sample) or not. If the balance is representative, then there is No Bias. When the balance is not representative, then the dataset is biased. [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
+Whether the (sample) data’s [balance](#balance) is representative [sample](#sample) or not. If the balance is representative, then there is No Bias. When the balance is not representative, then the dataset is biased. [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
 ### DATA CLEANING
 
@@ -173,7 +173,7 @@ A data lake is a storage repository that holds a vast amount of raw data in its 
 
 ### Data Literacy 
 
-Data literacy is the intersection of verbal, numerical and graphical literacy. It is not label reserved for data scientists or specialists. Data literacy should be thought of as "the ability of non-specialists to make use of data" and measure "a person’s ability to read, work with, analyze and argue with data", presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
+Data literacy is the intersection of verbal, numerical and graphical literacy. It is not a label reserved for data scientists or specialists. Data literacy should be considered "the ability of non-specialists to make use of data" and measure "a person’s ability to read, work with, analyze and argue with data", presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
 
 ### DATA MINING
 
@@ -181,7 +181,7 @@ An analytical process where large datasets are explored or "mined" in search of 
 
 ### Data Model
 
-A data model (or datamodel) is an abstract model that organizes elements of data and standardizes how they relate to one another and to attributes of real-world entities. [^] [#storage](#storage) [#lesson-11](#lesson-11)
+A data model (or datamodel) is an abstract model that organizes elements of data and standardizes how they relate to one another and to attributes real-world entities. [^] [#storage](#storage) [#lesson-11](#lesson-11)
 
 ### Data Privacy
 
@@ -237,13 +237,13 @@ An organized collection of [data](#data) that allows easy access, management, up
 
 ### Database 2
 
-A database is an organized collection of [structured](#structured) information, or data, typically stored electronically in a computer system. [#storage](#storage) [#lesson-11](#lesson-11)
+A database is an organized collection of [structured](#structured) information, or data typically stored electronically in a computer system. [#storage](#storage) [#lesson-11](#lesson-11)
 
-[^]: https://www.coursehero.com/file/76896898/databasepdf/
+[^]: https://www.oracle.com/database/what-is-database/
 
 ### Database Model
 
-A database model is a type of [data model](#data-model) that determines its logical structure. It fundamentally determines in which manner data can be stored, organized and manipulated. The most popular example of a database model is the relational model, which uses a table-based format. [^] [#storage](#storage) [#lesson-11](#lesson-11)
+A database model is a type of [data model](#data-model) that determines its logical structure. It fundamentally determines how data can be stored, organized and manipulated. The most popular database model is the relational model, which uses a table-based format. [^] [#storage](#storage) [#lesson-11](#lesson-11)
 
 [^]: Database model - Wikipedia. https://en.wikipedia.org/wiki/Database_model
 
@@ -261,7 +261,7 @@ A mechanism that stores files on servers and allows clients, with permission, to
 
 ### Entity–Relationship Model
 
-An entity–relationship model (or ER model) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between entities (instances of those entity types). For end-users of a database, the ER model is part of the [metadata](#metadata). [^] [#storage](#storage) [#lesson-11](#lesson-11)
+An entity–relationship model (or ER model) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between entities (instances of those entity types). The ER model is part of the [metadata](#metadata) for end-users of a database. [^] [#storage](#storage) [#lesson-11](#lesson-11)
 
 [^]: Entity–relationship model wiki | TheReaderWiki. https://thereaderwiki.com/en/Entity_relationship_diagram
 
@@ -293,10 +293,10 @@ A text file that uses tab indentation as a delimiter. Often the file extension i
 _JavaScript Object Notation_ is a human-readable file format that stores [structured](#structured-data) data as attribute-value pairs. JSON is a language-independent data format and is a common format for use with web applications,
 
 #### XML
-_eXtensible Markup Language_ is human-readable file format that stores [structured](#structured-data) data using _tags_, _elements_ and _attributes_. The XML format is commonly used across the Internet.
+_eXtensible Markup Language_ is a human-readable file format that stores [structured](#structured-data) data using _tags_, _elements_ and _attributes_. The XML format is commonly used across the Internet.
 
 #### YAML
-_Yet Another Markup Language_ is a human-readable file format that stores data using indents, hyphens (–) and colon punctuation (:) to impose [structured](#structured-data). YAML is a compact format and is commonly used to share configurations, settings and unsophisticated data files.
+_Yet Another Markup Language_ is a human-readable file format that stores data using indents, hyphens (–) and colon punctuation (:) to impose [structure](#structured-data). YAML is a compact format commonly used to share configurations, settings and unsophisticated data files.
 
 ### FLEXIBLE SCHEMA
 
@@ -325,7 +325,7 @@ TODO: Collect and [aggregations](#aggregation) and [transformations](#data-trans
 
 ### Heatmap
 
-A heat map (or heatmap) is a data [visualization](#visualization) technique that shows magnitude of a phenomenon as color in two dimensions. The variation in color may be by hue or intensity, giving obvious visual cues to the reader about how the phenomenon is clustered or varies over space. [#lesson-09](#lesson-09)
+A heat map (or heatmap) is a data [visualization](#visualization) technique that shows the magnitude of a phenomenon as color in two dimensions. The colour variation may be by [hue or intensity](#colour), giving obvious visual cues to the reader about how the phenomenon is clustered or varies over space. [#lesson-09](#lesson-09)
 
 ### Histogram
 
@@ -333,7 +333,7 @@ A histogram is a graphical representation that organizes a group of data points 
 
 ### HTML
 
-Hyper Text Markup Language is coding language for designing documents (webpages) to be displayed in a web browser. [#lesson-10](#lesson-10)
+HyperText Markup Language is a coding language for designing documents (webpages) displayed in a web browser. [#lesson-10](#lesson-10)
 
 ### Infographics
 
@@ -371,7 +371,7 @@ TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesso
 
 ### Logical operations
 
-Operations and manipulations according to the rules of logic and boolean algebra. Logical operations evaluate _truth values_ (true or false) of a logical statement. Logical statements are constructed with statements including conjunction (_and_), the disjunction (_or_), and the negation (_not_), along with comparators _greater than_, _less than_, and _equals to_. [#operations](#operations) [#lesson-08](#lesson-08)
+Operations and manipulations according to the rules of logic and boolean algebra. Logical operations evaluate a logical statement's _truth values_ (true or false). Logical statements are constructed with components including conjunction (_and_), the disjunction (_or_), and the negation (_not_), in any combination with comparators _greater than_ (>), _less than_ (<), and _equals to_ (=). [#operations](#operations) [#lesson-08](#lesson-08)
 
 ### MACHINE LEARNING
 
@@ -454,11 +454,11 @@ Relationship mining examines associations between two or more variables in a dat
 
 ### Repository (data repo) <a id="repository"/>
 
-Sometimes abbreviated as _repo_, it is a synonym for [database](#database). [#storage](#storage) [#lesson-10](#lesson-10)
+Sometimes abbreviated as _repo_, it often used as synonym for a [database](#database). Generally, it means any place in which things may be stored. [#storage](#storage) [#lesson-10](#lesson-10)
 
 ### Sample (Representative, Proxy) <a id="sample"/>
 
-A subset of the units of a [population](#population). The sample serves as a proxy, or representative sample subset of the true nature of the [population](#population). [^48] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
+A subset of the units of a [population](#population). The sample serves as a proxy or representative sample subset of the true nature of the [population](#population). [^48] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
 ### Scatter Plot
 
@@ -480,7 +480,7 @@ TODO: [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### Skewness
 
-Skewness refers to a distortion or asymmetry that deviates from the symmetrical bell curve, or normal distribution, in a set of data. If the curve is shifted to the left or to the right, it is said to be skewed. [#lesson-09](#lesson-09)
+Skewness refers to a distortion or asymmetry that deviates from the symmetrical bell curve, or normal distribution, in a set of data. If the curve is shifted to the left or the right, it is said to be skewed. [#lesson-09](#lesson-09)
 
 ### Sort
 
@@ -492,7 +492,7 @@ SQL (pronounced "ess-que-el" or "sequel") stands for Structured [Query](#query) 
 
 ### Standard Deviation
 
-Standard deviation is the square root of [variance](#variance). It is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)[#lesson-09](#lesson-09)
+Standard deviation is the square root of [variance](#variance). It is a measure of dispersion, meaning of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)[#lesson-09](#lesson-09)
 
 ### Statistics
 
@@ -512,7 +512,7 @@ To analyze (a string or text) into logical syntactic components.[^52]
 
 #### Indexing
 
-Indexing (or selecting) string characters by their position, _zero-th_ character, _first_ character 
+Indexing (or selecting) string characters by their position, _zeroth_ character, the _first_ character, etc.
 
 #### Concatenation
 
@@ -566,11 +566,11 @@ A _tree_ is a widely used data type that simulates a hierarchical tree structure
 
 ### Unbalanced Data
 
-Whether majority or minorities groups exist in a dataset; imbalance is common and sometimes expected. [#lesson-04](#lesson-04)
+Whether majority or minorities groups exist in a dataset, imbalance is common and sometimes expected. [#lesson-04](#lesson-04)
 
 ### Union
 
-A _union_ operation is used to [combine](#data-transformation) tables with the same number and [types](#data-types) of columns. This operation is like vertical [concatenation](#concatenation). [^] [#query](#query) [#operations](#operations) [#lesson-12](#lesson-12)
+A _union_ operation that [combines](#data-transformation) tables with the same number and [types](#data-types) of columns. This operation is like vertical [concatenation](#concatenation). [^] [#query](#query) [#operations](#operations) [#lesson-12](#lesson-12)
 
 ### UNSTRUCTURED DATA
 
@@ -582,7 +582,7 @@ The URL (short for Uniform Resource Locator) is the location of a webpage or fil
 
 ### Variance
 
-In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its [population](#population) mean or [sample](#sample) mean. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)
+In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its [population](#population) mean or [sample](#sample) mean. Variance is a measure of dispersion, meaning how far a set of numbers is spread out from their average value. Also see [standard deviation](#standard-deviation). [#operations](#operations) [#lesson-05](#lesson-05)
 
 ### Violin Plot
 
