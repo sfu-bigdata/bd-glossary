@@ -10,8 +10,9 @@
 
 Advanced research computing (ARC) provides massive computational horsepower and [storage](#storage-and-physical-data-sources) in a [cloud environment](#cloud-computing) to handle problems and data that are too complex for a single desktop computer. [^1],[^2] [#disciplines](#disciplines)
 
-### Aggregations
+### Aggregations (Data) <a id="aggregations"/>
 
+TODO: same as entry "Data Aggregation" (?)
 A cluster of things that have come or been brought together. [^53] [#operations](#operations) [#lesson-08](#lesson-08)
 
 ### ALGORITHM
@@ -113,6 +114,8 @@ Learning from data using computing tools and programming languages, such as Pyth
 
 Correlation or dependence is any statistical relationship between two random variables or bivariate data, whether causal or not. In the broadest sense, correlation is any statistical association, though it accurately refers to the degree to which a pair of variables are linearly related. Correlation is not equivalent to [causation](#causal-inference). [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09)
 
+[^]: Sarvjit Kaur on LinkedIn: #dataskience #comparison # .... https://www.linkedin.com/posts/sarvjit-kaur_dataskience-comparison-correlation-activity-6884786381676249088-fUlX
+
 ### CORRELATION MINING
 
 As a measure of association between two variables, correlation can be used for [prediction](#predictive-analytics) and indicate the presence of [causal relationship](#causal-inference). It does, however, not sufficiently imply causation. [^37] [#data-analysis](#data-analysis)
@@ -121,9 +124,11 @@ As a measure of association between two variables, correlation can be used for [
 
 The objective analysis and evaluation of an issue to form a judgement [^43]. The process of analyzing information in order to make a logical decision about the extent to which you believe something to be true or false [^44]. [#disciplines](#disciplines) [#lesson-04](#lesson-04)
 
+[^]: From 2 different Oxford dictionary sources. See footnotes [^43] and [^44].
+
 ### Crowdsourcing
 
-TODO. [#lesson-03](#lesson-03)
+TODO: [#lesson-03](#lesson-03)
 
 ### CYBERSECURITY
 
@@ -191,7 +196,8 @@ Refers to the vast range of technologies, protocols, and concepts that give indi
 
 The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate, consistent, complete and accurate. 
 
-TODO: Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
+TODO: Consolidate. The current description is provided by BCA ("_this is how we want to define it_"). Our description is from _Stats Canada_: 
+Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
 
 ### DATA REPRESENTATION
 
@@ -207,7 +213,7 @@ The process of converting data from [one form into another](#data-representation
 
 ### Data types
 
-TODO intro. [#data-types](#data-types) [#lesson-03](#lesson-03)
+For [data](#data) to be interpretable to a computer, it will be encoded among basic data types. [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 #### Float
 Any number, whole or fraction, with unknown decimal places.
@@ -251,6 +257,8 @@ A database model is a type of [data model](#data-model) that determines its logi
 
 A dendrogram is a [diagram](#visualization) representing a tree. This diagrammatic representation is frequently used in different contexts: in hierarchical [clustering](# clustering), it illustrates the arrangement of the clusters produced by the corresponding analyses. [#lesson-09](#lesson-09)
 
+[^]: How Do You Explain A Dendrogram? – chetumenu.com. https://chetumenu.com/how-do-you-explain-a-dendrogram/
+
 ### DESCRIPTIVE ANALYTICS
 
 An initial stage of data processing that involves creating a summary of historical data with the goal of answering the question, "What happened?"[^13],[^14] [#data-analysis](#data-analysis)
@@ -274,7 +282,8 @@ A key property that characterizes a data point (representing some real-world obj
 A human-driven process of finding the most important [features](#feature) to develop [predictive](#predictive-analytics) models. Formerly, as "art" to the "science" of [machine learning](#machine-learning), [big data](#big-data) increasingly moves towards automated representation learning.
 
 ### File Formats
-TODO intro [#data-types](#data-types) [#lesson-03](#lesson-03)
+
+A computer stores files in various formats. The file format, usually specified in the file extension, determines how the computer should read and process the information within. For example the extension `.jpeg` for images, `.docx` for Word. [Tabular data](#tabular-data) file formats for [structured](#structured-data) data include the following. [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 #### TXT
 A generic file format which may hold [structured](#structured-data) data. The structure is preserved with a delimiter or separator; comma, semicolon or tab indentations are common separators.
@@ -296,7 +305,7 @@ _Yet Another Markup Language_ is a human-readable file format that stores data u
 
 ### Filter
 
-TODO: [#operations](#operations) [#lesson-07](#lesson-07)
+TODO: ...not restricted to [SQL](#sql)... [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### FLEXIBLE SCHEMA
 
@@ -304,7 +313,7 @@ Unlike [SQL](#sql) databases with a [tabular](#tabular-data) [structure](#struct
 
 ### Foreign key
 
-TODO: [#query](#query) [#lesson-12](#lesson-12)
+TODO: skip? ...not restricted to [SQL](#sql)... [#query](#query) [#lesson-12](#lesson-12)
 
 ### GENERATIVE MODELING
 
@@ -315,21 +324,28 @@ For example, a language model trained on a collection of text can be used to sug
 
 A geographic information system (GIS) is a system that creates, manages, analyzes, and maps all types of data. GIS connects data to a map, integrating location data (where things are) with all types of descriptive information (what things are like there). This provides a foundation for mapping and analysis that is used in science and almost every industry. GIS helps users understand patterns, relationships, and geographic context. The benefits include improved communication and efficiency as well as better management and decision making. [^54] [#storage](#storage) [#lesson-10](#lesson-10)
 
+[^]: From Esri/ArcGIS. See footnote [^54].
+
 ### GOODNESS OF FIT
 
 Summarizes how well the values observed in the data agree with those values expected by the model. [#processing](#processing)
 
 ### Group by
 
-TODO: Collect and [aggregations](#aggregation) and [transformations](#data-transformations) summarize.... [#operations](#operations) [#lesson-07](#lesson-07)
+_Group by_ is a [transformation](#data-transformations) of a [table](#tabular-data) in which rows with the same value are collected _by_ and unchosen columns are [aggregated](#aggregations) or summarized ([arithmetic](#arithmetic-operations), [string](#string) or [logical](#logical-operations)). [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### Heatmap
 
 A heat map (or heatmap) is a data [visualization](#visualization) technique that shows the magnitude of a phenomenon as color in two dimensions. The colour variation may be by [hue or intensity](#colour), giving obvious visual cues to the reader about how the phenomenon is clustered or varies over space. [#lesson-09](#lesson-09)
 
+[^]: Heatmap – Biomedcourses. https://www.biomedcourses.com/2021/11/24/heatmap/
+[^]: Implementation of Hierarchical clustering using Python. https://hands-on.cloud/implementation-of-hierarchical-clustering-using-python/
+
 ### Histogram
 
 A histogram is a graphical representation that organizes a group of data points into user-specified ranges. Similar in appearance to a bar graph, the histogram condenses a data series into an easily interpreted [#visualization](#visualization) by taking many data points and grouping them into logical, ordered ranges or bins. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
+
+[^]: What is Histogram in Statistics? | Line Served. https://lineserved.com/new/what-is-histogram-in-statistics/
 
 ### HTML
 
@@ -353,9 +369,7 @@ A system of [connected](#network), "smart" objects, including smartphones, weara
 
 ### Join
 
-A _join_ operation is used to [combine](#data-transformation) rows from two or more tables, based on a related column between them. [^] [#query](#query) [#operations](#operations) [#lesson-12](#lesson-06)[#lesson-06] (#lesson-08)[#lesson-08] (#lesson-12)
-
-[^]: "SQL Joins – W3 Schools". [Online]. Available: https://www.w3schools.com/sql/sql_join.asp
+A _join_ operation is used to [combine](#data-transformation) rows from two or more tables, based on a related column between them. [^55] [#query](#query) [#operations](#operations) [#lesson-12](#lesson-06)[#lesson-06] (#lesson-08)[#lesson-08] (#lesson-12)
 
 ### KNOWLEDGE DISCOVERY
 
@@ -444,6 +458,8 @@ In the [relational model](#database-model) of [databases](#database), a primary 
 TODO: check. Queries are not restricted to SQL
 A query is a request for data or information from a [table](#tabular) or combination of tables. This data may be generated as results returned by Structured Query Language ([SQL](#sql)) or as pictorials, graphs or complex results, e.g., trend analyses from data-mining tools. [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
 
+[^]: What is the definition of a query in a database .... https://answerthirst.com/what-is-the-definition-of-a-query-in-a-database/
+
 ### REGRESSION
 
 A type of [statistical model](#machine-learning) that [predicts](#predictive-analytics) numerical values (instead of [class labels](#classification)). [#data-analysis](#data-analysis)
@@ -476,7 +492,7 @@ Efforts to ensure privacy and to protect data, devices and computing systems fro
 
 ### Select
 
-TODO: [#operations](#operations) [#lesson-07](#lesson-07)
+TODO: ...not restricted to [SQL](#sql)... [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### Skewness
 
@@ -484,7 +500,7 @@ Skewness refers to a distortion or asymmetry that deviates from the symmetrical 
 
 ### Sort
 
-TODO: Also called _rank_... [transformations](#data-transformations).... [#operations](#operations) [#lesson-07](#lesson-07)
+TODO: skip? Also called _rank_... [transformations](#data-transformations).... [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### SQL
 
@@ -504,7 +520,7 @@ TODO: [#disciplines](#disciplines) [#lesson-13](#lesson-13)
 
 ### String or character operations
 
-Manipulations with [string data types](#data-types). [#operations](#operations) [#lesson-08](#lesson-08)
+Manipulations with [string data types](#data-types) include the following. [#operations](#operations) [#lesson-08](#lesson-08)
 
 #### Parse
 
@@ -554,7 +570,7 @@ Datasets are commonly messy. Getting data into tidy [^51] format requires upfron
 
 ### Time Series
 
-TODO: _(better connected with Video 8(?), but mentioned in 13)_ [#lesson-13](#lesson-13)
+TODO: _(better connected with Video 8(?), but first mentioned in 13)_ [#lesson-13](#lesson-13)
 
 ### Transpose
 
@@ -584,6 +600,8 @@ The URL (short for Uniform Resource Locator) is the location of a webpage or fil
 
 In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its [population](#population) mean or [sample](#sample) mean. Variance is a measure of dispersion, meaning how far a set of numbers is spread out from their average value. Also see [standard deviation](#standard-deviation). [#operations](#operations) [#lesson-05](#lesson-05)
 
+[^]: Variance - Wikipedia. https://en.wikipedia.org/wiki/Variance
+
 ### Violin Plot
 
 TODO: .... [visualization](#visualization) .... [#lesson-09](#lesson-09)
@@ -602,7 +620,7 @@ Multiple interactive graphical views of [data](#data) that would be too complex 
 
 ### Web scraping
 
-TODO: Maybe(?)
+TODO: needed? skip or keep(?)
 
 Web Scraping is when you programmatically extract data from a website
 
@@ -619,7 +637,7 @@ If you do scrape
 
 [#lesson-10](#lesson-10)
 
-[^]: CMPT 733
+[^]: This is from CMPT 733, which we dont have to cite(?).
 
 ### Word Cloud
 
@@ -785,3 +803,5 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 [^53]: "Aggregations". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/aggregation
 
 [^54]: "What is GIS?". [Online]. Available: https://www.esri.com/en-us/what-is-gis/overview
+
+[^55]: "SQL Joins – W3 Schools". [Online]. Available: https://www.w3schools.com/sql/sql_join.asp
