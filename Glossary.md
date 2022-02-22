@@ -276,10 +276,6 @@ A human-driven process of finding the most important [features](#feature) to dev
 ### File Formats
 TODO intro [#data-types](#data-types) [#lesson-03](#lesson-03)
 
-### Filter
-
-TODO: [#operations](#operations) [#lesson-07](#lesson-07)
-
 #### TXT
 A generic file format which may hold [structured](#structured-data) data. The structure is preserved with a delimiter or separator; comma, semicolon or tab indentations are common separators.
 
@@ -297,6 +293,10 @@ _eXtensible Markup Language_ is a human-readable file format that stores [struct
 
 #### YAML
 _Yet Another Markup Language_ is a human-readable file format that stores data using indents, hyphens (–) and colon punctuation (:) to impose [structure](#structured-data). YAML is a compact format commonly used to share configurations, settings and unsophisticated data files.
+
+### Filter
+
+TODO: [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### FLEXIBLE SCHEMA
 
