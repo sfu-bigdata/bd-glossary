@@ -58,7 +58,7 @@ Many describe it with "[The Four V’s](http://www.ibmbigdatahub.com/infographic
 
 ### Binning
 
-An operation on a range of numbers values in which the entire range is divided into _bins_ (or _intervals_) of a _bin width_ (or _bin size_, _step size_). Another name for binning is *bucketing* [#operations](#operations) [#lesson-08](#lesson-08)
+An operation on a range of numbers in which the entire range is divided into _bins_ (or _intervals_) of a _bin width_ (or _bin size_, _step size_). Another name for binning is *bucketing* [#operations](#operations) [#lesson-08](#lesson-08)
 
 ### Box Plot 
 
@@ -83,7 +83,7 @@ An approach in [machine learning](#machine-learning) where a program is [trained
 
 ### Cloud ("The Cloud") <a id="cloud"/>
 
-Any resource stored on the internet (instead of locally on a PC) is said to be stored on the cloud. Cloud storage is convenient in that clients do not have to manage the storage and infrastructure; they just access it from other internet-connected devices. [#disciplines] [#lesson-10](#lesson-10)
+Any resource stored on the internet (instead of locally on a PC) is said to be stored on the cloud. Cloud storage is convenient in that clients do not have to manage the storage and infrastructure; they just access it from other internet-connected devices. [#disciplines](#disciplines) [#lesson-10](#lesson-10)
 
 ### CLOUD COMPUTING
 
@@ -105,7 +105,7 @@ A [machine learning](#machine-learning) technique that groups similar data point
 
 ### Colour
 
-TODO: Colour ... Synonyms: Color map, Color palette, Color scheme. Color(Hue), Color(Shade) [visualization](#visualization) .... [[#lesson-14](#lesson-14)
+TODO: Colour ... Synonyms: Color map, Color palette, Color scheme. Color(Hue), Color(Shade) [visualization](#visualization) .... [#lesson-14](#lesson-14)
 
 ### COMPUTING WITH DATA
 
@@ -173,7 +173,7 @@ TODO: Data Journalism [#disciplines](#disciplines) [#lesson-13](#lesson-13)
 
 ### Data Lake
 
-A data lake is a storage repository that holds a vast amount of raw data in its native format until it is needed for analytics applications. While a traditional [data warehouse](#data warehouse) stores data in hierarchical dimensions and tables, a data lake uses a flat architecture to store data, primarily in files or object storage. [^] [#storage](#storage) [#lesson-11](#lesson-11)
+A data lake is a storage repository that holds a vast amount of raw data in its native format until it is needed for analytics applications. While a traditional [data warehouse](#data-warehouse) stores data in hierarchical dimensions and tables, a data lake uses a flat architecture to store data, primarily in files or object storage. [^] [#storage](#storage) [#lesson-11](#lesson-11)
 
 [^]: What Is a Data Lake? Definition from SearchDataManagement. https://searchdatamanagement.techtarget.com/definition/data-lake
 
@@ -226,7 +226,7 @@ A whole number.
 Multiple characters together are called strings. e.g ‘aeiou’ is a string of the characters ‘a’, ‘e’, ‘i’, ‘o’, ‘u’.
 
 #### Date / Datetime
-A representation of a date (may include time) e.g. `YYYYMMDD` or  `YYYYMMDDhhmmss`. 
+A [representation](#data-representation) of a date (may include time) e.g. `YYYYMMDD` or  `YYYYMMDDhhmmss`. 
 
 ### Data Warehouse
 
@@ -370,7 +370,7 @@ A system of [connected](#network), "smart" objects, including smartphones, weara
 
 ### Join
 
-A _join_ operation is used to [combine](#data-transformation) rows from two or more tables, based on a related column between them. [^55] [#query](#query) [#operations](#operations) [#lesson-12](#lesson-06)[#lesson-06] (#lesson-08)[#lesson-08] (#lesson-12)
+A _join_ operation is used to [combine](#data-transformation) rows from two or more tables, based on a related column between them. [^55] [#query](#query) [#operations](#operations) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
 
 ### KNOWLEDGE DISCOVERY
 
@@ -505,11 +505,11 @@ TODO: Sort ..... skip? Also called _rank_... [transformations](#data-transformat
 
 ### SQL
 
-SQL (pronounced "ess-que-el" or "sequel") stands for Structured [Query](#query) Language. SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [28] [#processing](#processing) [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
+SQL (pronounced "ess-que-el" or "sequel") stands for Structured [Query](#query) Language. SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [^28] [#processing](#processing) [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
 
 ### Standard Deviation
 
-Standard deviation is the square root of [variance](#variance). It is a measure of dispersion, meaning of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05)[#lesson-09](#lesson-09)
+Standard deviation is the square root of [variance](#variance). It is a measure of dispersion, meaning of how far a set of numbers is spread out from their average value. [#lesson-05](#lesson-05) [#lesson-09](#lesson-09)
 
 ### Statistics
 
