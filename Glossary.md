@@ -256,7 +256,7 @@ A database model is a type of [data model](#data-model) that determines its logi
 
 ### Dendrogram
 
-A dendrogram is a [diagram](#visualization) representing a tree. This diagrammatic representation is frequently used in different contexts: in hierarchical [clustering](# clustering), it illustrates the arrangement of the clusters produced by the corresponding analyses. [#lesson-09](#lesson-09)
+A dendrogram is a [diagram](#visualization) representing a tree. This diagrammatic representation is frequently used in different contexts: in hierarchical [clustering](#clustering), it illustrates the arrangement of the clusters produced by the corresponding analyses. [#lesson-09](#lesson-09)
 
 [^]: How Do You Explain A Dendrogram? – chetumenu.com. https://chetumenu.com/how-do-you-explain-a-dendrogram/
 
