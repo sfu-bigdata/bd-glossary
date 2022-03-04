@@ -74,8 +74,7 @@ Determines whether observations made in one variable are the reason for an effec
 
 ### Chartjunk
 
-TODO: Chartjunk [#lesson-14](#lesson-14)
-See also: [data-to-ink-ratio](#data-to-ink-ratio)
+Elements of a graphics that distract or are not needed to communicate information ([data](#data)). Elements, such as, unnecessary text,  grid lines and frames, ornamental icons, pictures or backgrounds, gradient [colours](#colour) or shading, gratuitous 3D effects and gimmick fonts. Alsa see [data-to-ink-ratio](#data-to-ink-ratio) and [lie-factor](#lie-factor). [^54] [#lesson-14](#lesson-14)
 
 ### CLASSIFICATION
 
@@ -236,7 +235,7 @@ In computing, a data warehouse, also known as an enterprise data warehouse, is a
 
 ### Data-to-ink ratio
 
-A measure of conciseness of a [visualization](#visualization) that discourages the use of unnecessary decorations, but seeks to display all of the relevant data as clearly as possible. [#lesson-14](#lesson-14)
+A measure of conciseness of a [visualization](#visualization) that discourages the use of unnecessary decorations, but seeks to display all of the relevant data as clearly as possible. Related topics are [chartjunk](#chartjunk) and [lie-factor](#lie-factor). [^54] [#lesson-14](#lesson-14)
 
 ### DATABASE
 
@@ -378,7 +377,7 @@ Aims to extract [insight](#insight) from data in [databases](#database). It invo
 
 ### Lie factor
 
-TODO: Lie factor ... [#lesson-14](#lesson-14)
+Lie factor measures the distortion of a graphic by comparing the size of the effect shown in the graphic and the size of the effect shown in the data. Related topics are [chartjunk](#chartjunk) and [data-to-ink-ratio](#data-to-ink-ratio). [^54] [#lesson-14](#lesson-14)
 
 ### Line Plot
 
@@ -398,7 +397,8 @@ Also called "data about data," it provides a [structured description](#structure
 
 ### Model
 
-TODO: Model .... [#lesson-09](#lesson-09)
+TODO: fix broken links
+A model simplifies or substitutes knowledge, information or understanding about a topic. Physical models (or replicas) like organisms, the solar system, structures are common. To a [data scientist](#data-science) models are abstractions, for example, theories, hypotheses, predictions, [algorithms](#algorithm), mathematical formulas or computer simulations. Techniques for construction models include (but are not limited to) artificial intelligence, machine learning, statistical, analytics, data mining or Big Data techniques. [^57] [#data-analysis](#data-analysis) [#lesson-09](#lesson-09)
 
 ### MODEL FITTING
 
@@ -790,3 +790,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 [^54]: "What is GIS?". [Online]. Available: https://www.esri.com/en-us/what-is-gis/overview
 
 [^55]: "SQL Joins – W3 Schools". [Online]. Available: https://www.w3schools.com/sql/sql_join.asp
+
+[^56]: Tufte, E. (1983). Theory of Data Graphics. _The Visual Display of Quantitative Information_, pp 57 and 91-123. Graphics Press. Available: https://archive.org/details/visualdisplayofq0000tuft
+
+[^57]: Pease, Craig M. and Bull, James J. (2006). Models are the Building Blocks of Science. In _Scientific Decision-making_ [Course book] (The University of Texas at Austin, Bio301D)_. Available: http://utw10426.utweb.utexas.edu/Topics/Models/Text.html
