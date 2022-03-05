@@ -1,9 +1,12 @@
+#PYTHON := $(shell conda run -n base which python)
+PYTHON = ~/miniconda3/bin/python
+
 all: md2html html2word
 #	pandoc -s Glossary.md -t html --metadata title="Glossary" -s | python3 filter-md.py > generated/Glossary.html
 
 md2html: Glossary.md
 	@echo "Markdown to HTML..."
-	pandoc -s Glossary.md -t html --metadata title="Data Literacy: Glossary and Index" -s | python3 filter-md.py > generated/Glossary.html
+	pandoc -s Glossary.md -t html --metadata title="Data Literacy: Glossary and Index" -s | ${PYTHON} filter-md.py > generated/Glossary.html
 	@echo "Markdown to HTML...complete"
 
 html2word: generated/Glossary.html

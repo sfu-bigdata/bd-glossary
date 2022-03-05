@@ -27,8 +27,11 @@ def md_to_doc(mdstr, no_p=True):
     else:
         return doc
 
+def tuple_array(lst, n=2):
+    return np.array(lst, dtype=object).reshape(-1,n)
+
 def pair_dict(lst):
-    return dict(np.array(lst, dtype=object).reshape(-1,2))
+    return dict(tuple_array(lst, 2))
 
 import re
 hn = re.compile(r"[hH]\d")
@@ -49,27 +52,34 @@ strin = sys.stdin.read()
 doc = fromstring(strin)
 
 # obtain all h2 headings that follow h1 Categories
-cat_headings = pair_dict(elementpath.select(doc, "//h1[text()='Categories']/following-sibling::h2/(a/@id,.)"))
+cat_headings = tuple_array(elementpath.select(doc, "//h1[text()='Categories']/following-sibling::h2/(a/@id,.)"))
+
+# obtain all h2 headings that follow h1 Lessons
+#lesson_headings = pair_dict(elementpath.select(doc, "//h1[text()='Lesson Index']/following-sibling::h2/(a/@id,.)"))
+lesson_headings = tuple_array(elementpath.select(doc, "//h1[a/@id='lessons']/following-sibling::h2/(a/@id,.)"))
 
 # for each heading, find all terms that refer to its anchor
 # add the terms as references under the category heading
+# if the category heading is a lesson, do not add the terms
 
-for tag, elem in cat_headings.items():
-    cat_terms = pair_dict(elementpath.select(doc, f"(//a[@href='#{tag}']/preceding::h3[1]/(text(),@id))"))
-    dprint(tag)
-    for term, href in cat_terms.items():
-        refnode = md_to_doc(f"[{term}](#{href})<p>", no_p=True)
-        elem.addnext(refnode)
-        elem = refnode
+for tag, elem in cat_headings:
+    cat_terms = tuple_array(elementpath.select(doc, f"(//a[@href='#{tag}']/preceding::h3[1]/(text(),@id,.))"), n=3)
+    if tag not in lesson_headings[:,0]:
+        dprint(tag)
+        for (term, href, node) in cat_terms:
+            refnode = md_to_doc(f"[{term}](#{href})<p>", no_p=True)
+            elem.addnext(refnode)
+            elem = refnode
 
-# obtain all h2 headings that follow h1 Lessons
-lesson_headings = pair_dict(elementpath.select(doc, "//h1[text()='Lessons']/following-sibling::h2/(a/@id,.)"))
+# special processing of lesson categories
+# instead of term reference, add full definition heading and body
 
-for tag, elem in lesson_headings.items():
+for tag, elem in lesson_headings:
     # obtain all terms that refer to this lesson's anchor
-    cat_term_sections = pair_dict(elementpath.select(doc, f"(//a[@href='#{tag}']/preceding::h3[1]/(text(),@id))"))
+    cat_term_sections = tuple_array(elementpath.select(doc, f"(//a[@href='#{tag}']/preceding::h3[1]/(text(),@id))"))
+    dprint(len(cat_term_sections))
     dprint(tag)
-    for term, href in cat_term_sections.items():
+    for term, href in cat_term_sections:
         # get all nodes related to the term, it's h3 and following sibling nodes up to next h1-3 [complicated]
         section_nodes = list(filter_to_hn(elementpath.select(doc,f"//h3[text()='{term}']/(self::*,following-sibling::*)")))
         for sn in section_nodes:

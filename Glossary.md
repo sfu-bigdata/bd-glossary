@@ -647,7 +647,7 @@ The categories offer an alternative grouping that helps to find related terms.
 
 ## Operations <a id="operations"/>
 
-# Lessons Index
+# Lessons Index <a id="lessons"/>
 
 ## Lessons 01 and 02 <a id="lesson-01"/>
 
