@@ -10,10 +10,11 @@
 
 Advanced research computing (ARC) provides massive computational horsepower and [storage](#storage-and-physical-data-sources) in a [cloud environment](#cloud-computing) to handle problems and data that are too complex for a single desktop computer. [^1],[^2] [#disciplines](#disciplines)
 
-### Aggregations (Data) <a id="aggregations"/>
+### Aggregation (Data) <a id="aggregations"/>
+
+A cluster of things that have come or been brought together. [^53] [#operations](#operations) [#lesson-08](#lesson-08)
 
 TODO: same as entry "Data Aggregation" (?)
-A cluster of things that have come or been brought together. [^53] [#operations](#operations) [#lesson-08](#lesson-08)
 
 ### ALGORITHM
 
@@ -168,7 +169,7 @@ The process of combining information from different data sources in preparation 
 
 ### Data Journalism
 
-TODO: Data Journalism [#disciplines](#disciplines) [#lesson-13](#lesson-13)
+Refers to the field that opens up when combining traditional investigative skills and [storytelling](#storytelling), with the modern availability and scale of digital information. [^58] [#disciplines](#disciplines) [#lesson-13](#lesson-13)
 
 ### Data Lake
 
@@ -243,7 +244,7 @@ An organized collection of [data](#data) that allows easy access, management, up
 
 ### Database 2
 
-A database is an organized collection of [structured](#structured) information, or data typically stored electronically in a computer system. [#storage](#storage) [#lesson-11](#lesson-11)
+A database is an organized collection of [structured](#structured) information, or data typically stored electronically in a computer system. [#storage](#storage) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
 
 [^]: https://www.oracle.com/database/what-is-database/
 
@@ -414,7 +415,7 @@ Mapping and measuring the relationships between people, groups, organizations, c
 
 ### NO-SQL DATABASE
 
-A type of database designed to handle [large](#advanced-research-computing) volumes of data that [may not have a structure](#flexible-schema).  [#storage](#storage)
+A type of database designed to handle [large](#advanced-research-computing) volumes of [tabular data](#tabular-data) that [may not have a structure](#flexible-schema).  [#storage](#storage)
 
 ### Null values
 
@@ -517,7 +518,7 @@ Statistics is the discipline concerned with developing and studying methods for 
 
 ### Storytelling
 
-TODO: Storytelling ...  [#disciplines](#disciplines) [#lesson-13](#lesson-13)
+The ability to tell or write stories and narratives to communicate insights and actions drawn data, optionally aided by effective [visualizations](#visualization). [^59] [#disciplines](#disciplines) [#lesson-13](#lesson-13)
 
 ### String or character operations
 
@@ -541,7 +542,7 @@ Combining items (strings) end-to-end.
 
 ### TABULAR DATA
 
-Data items or observations that are organized as rows that contain values under columns that correspond to specific variables or properties. [^30],[^31] [#data-types](#data-types) [#lesson-03](#lesson-03)
+Data items or observations organized as rows, containing entries, under columns, that correspond to separate kinds of values or attributes. The intersection of a row and a column is a cell, which corresponds to individual data values. [^30],[^31] [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 - Synonyms: row(s), record(s), example(s), observation(s), measurement(s), fact(s), point(s) and other items of information
 - Synonyms: column(s) also referred to as field(s), header(s), attribute(s), [feature(s)](#feature), property(ies), variable(s), key(s) (as in key-value), factor(s), dimension(s)
@@ -549,11 +550,11 @@ Data items or observations that are organized as rows that contain values under 
 
 #### Narrow table format
 
-TODO: narrow table format ... one column contains all the attributes and another column contains the lists of values [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
+Narrow, stacked or long, is presented with one column containing all data values and another column containing the kind of values. Related topic [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 #### Wide table format 
 
-TODO: wide table format ... each holds different attributes in separate columns [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
+Wide, or unstacked tabular data presetns each [variable/attribute/feature]() in a separate column. Related topic [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 ### TEXT MINING
 
@@ -571,7 +572,9 @@ Datasets are commonly messy. Getting data into tidy [^51] format requires upfron
 
 ### Time Series
 
-TODO: Time series ...._(better connected with Video 8(?), but first mentioned in 13)_ [#lesson-13](#lesson-13)
+A sequence of values associated with successive times.
+
+TODO: Time series _(better connected with Video 8(?), but first mentioned in 13)_ [#lesson-13](#lesson-13)
 
 ### Transpose
 
@@ -613,7 +616,7 @@ Visual representation of data including plots, charts, maps and infographics to 
 
 ### Visualization
 
-The technique for creating images, diagrams, or animations to communicate a message. Also referred to as _Viz_. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13)
+Sometimes referred to as _Viz_. The technique for creating images, diagrams, or animations to communicate messages. _Explanatory_, or informative, visualizations are used to communicate to an audience. _Exploratory_ visuals are used to investigate and uncover unknown patterns in data.  [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13)
 
 ### VISUALIZATION DASHBOARD
 
@@ -794,3 +797,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 [^56]: Tufte, E. (1983). Theory of Data Graphics. _The Visual Display of Quantitative Information_, pp 57 and 91-123. Graphics Press. Available: https://archive.org/details/visualdisplayofq0000tuft
 
 [^57]: Pease, Craig M. and Bull, James J. (2006). Models are the Building Blocks of Science. In _Scientific Decision-making_ [Course book] (The University of Texas at Austin, Bio301D)_. Available: http://utw10426.utweb.utexas.edu/Topics/Models/Text.html
+
+[^58]: Bradshaw, P. (2012). What is Data Journalism? In _The Data Journalism Handbook_. European Journalism Centre. Available: https://datajournalism.com/read/handbook/one
+
+[^59]: "Data Storytelling: How to Effectively Tell a Story with Data". [Blog].Harvard Business School. Available: https://online.hbs.edu/blog/post/data-storytelling
