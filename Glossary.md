@@ -141,7 +141,7 @@ Collection of examples, observations, measurements, facts, points, or other item
 
 ### Data (Clean, Dirty) <a id="clean-dirty"/>
 
-Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being Outdated, insecure, incomplete, incomplete (missing), Inaccurate data, Misplaced data, Inconsistent, or duplicated.[^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
+Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being outdated, insecure, incomplete, incomplete (missing), inaccurate data, misplaced data, Inconsistenti, or duplicated. [^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
 
 ### DATA AGGREGATION
 
@@ -394,7 +394,7 @@ A part of [artificial intelligence](#artificial-intelligence) that enables machi
 
 ### METADATA
 
-Also called "data about data," it provides a [structured description](#structured-data) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33] [#data-types](#data-types) [#lesson-03](#lesson-03) [#lesson-11](#lesson-11)
+Also called "data about data" it provides a [structured description](#structured-data) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33] [#data-types](#data-types) [#lesson-03](#lesson-03) [#lesson-11](#lesson-11)
 
 ### Model
 
