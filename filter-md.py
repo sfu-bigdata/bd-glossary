@@ -34,10 +34,22 @@ def pair_dict(lst):
     return dict(tuple_array(lst, 2))
 
 import re
-hn = re.compile(r"[hH]\d")
+h_all = re.compile(r"[hH]\d")
+h_1 = re.compile(r"[hH]1")
+def h_level(level=None):
+    if level is None:
+        return h_all
+    if level == 1:
+        return h_1
+    else:
+        return re.compile(r"[hH][1-"+f"{level}]")
 
-def filter_to_hn(elems, skip=1):
-    """For a list of Elements truncate as soon as a heading is encoutered, ignore and keep the first `skip` headings."""
+def filter_to_hn(elems, skip=1, level=None):
+    """For a list of Elements truncate as soon as a heading is encoutered, 
+       ignore and keep the first `skip` headings. If `level` is given, do 
+       not stop at deeper heading levels.
+       """
+    hn = h_level(level)
     for el in elems:
         if hn.match(el.tag):
             if not skip:
@@ -81,7 +93,8 @@ for tag, elem in lesson_headings:
     dprint(tag)
     for term, href in cat_term_sections:
         # get all nodes related to the term, it's h3 and following sibling nodes up to next h1-3 [complicated]
-        section_nodes = list(filter_to_hn(elementpath.select(doc,f"//h3[text()='{term}']/(self::*,following-sibling::*)")))
+        elems_after_term_h3 = elementpath.select(doc,f"//h3[text()='{term}']/(self::*,following-sibling::*)")
+        section_nodes = list(filter_to_hn(elems_after_term_h3, level=3))
         for sn in section_nodes:
             sn = deepcopy(sn) # without clone the paragraph would disappear in its original location
             elem.addnext(sn)
