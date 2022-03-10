@@ -10,19 +10,13 @@
 
 Advanced research computing (ARC) provides massive computational horsepower and [storage](#storage-and-physical-data-sources) in a [cloud environment](#cloud-computing) to handle problems and data that are too complex for a single desktop computer. [^1],[^2] [#disciplines](#disciplines)
 
-### Aggregation (Data) <a id="aggregation"/>
-
-A cluster of things that have come or been brought together. [^53] [#operations](#operations) [#lesson-08](#lesson-08)
-
-TODO: same as entry "Data Aggregation" (?)
-
 ### ALGORITHM
 
 A sequence of instructions telling a computer how to answer a specific question. [^3],[^4] [#processing](#processing)
 
 ### ANALYTICS
 
-The process of using [statistical models](#machine-learning) and software to [transform data](#data-transformation) into useful [information](#information) and to draw conclusions towards effective decision making.[^3],[^4] [#disciplines](#disciplines)
+The process of using [statistical models](#machine-learning) and software to [transform data](#data-transformation) into useful [information](#information) and to draw conclusions towards effective decision making. [^3],[^4] [#disciplines](#disciplines)
 
 ### API
 
@@ -38,7 +32,7 @@ A branch of computer science that allows machines to acquire and apply knowledge
 
 ### Bar Chart
 
-TODO: Bar Chart ....vertical, horizontal, grouped, stacked. [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
+A type of data [visualization](#visualization) that uses an array of bars (or rectangles) that share a common baseline, but vary in height to represent a set of data values. A horizontal version is also common, giving room for longer text labels. Multiple bars for a single point can be grouped or stacked. [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### BEHAVIOUR(AL) ANALYTICS <a id="behavioural-analytics"/>
 
@@ -63,7 +57,8 @@ An operation on a range of numbers in which the entire range is divided into _bi
 
 ### Box Plot 
 
-TODO: Box Plot .. [visualization](#visualization) .... [#lesson-09](#lesson-09)
+A type of data [visualization](#visualization) that shows how values of a variable are distributed. Line markers along an axis show how far the lower and upper quartiles are from the [median](#arithmetic-operations) giving an idea of central tendency, dispersion, and skew.
+See also [histogram](#histogram) and [violin plot](#violin-plot). [#lesson-09](#lesson-09)
 
 ### Bucketing
 
@@ -75,7 +70,7 @@ Determines whether observations made in one variable are the reason for an effec
 
 ### Chartjunk
 
-Elements of a graphics that distract or are not needed to communicate information ([data](#data)). Elements, such as, unnecessary text,  grid lines and frames, ornamental icons, pictures or backgrounds, gradient [colours](#colour) or shading, gratuitous 3D effects and gimmick fonts. Alsa see [data-to-ink-ratio](#data-to-ink-ratio) and [lie-factor](#lie-factor). [^54] [#lesson-14](#lesson-14)
+Elements of a graphics that distract or are not needed to communicate information ([data](#data)). Elements, such as, unnecessary text,  grid lines and frames, ornamental icons, pictures or backgrounds, gradient [colours](#colour) or shading, gratuitous 3D effects and gimmick fonts. See also [data-to-ink-ratio](#data-to-ink-ratio) and [lie-factor](#lie-factor). [^54] [#lesson-14](#lesson-14)
 
 ### CLASSIFICATION
 
@@ -91,9 +86,7 @@ Access to data, [storage](#distributed-file-system), applications, and other com
 
 ### Cloud Storage
 
-Cloud storage is a [cloud](#cloud) computing model that stores data on the Internet through a cloud computing provider who manages and operates data storage as a service. It’s delivered on demand with just-in-time capacity and costs, and eliminates buying and managing your own data storage infrastructure. This gives you agility, global scale and durability, with "anytime, anywhere" data access. [^] [#storage](#storage) [#lesson-11](#lesson-11)
-
-[^]: "What is Cloud Storage? | AWS" . [Online]. Available: https://aws.amazon.com/what-is-cloud-storage/
+Stores data on the Internet with a [cloud computing](#cloud-computing) provider who manages and operates data storage as a service. [^44] [#storage](#storage) [#lesson-11](#lesson-11)
 
 ### CLUSTER (Compute)
 
@@ -105,7 +98,8 @@ A [machine learning](#machine-learning) technique that groups similar data point
 
 ### Colour Map
 
-TODO: Colour ... Synonyms: Color map, Color palette, Color scheme. Color(Hue), Color(Shade) [visualization](#visualization) .... [#lesson-14](#lesson-14)
+[Visual encoding](#visualization) of different levels of a variable by using a fixed scale (or map) of colors.
+Synonyms: Color palette, Color scheme. Color(Hue), Color(Shade) [^60] [#lesson-14](#lesson-14)
 
 ### COMPUTING WITH DATA
 
@@ -113,9 +107,7 @@ Learning from data using computing tools and programming languages, such as Pyth
 
 ### Correlation
 
-Correlation or dependence is any statistical relationship between two random variables or bivariate data, whether causal or not. In the broadest sense, correlation is any statistical association, though it accurately refers to the degree to which a pair of variables are linearly related. Correlation is not equivalent to [causation](#causal-inference). [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09)
-
-[^]: Sarvjit Kaur on LinkedIn: #dataskience #comparison # .... https://www.linkedin.com/posts/sarvjit-kaur_dataskience-comparison-correlation-activity-6884786381676249088-fUlX
+Correlation is a relationship between two variables in a dataset, indicating that their values have a tendency to change proportionally to each other. While it is a measure of association, it does not imply [causation](#causal-inference).[#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09)
 
 ### CORRELATION MINING
 
@@ -123,13 +115,11 @@ As a measure of association between two variables, correlation can be used for [
 
 ### Critical Thinking
 
-The objective analysis and evaluation of an issue to form a judgement [^43]. The process of analyzing information in order to make a logical decision about the extent to which you believe something to be true or false [^44]. [#disciplines](#disciplines) [#lesson-04](#lesson-04)
-
-[^]: From 2 different Oxford dictionary sources. See footnotes [^43] and [^44].
+A thought process to determine whether we believe something to be true or false by logically analyzing and evaluating evidence and other information. [^43] [#disciplines](#disciplines) [#lesson-04](#lesson-04)
 
 ### Crowdsourcing
 
-TODO. Crowdsourcing [#lesson-03](#lesson-03)
+An collaborative approach for collection and maintenance of data where people use websites to share information of common interest. The result can be large, high quality datasets. [#lesson-03](#lesson-03)
 
 ### CYBERSECURITY
 
@@ -145,13 +135,11 @@ Data that contains erroneous or unreliable data points is called dirty data. Dir
 
 ### DATA AGGREGATION
 
-TODO: DATA AGGREGATION. And entry for "[Aggregation](#aggregation)" already exists.
+A [group-by](#group-by) operation that reduces data. Values of a variable (or column) that are observed for a group of points (or rows of a [table](#tabular-data)) are combined into a single value. [^53] [#operations](#operations), [#lesson-08](#lesson-08)
 
-### Data Analysis [TODO: Seems more like a definition for Data Transformation(?)]
+### Data Analysis
 
-Data analysis is a process of inspecting, cleansing, transforming, and modelling data to discover useful information, informing conclusions, and supporting decision-making. [#lesson-09](#lesson-09)
-
-TODO: Change "Data Analysis" to "Analytics". However, an entry for "[Analytics](#analytics)" already exists. Compare and consolidate.
+Data analysis is a process of inspecting, [cleansing](#clean-dirty), [transforming](#data-transformation), and modelling data to discover useful information, informing conclusions, and supporting [decision-making](#critical-thinking). [#analytics](#analytics) [#lesson-09](#lesson-09)
 
 ### Data Bias
 
@@ -175,9 +163,8 @@ Refers to the field that opens up when combining traditional investigative skill
 
 ### Data Lake
 
-A data lake is a storage repository that holds a vast amount of raw data in its native format until it is needed for analytics applications. While a traditional [data warehouse](#data-warehouse) stores data in hierarchical dimensions and tables, a data lake uses a flat architecture to store data, primarily in files or object storage. [^] [#storage](#storage) [#lesson-11](#lesson-11)
-
-[^]: What Is a Data Lake? Definition from SearchDataManagement. https://searchdatamanagement.techtarget.com/definition/data-lake
+[Cloud storage](#cloud-storage) that provides flat access to structured and unstructured datasets or objects using [URL](#url)s as identifiers. 
+De-central alternative to [data warehouse](#data-warehouse). [^62] [#lesson-11](#lesson-11)
 
 ### Data Literacy 
 
@@ -189,7 +176,7 @@ An analytical process where large datasets are explored or "mined" in search of 
 
 ### Data Model
 
-A data model (or datamodel) is an abstract model that organizes elements of data and standardizes how they relate to one another and to attributes real-world entities. [^] [#storage](#storage) [#lesson-11](#lesson-11)
+A data model captures how elements of data relate to each other to describe properties of structured real-world entities. [^63] [#storage](#storage) [#lesson-11](#lesson-11)
 
 ### Data Privacy
 
@@ -199,12 +186,12 @@ Refers to the vast range of technologies, protocols, and concepts that give indi
 
 The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate (relevant and timely), consistent (coherent), complete (interpretable and accesible) and accurate. [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
 
-<!-- TODO: Data Quality ... Consolidate. The current description is provided by BCA ("_this is how we want to define it_"). Our description is from _Stats Canada_: 
+<!-- DONE: Data Quality ... Consolidate. The current description is provided by BCA ("_this is how we want to define it_"). Our description is from _Stats Canada_: 
 Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04)  -->
 
 ### DATA REPRESENTATION
 
-The form in which [data](#data) are stored, processed and transmitted such that its [information content](#information) and [context](#metadata) are retained as much as possible. Choices of form are influenced by hardware, software or other constraints around processing and analysis resources. [^28] [#processing](#processing)
+The form in which [data](#data) is stored, processed and transmitted such that its [information content](#information) and [context](#metadata) are retained as much as possible. Choices of #[format](#file-formats) are influenced by hardware, software or other constraints around processing and analysis resources. [^28] [#processing](#processing)
 
 ### DATA SCIENCE
 
@@ -212,14 +199,12 @@ A multidisciplinary activity combining programming skills, math and statistical 
 
 ### DATA TRANSFORMATION
 
-<!-- TODO: Data transformation future rework. Doesn't need aspect of "gain better insight". -->
-The process of converting data from [one form into another](#data-representation) to gain better [insight](#insight). For instance, converting [unstructured data](#unstructured-data) into [structured form](#structured-data) that can be analyzed further. [#processing](#processing) [#operations](#operations) [#lesson-03](#lesson-03) [#lesson-03](#lesson-03) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
+To convert data from [one form into another](#data-representation) using [arithmetic operations](#arithmetic-operations) or more complex [algorithms](#algorithm), possibly turning [unstructured data](#unstructured-data) into [structured form](#structured-data) to support [data analysis](#data-analysis). 
+[#processing](#processing) [#operations](#operations) [#lesson-03](#lesson-03) [#lesson-03](#lesson-03) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
 
 ### Data types
 
 For [data](#data) to be interpretable to a computer, it will be encoded among basic data types. [#data-types](#data-types) [#lesson-03](#lesson-03)
-
-TODO: Elevate level-4 headings to level-3 so that they are copied into appropriate sections.
 
 #### Float
 Any number, whole or fraction, with unknown decimal places.
@@ -235,9 +220,7 @@ A [representation](#data-representation) of a date (may include time) e.g. `YYYY
 
 ### Data Warehouse
 
-In computing, a data warehouse, also known as an enterprise data warehouse, is a system used for reporting and data analysis and is considered a core component of business intelligence. DWs are central repositories of integrated data from one or more disparate sources. [^] [#storage](#storage) [#lesson-11](#lesson-11)
-
-[^]: Data Warehouse Interview Questions | TestDome. https://www.testdome.com/d/data-warehouse-interview-questions/1203
+System for reporting and data analysis central to business intelligence that integrates data from one or more sources. [#storage](#storage) [#lesson-11](#lesson-11)
 
 ### Data-to-ink ratio
 
@@ -249,21 +232,15 @@ An organized collection of [data](#data) that allows easy access, management, up
 
 ### Database 2
 
-A database is an organized collection of [structured](#structured) information, or data typically stored electronically in a computer system. [#storage](#storage) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
-
-[^]: https://www.oracle.com/database/what-is-database/
+Organized collection of [structured](#structured) data stored electronically in a computer system, commonly accessed using data [queries](#query). [^61] [#storage](#storage) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
 
 ### Database Model
 
-A database model is a type of [data model](#data-model) that determines its logical structure. It fundamentally determines how data can be stored, organized and manipulated. The most popular database model is the relational model, which uses a table-based format. [^] [#storage](#storage) [#lesson-11](#lesson-11)
-
-[^]: Database model - Wikipedia. https://en.wikipedia.org/wiki/Database_model
+A [data model](#data-model) that determines the logical structure or type of a [database](#database). The most popular database model is the relational model, implemented using a [table-based](#tabular-data) format. [^64] [#storage](#storage) [#lesson-11](#lesson-11)
 
 ### Dendrogram
 
-A dendrogram is a [diagram](#visualization) representing a tree. This diagrammatic representation is frequently used in different contexts: in hierarchical [clustering](#clustering), it illustrates the arrangement of the clusters produced by the corresponding analyses. [#lesson-09](#lesson-09)
-
-[^]: How Do You Explain A Dendrogram? – chetumenu.com. https://chetumenu.com/how-do-you-explain-a-dendrogram/
+[Diagram](#visualization) that represents a tree, for instance to show the nested grouping of points resulting from a hierarchical [clustering](#clustering). [^67] [#lesson-09](#lesson-09)
 
 ### DESCRIPTIVE ANALYTICS
 
@@ -275,9 +252,7 @@ A mechanism that stores files on servers and allows clients, with permission, to
 
 ### Entity–Relationship Model
 
-An entity–relationship model (or ER model) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between entities (instances of those entity types). The ER model is part of the [metadata](#metadata) for end-users of a database. [^] [#storage](#storage) [#lesson-11](#lesson-11)
-
-[^]: Entity–relationship model wiki | TheReaderWiki. https://thereaderwiki.com/en/Entity_relationship_diagram
+Describes types of entities (things of interest) and specifies relationships that can exist between entities (instances of those entity types). The ER model is part of the [metadata](#metadata) for end-users of a database. [^66] [#storage](#storage) [#lesson-11](#lesson-11)
 
 ### FEATURE
 
@@ -290,8 +265,6 @@ A human-driven process of finding the most important [features](#feature) to dev
 ### File Formats
 
 A computer stores files in various formats. The file format, usually specified in the file extension, determines how the computer should read and process the information within. For example the extension `.jpeg` for images, `.docx` for Word. [Tabular data](#tabular-data) file formats for [structured](#structured-data) data include the following. [#data-types](#data-types) [#lesson-03](#lesson-03)
-
-TODO: Elevate level-4 headings to level-3 so that they are copied into appropriate sections.
 
 #### TXT
 A generic file format which may hold [structured](#structured-data) data. The structure is preserved with a delimiter or separator; comma, semicolon or tab indentations are common separators.
@@ -313,7 +286,7 @@ _Yet Another Markup Language_ is a human-readable file format that stores data u
 
 ### Filter
 
-TODO: Filter ...not restricted to [SQL](#sql)... [#operations](#operations) [#lesson-07](#lesson-07)
+An [operation](#operations) that reduces a dataset by select all data points that satisfy some query condition or rule. See also [SQL](#sql). [#lesson-07](#lesson-07)
 
 ### FLEXIBLE SCHEMA
 
@@ -321,7 +294,7 @@ Unlike [SQL](#sql) databases with a [tabular](#tabular-data) [structure](#struct
 
 ### Foreign key
 
-TODO: Foreign key, skip? ...not restricted to [SQL](#sql)... [#query](#query) [#lesson-12](#lesson-12)
+Specific column in a [data table](#tabular-data) that can be used to identify related rows in another table. Basis for [join](#join) operations in [SQL](#sql) [queries](#query).  [#lesson-12](#lesson-12)
 
 ### GENERATIVE MODELING
 
@@ -330,9 +303,7 @@ For example, a language model trained on a collection of text can be used to sug
 
 ### GIS
 
-A geographic information system (GIS) is a system that creates, manages, analyzes, and maps all types of data. GIS connects data to a map, integrating location data (where things are) with all types of descriptive information (what things are like there). This provides a foundation for mapping and analysis that is used in science and almost every industry. GIS helps users understand patterns, relationships, and geographic context. The benefits include improved communication and efficiency as well as better management and decision making. [^54] [#storage](#storage) [#lesson-10](#lesson-10)
-
-[^]: From Esri/ArcGIS. See footnote [^54].
+A geographic information system (GIS) manages different types of data so that it can be [integrated](#join) based on where things are, using spatial location attributes or geo codes. [^54] [#storage](#storage) [#lesson-10](#lesson-10)
 
 ### GOODNESS OF FIT
 
@@ -340,20 +311,15 @@ Summarizes how well the values observed in the data agree with those values expe
 
 ### Group by
 
-_Group by_ is a [transformation](#data-transformations) of a [table](#tabular-data) in which rows with the same value are collected _by_ and unchosen columns are [aggregated](#aggregation) or summarized ([arithmetic](#arithmetic-operations), [string](#string) or [logical](#logical-operations)). [#operations](#operations) [#lesson-07](#lesson-07)
+_Group by_ is a [transformation](#data-transformations) of a [table](#tabular-data) in which rows with the same value are collected _by_ and chosen columns are [aggregated](#data-aggregation) or summarized ([arithmetic](#arithmetic-operations), [string](#string) or [logical](#logical-operations)). [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### Heatmap
 
-A heat map (or heatmap) is a data [visualization](#visualization) technique that shows the magnitude of a phenomenon as color in two dimensions. The colour variation may be by [hue or intensity](#colour), giving obvious visual cues to the reader about how the phenomenon is clustered or varies over space. [#lesson-09](#lesson-09)
-
-[^]: Heatmap – Biomedcourses. https://www.biomedcourses.com/2021/11/24/heatmap/
-[^]: Implementation of Hierarchical clustering using Python. https://hands-on.cloud/implementation-of-hierarchical-clustering-using-python/
+Data [visualization](#visualization) technique that shows the magnitude of a phenomenon using a [colour map](#colour-map) in a two-dimensional data plot. Based on the color variation, visual cues show whether the phenomenon is clustered or varies over space. [^69] [#lesson-09](#lesson-09)
 
 ### Histogram
 
-A histogram is a graphical representation that organizes a group of data points into user-specified ranges. Similar in appearance to a bar graph, the histogram condenses a data series into an easily interpreted [#visualization](#visualization) by taking many data points and grouping them into logical, ordered ranges or bins. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
-
-[^]: What is Histogram in Statistics? | Line Served. https://lineserved.com/new/what-is-histogram-in-statistics/
+[Visualization](#visualization) that groups data values into ranges or bins, using a [bar plot](#bar-chart) to indicate how value counts progress across bins, giving an idea of the distribution of values. See also [violin plot](#violin-plot). [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### HTML
 
@@ -361,7 +327,7 @@ HyperText Markup Language is a coding language for designing documents (webpages
 
 ### Infographics
 
-TODO: Infographics ... [#visualization](#visualization) [#lesson-13](#lesson-13)
+A type of presentation for data [storytelling](#storytelling) suitable for large display in poster form, visually grouping messages by themes, using data [vis](#visualization) and concise language. [#lesson-13](#lesson-13)
 
 ### INFORMATION
 
@@ -389,7 +355,7 @@ Lie factor measures the distortion of a graphic by comparing the size of the eff
 
 ### Line Plot
 
-TODO: Line Plot .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
+Type of [visualization](#visualization) that represents a sequence of values as points connected by line segments to show short- and long-term trends. [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### Logical operations
 
@@ -397,7 +363,7 @@ Operations and manipulations according to the rules of logic and boolean algebra
 
 ### MACHINE LEARNING
 
-A part of [artificial intelligence](#artificial-intelligence) that enables machines to learn from experience to perform certain tasks by using [algorithmic](#algorithm) models that are [trained](#model-fitting) to imitate patterns present in [data](#data) to support [prediction](#predictive-analytics), [data generation](#generative-modeling) and other forms of [data analytics](#analytics). [#disciplines](#disciplines) [#lesson-03](#lesson-03)
+A part of [artificial intelligence](#artificial-intelligence) that enables machines to learn from experience to perform certain tasks by using [algorithmic](#algorithm) models that are [trained](#model-fitting) to imitate patterns present in [data](#data) to support [prediction](#predictive-analytics), [data generation](#generative-modeling) and other forms of [data analysis](#data-analysis). [#disciplines](#disciplines) [#lesson-03](#lesson-03)
 
 ### METADATA
 
@@ -433,11 +399,12 @@ Null or NULL is a special marker to indicate that a value does not exist. A null
 
 ### Pictographs Plot
 
-TODO: Pictographs Plot .... [visualization](#visualization) .... [#lesson-14](#lesson-14)
+Simlar to a [scatter plot](#scatter-plot) except using small thumbnail images in the position of the data points. [visualization](#visualization) [#lesson-14](#lesson-14)
 
 ### Pie Chart
 
-TODO: Pie Chart .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
+[Visualization](#visualization) type that shows how differently proportioned parts add up to a whole using differently angled wedges or slices of a circle or pie.
+[#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### Pivot
 
@@ -457,16 +424,11 @@ A type of [analytics](#analytics) with the goal of using data to determine the b
 
 ### Primary key
 
-In the [relational model](#database-model) of [databases](#database), a primary key is a specific choice of a minimal set of attributes that uniquely specify a tuple in a relation. Informally, a primary key is "which attributes uniquely identify a record," and in simple cases constitute a single attribute: a unique ID. [^] [#query](#query) [#lesson-12](#lesson-12)
+Specific attributes or table columns in a [relational](#database-model) data [table](#tabular-data) that uniquely identify a data point or row. Most commonly, a single attribute: a unique ID. [^65] [#query](#query) [#lesson-12](#lesson-12)
 
-[^]: Models - Micron. https://kimtoo.gitbook.io/workspace/models
+### Query (Data) <a id="query" />
 
-### Query (Data) <a id="query"/>
-
-TODO: Query (data) check. Queries are not restricted to SQL
-A query is a request for data or information from a [table](#tabular) or combination of tables. This data may be generated as results returned by Structured Query Language ([SQL](#sql)) or as pictorials, graphs or complex results, e.g., trend analyses from data-mining tools. [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
-
-[^]: What is the definition of a query in a database .... https://answerthirst.com/what-is-the-definition-of-a-query-in-a-database/
+Request for data from one ore more [tables](#tabular). [SQL](#sql) is commonly used to express a query, but also plain text search is a type of query. [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
 
 ### REGRESSION
 
@@ -486,13 +448,11 @@ A subset of the units of a [population](#population). The sample serves as a pro
 
 ### Scatter Plot
 
-TODO: Scatter Plot .... [visualization](#visualization) .... [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
+A data point in a scatter plot [represents](#visualization) values of two variables with its horizontal and vertical position in a rectangular frame of reference. The scattering of multiple data points can show trends, groupings, linear, and non-linear relationships. See also [data analysis](#data-analysis). [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### Schema (Database)
 
-The [database](#database) schema is its structure described in a formal language supported by the database management system (DBMS). The term "schema" refers to the organization of data as a blueprint of how the database is constructed. [^] [#storage](#storage) [#lesson-11](#lesson-11)
-
-[^]: Database schema - CodeDocs. https://codedocs.org/what-is/database-schema
+Description of tabular data structure giving name and data type of the variable associated with each tabule column. See also [database](#database). [#storage](#storage) [#lesson-11](#lesson-11)
 
 ### SECURE COMPUTING
 
@@ -500,7 +460,7 @@ Efforts to ensure privacy and to protect data, devices and computing systems fro
 
 ### Select
 
-TODO: Select ...not restricted to [SQL](#sql)... [#operations](#operations) [#lesson-07](#lesson-07)
+A type of [query](#query) that requests certain columns, either by selecting existing columns or by performing [operation](#operations) to create new columns. See also [SQL](#sql). [#lesson-07](#lesson-07)
 
 ### Skewness
 
@@ -508,11 +468,11 @@ Skewness refers to a distortion or asymmetry that deviates from the symmetrical 
 
 ### Sort
 
-TODO: Sort ..... skip? Also called _rank_... [transformations](#data-transformations).... [#operations](#operations) [#lesson-07](#lesson-07)
+A type of data [transformations](#data-transformations) that orders rows by some chosen column. While simple, sorting is a is a powerful [operation](#operations) that supports many tasks, including ranking, extreme values, or duplicate detection. [#lesson-07](#lesson-07)
 
 ### SQL
 
-SQL (pronounced "ess-que-el" or "sequel") stands for Structured [Query](#query) Language. SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [^28] [#processing](#processing) [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
+SQL (pronounced "ess-que-el" or "sequel") stands for Structured [Query](#query) Language. SQL is a language that works with structured, [tabular data](#tabular-data) allowing to query and construct such data. It forms a standard for many [database](#database) systems. [^28] [^34] [#processing](#processing) [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) [#lesson-12](#lesson-12)
 
 ### Standard Deviation
 
@@ -520,7 +480,7 @@ Standard deviation is the square root of [variance](#variance). It is a measure 
 
 ### Statistics
 
-Statistics is the discipline concerned with developing and studying methods for collecting, organizing, analyzing, interpreting and presenting empirical data. Common statistical metrics are mean (average), median, mode and percentiles. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05)
+Statistics is the discipline concerned with developing and studying methods for collecting, organizing, analyzing, interpreting and presenting empirical data. Common statistical metrics are mean (average), median, mode and percentiles. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#arithmetic-operations](#arithmetic-operations)
 
 ### Storytelling
 
@@ -579,8 +539,7 @@ Datasets are commonly messy. Getting data into tidy [^51] format requires upfron
 ### Time Series
 
 A sequence of values associated with successive times.
-
-TODO: Time series _(better connected with Video 8(?), but first mentioned in 13)_ [#lesson-13](#lesson-13)
+[#lesson-08](#lesson-08) [#lesson-13](#lesson-13)
 
 ### Transpose
 
@@ -596,7 +555,7 @@ Whether majority or minorities groups exist in a dataset, imbalance is common an
 
 ### Union
 
-A _union_ operation that [combines](#data-transformation) tables with the same number and [types](#data-types) of columns. This operation is like vertical [concatenation](#concatenation). [^] [#query](#query) [#operations](#operations) [#lesson-12](#lesson-12)
+A _union_ operation that [combines](#data-transformation) tables with the same number and [types](#data-types) of columns. This operation is like vertical [concatenation](#concatenation). [#query](#query) [#operations](#operations) [#lesson-12](#lesson-12)
 
 ### UNSTRUCTURED DATA
 
@@ -608,9 +567,7 @@ The URL (short for Uniform Resource Locator) is the location of a webpage or fil
 
 ### Variance
 
-In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its [population](#population) mean or [sample](#sample) mean. Variance is a measure of dispersion, meaning how far a set of numbers is spread out from their average value. Also see [standard deviation](#standard-deviation). [#operations](#operations) [#lesson-05](#lesson-05)
-
-[^]: Variance - Wikipedia. https://en.wikipedia.org/wiki/Variance
+Measure of dispersion, indicating how far the values of a variable are spread out around its [sample](#sample) mean. Low varance indicates nearly constant values throughout the [population](#population). Also see [standard deviation](#standard-deviation). [^68] [#operations](#operations) [#lesson-05](#lesson-05)
 
 ### Violin Plot
 
@@ -618,7 +575,7 @@ Similar to a [histogram](#histogram), this plot type shows how values of a varia
 
 ### VISUALIZATION
 
-Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11],[^12] [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13)
+Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11], [^12], [^56] [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13)
 
 ### Visualization
 
@@ -734,8 +691,6 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^22]: "The myth of secure computing." [Online]. Available: <https://hbr.org/2003/06/the-myth-of-secure-computing) [hbr.org/2003/06/the-myth-of-secure-computing.](https://hbr.org/2003/06/the-myth-of-secure-computing>
 
-[^23]: "Computer security definition by PC Magazine." [Online]. Available: <http://www.pcmag.com/encyclopedia/term/40169/computer-security>
-
 [^24]: "Introduction to Structured Data, by Google." [Online]. Available: <https://developers.google.com/search/docs/guides/intro-structured-data>
 
 [^25]: "Structured data definition by Webopedia." [Online]. Available: <http://www.webopedia.com/TERM/S/structured_data.html>
@@ -776,7 +731,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^43]: "Critical Thinking". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/critical_thinking
 
-[^44]: "Critical Thinking". Oxford University Press. [Online]. Available: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking 
+[^44]: "What is Cloud Storage? | AWS" . [Online]. Available: https://aws.amazon.com/what-is-cloud-storage/
 
 [^45]: "Data, statistical information and statistics: Data quality" [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch3/quality-qualite/5214788-eng.htm.
 
@@ -794,7 +749,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^52]: "Parse". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/parse
 
-[^53]: "Aggregations". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/aggregation
+[^53]: "Aggregation". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/aggregation
 
 [^54]: "What is GIS?". [Online]. Available: https://www.esri.com/en-us/what-is-gis/overview
 
@@ -807,3 +762,23 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 [^58]: Bradshaw, P. (2012). What is Data Journalism? In _The Data Journalism Handbook_. European Journalism Centre. Available: https://datajournalism.com/read/handbook/one
 
 [^59]: "Data Storytelling: How to Effectively Tell a Story with Data". [Blog].Harvard Business School. Available: https://online.hbs.edu/blog/post/data-storytelling
+
+[^60]: "Choosing Colormaps in Matplotlib". [Online]. Available: https://matplotlib.org/stable/tutorials/colors/colormaps.html
+
+[^61]: "What is a Database?" [Online]. Available: https://www.oracle.com/database/what-is-database/
+
+[^62]: "What Is a Data Lake?" Definition from SearchDataManagement. [Online]. Available: https://searchdatamanagement.techtarget.com/definition/data-lake
+
+[^63]: [Online]. Available: https://en.wikipedia.org/wiki/Data_model
+
+[^64]: Database model - Wikipedia. [Online]. Available: https://en.wikipedia.org/wiki/Database_model
+
+[^65]: Models - Micron. [Online]. Available: https://kimtoo.gitbook.io/workspace/models
+
+[^66]: Entity–relationship model wiki | TheReaderWiki. [Online]. Available: https://thereaderwiki.com/en/Entity_relationship_diagram
+
+[^67]: How Do You Explain A Dendrogram? – chetumenu.com. [Online]. Available: https://chetumenu.com/how-do-you-explain-a-dendrogram/
+
+[^68]: Variance - Wikipedia. [Online]. Available: https://en.wikipedia.org/wiki/Variance
+
+[^69]: Heatmap – Biomedcourses. https://www.biomedcourses.com/2021/11/24/heatmap/
