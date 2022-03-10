@@ -109,7 +109,7 @@ Learning from data using computing tools and programming languages, such as Pyth
 
 ### Correlation
 
-Correlation is a relationship between two variables in a dataset, indicating that their values have a tendency to change proportionally to each other. While it is a measure of association, it does not imply [causation](#causal-inference).[#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09)
+Correlation is a relationship between two variables in a dataset, indicating that their values tend to change proportionally to each other. While it is a measure of association, it does not imply [causation](#causal-inference). [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09)
 
 ### Correlation Mining
 
@@ -121,7 +121,7 @@ A thought process to determine whether we believe something to be true or false 
 
 ### Crowdsourcing
 
-An collaborative approach for collection and maintenance of data where people use websites to share information of common interest. The result can be large, high quality datasets. [#lesson-03](#lesson-03)
+A collaborative approach for collection and maintenance of data where people use websites to share information of common interest. The result can be large, high-quality datasets. [#lesson-03](#lesson-03)
 
 ### Cybersecurity
 
@@ -202,7 +202,7 @@ A multidisciplinary activity combining programming skills, math and statistical 
 ### Data Transformation
 
 To convert data from [one form into another](#data-representation) using [arithmetic operations](#arithmetic-operations) or more complex [algorithms](#algorithm), possibly turning [unstructured data](#unstructured-data) into [structured form](#structured-data) to support [data analysis](#data-analysis). 
-[#processing](#processing) [#operations](#operations) [#lesson-03](#lesson-03) [#lesson-03](#lesson-03) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
+[#processing](#processing) [#operations](#operations) [#lesson-03](#lesson-03) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
 
 ### Data types
 
@@ -484,7 +484,7 @@ Standard deviation is the square root of [variance](#variance). It is a measure 
 
 ### Statistics
 
-Statistics is the discipline concerned with developing and studying methods for collecting, organizing, analyzing, interpreting and presenting empirical data. Common statistical metrics are mean (average), median, mode and percentiles. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#arithmetic-operations](#arithmetic-operations)
+Statistics is the discipline concerned with developing and studying methods for collecting, organizing, analyzing, interpreting, and presenting empirical data. Common statistical metrics are mean (average), median, mode and percentiles. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#arithmetic-operations](#arithmetic-operations)
 
 ### Storytelling
 
