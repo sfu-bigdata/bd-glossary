@@ -72,11 +72,11 @@ Determines whether observations made in one variable are the reason for an effec
 
 ### Chartjunk
 
-Elements of a graphics that distract or are not needed to communicate information ([data](#data)). Elements, such as, unnecessary text,  grid lines and frames, ornamental icons, pictures or backgrounds, gradient [colours](#colour) or shading, gratuitous 3D effects and gimmick fonts. See also [data-to-ink-ratio](#data-to-ink-ratio) and [lie-factor](#lie-factor). [^54] [#lesson-14](#lesson-14)
+Elements of a graphic that distract or are not needed to communicate information ([data](#data)). Elements, such as, unnecessary text,  grid lines and frames, ornamental icons, pictures or backgrounds, gradient [colours](#colour) or shading, gratuitous 3D effects and gimmick fonts. See also [data-to-ink-ratio](#data-to-ink-ratio) and [lie-factor](#lie-factor). [^54] [#lesson-14](#lesson-14)
 
 ### Classification
 
-An approach in [machine learning](#machine-learning) where a program is [trained](#model-fitting) with labeled [data](#data) to determine which category a new  observation belongs to. See also [clustering](#clustering). [#data-analysis](#data-analysis)
+An approach in [machine learning](#machine-learning) where a program is [trained](#model-fitting) with labelled [data](#data) to determine which category a new  observation belongs to. See also [clustering](#clustering). [#data-analysis](#data-analysis)
 
 ### Cloud ("The Cloud") <a id="cloud"/>
 
@@ -100,8 +100,8 @@ A [machine learning](#machine-learning) technique that groups similar data point
 
 ### Colour Map
 
-[Visual encoding](#visualization) of different levels of a variable by using a fixed scale (or map) of colors.
-Synonyms: Color palette, Color scheme. Color(Hue), Color(Shade) [^60] [#lesson-14](#lesson-14)
+[Visual encoding](#visualization) of different levels of a variable by using a fixed scale (or map) of colours.
+Synonyms: Colour palette, Colour scheme. Colour (Hue), Colou (Shade) [^60] [#lesson-14](#lesson-14)
 
 ### Computing with Data
 
@@ -113,7 +113,7 @@ Correlation is a relationship between two variables in a dataset, indicating tha
 
 ### Correlation Mining
 
-As a measure of association between two variables, correlation can be used for [prediction](#predictive-analytics) and indicate the presence of [causal relationship](#causal-inference). It does, however, not sufficiently imply causation. [^37] [#data-analysis](#data-analysis)
+As a measure of association between two variables, correlation can be used for [prediction](#predictive-analytics) and indicate the presence of a [causal relationship](#causal-inference). It does, however, not sufficiently imply causation. [^37] [#data-analysis](#data-analysis)
 
 ### Critical Thinking
 
@@ -133,7 +133,7 @@ Collection of examples, observations, measurements, facts, points, or other item
 
 ### Data (Clean, Dirty) <a id="clean-dirty"/>
 
-Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being outdated, insecure, incomplete, incomplete (missing), inaccurate data, misplaced data, Inconsistenti, or duplicated. [^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
+Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being outdated, insecure, incomplete, incomplete (missing), inaccurate, misplaced, inconsistent, or duplicated. [^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
 
 ### Data Aggregation
 
@@ -186,7 +186,7 @@ Refers to the vast range of technologies, protocols, and concepts that give indi
 
 ### Data Quality 
 
-The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate (relevant and timely), consistent (coherent), complete (interpretable and accesible) and accurate. [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
+The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate (relevant and timely), consistent (coherent), complete (interpretable and accessible) and accurate. [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
 
 <!-- DONE: Data Quality ... Consolidate. The current description is provided by BCA ("_this is how we want to define it_"). Our description is from _Stats Canada_: 
 Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04)  -->
@@ -244,7 +244,7 @@ A [data model](#data-model) that determines the logical structure or type of a [
 
 ### Dendrogram
 
-[Diagram](#visualization) that represents a tree, for instance to show the nested grouping of points resulting from a hierarchical [clustering](#clustering). [^67] [#lesson-09](#lesson-09)
+A [diagram](#visualization) that represents a tree, for instance, to show the nested grouping of points resulting from hierarchical [clustering](#clustering). [^67] [#lesson-09](#lesson-09)
 
 ### Descriptive Analytics
 
@@ -290,7 +290,7 @@ _Yet Another Markup Language_ is a human-readable file format that stores data u
 
 ### Filter
 
-An [operation](#operations) that reduces a dataset by select all data points that satisfy some query condition or rule. See also [SQL](#sql). [#lesson-07](#lesson-07)
+An [operation](#operations) that reduces a dataset by selecting all data points that satisfy some query condition or rule. See also [SQL](#sql). [#lesson-07](#lesson-07)
 
 ### Flexible Schema
 
@@ -307,7 +307,7 @@ For example, a language model trained on a collection of text can be used to sug
 
 ### GIS
 
-A geographic information system (GIS) manages different types of data so that it can be [integrated](#join) based on where things are, using spatial location attributes or geo codes. [^54] [#storage](#storage) [#lesson-10](#lesson-10)
+A geographic information system (GIS) manages different types of data so that it can be [integrated](#join) based on where things are, using spatial location attributes or geocodes. [^54] [#storage](#storage) [#lesson-10](#lesson-10)
 
 ### Goodness of Fit
 
@@ -315,11 +315,11 @@ Summarizes how well the values observed in the data agree with those values expe
 
 ### Group by
 
-_Group by_ is a [transformation](#data-transformations) of a [table](#tabular-data) in which rows with the same value are collected _by_ and chosen columns are [aggregated](#data-aggregation) or summarized ([arithmetic](#arithmetic-operations), [string](#string) or [logical](#logical-operations)). [#operations](#operations) [#lesson-07](#lesson-07)
+_Group by_ is a [transformation](#data-transformations) of a [table](#tabular-data) in which rows with the same value are collected _by_, and chosen columns are [aggregated](#data-aggregation) or summarized ([arithmetic](#arithmetic-operations), [string](#string) or [logical](#logical-operations)). [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### Heatmap
 
-Data [visualization](#visualization) technique that shows the magnitude of a phenomenon using a [colour map](#colour-map) in a two-dimensional data plot. Based on the color variation, visual cues show whether the phenomenon is clustered or varies over space. [^69] [#lesson-09](#lesson-09)
+Data [visualization](#visualization) technique that shows the magnitude of a phenomenon using a [colour map](#colour-map) in a two-dimensional data plot. Based on the colour variation, visual cues show whether the phenomenon is clustered or varies over space. [^69] [#lesson-09](#lesson-09)
 
 ### Histogram
 
@@ -375,7 +375,7 @@ Also called "data about data" it provides a [structured description](#structured
 
 ### Model
 
-A model simplifies or substitutes knowledge, information or understanding about a topic. Physical models (or replicas) like organisms, the solar system, structures are common. To a [data scientist](#data-science) models are abstractions, for example, theories, hypotheses, predictions, [algorithms](#algorithm), mathematical formulas or computer simulations. Techniques for construction models include (but are not limited to) [artificial intelligence](#artificial-intelligence), [machine learning](#machine-learning), [statistical](#statistics), [analytics](#analytics), [data mining](#data-mining) or [Big Data](#big-data) techniques. [^57] [#data-analysis](#data-analysis) [#lesson-09](#lesson-09)
+A model simplifies or substitutes knowledge, information or understanding about a topic. Physical models (or replicas) like organisms, the solar system, structures are common. To a [data scientist](#data-science), models are abstractions, for example, theories, hypotheses, predictions, [algorithms](#algorithm), mathematical formulas or computer simulations. Techniques for construction models include (but are not limited to) [artificial intelligence](#artificial-intelligence), [machine learning](#machine-learning), [statistical](#statistics), [analytics](#analytics), [data mining](#data-mining) or [Big Data](#big-data) techniques. [^57] [#data-analysis](#data-analysis) [#lesson-09](#lesson-09)
 
 ### Model Fitting
 
@@ -420,7 +420,7 @@ A collection of items under consideration. [^47] [#data-analysis](#data-analysis
 
 ### Predictive Analytics
 
-A process for analyzing current [data](#data) to determine future events or other unknowns. Related to [descriptive](#descriptive-analytics) and [prescriptive analytics](#prescriptive-analytics), it draws on techniques from [data mining](#data-mining), modeling, [machine learning](#machine-learning) and statistics.[^3],[^28]
+A process for analyzing current [data](#data) to determine future events or other unknowns. Related to [descriptive](#descriptive-analytics) and [prescriptive analytics](#prescriptive-analytics), it draws on techniques from [data mining](#data-mining), modelling, [machine learning](#machine-learning) and statistics.[^3],[^28]
 
 ### Prescriptive Analytics
 
@@ -432,7 +432,7 @@ Specific attributes or table columns in a [relational](#database-model) data [ta
 
 ### Query (Data) <a id="query" />
 
-Request for data from one ore more [tables](#tabular). [SQL](#sql) is commonly used to express a query, but also plain text search is a type of query. [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
+Request for data from one or more [tables](#tabular). [SQL](#sql) is commonly used to express a query, but also plain text search is a type of query. [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
 
 ### Regression
 
@@ -444,7 +444,7 @@ Relationship mining examines associations between two or more variables in a dat
 
 ### Repository (data repo) <a id="repository"/>
 
-Sometimes abbreviated as _repo_, it often used as synonym for a [database](#database). Generally, it means any place in which things may be stored. [#storage](#storage) [#lesson-10](#lesson-10)
+Sometimes abbreviated as _repo_, it is often used as a synonym for a [database](#database). Generally, it means any place in which things may be stored. [#storage](#storage) [#lesson-10](#lesson-10)
 
 ### Sample (Representative, Proxy) <a id="sample"/>
 
@@ -452,11 +452,11 @@ A subset of the units of a [population](#population). The sample serves as a pro
 
 ### Scatter Plot
 
-A data point in a scatter plot [represents](#visualization) values of two variables with its horizontal and vertical position in a rectangular frame of reference. The scattering of multiple data points can show trends, groupings, linear, and non-linear relationships. See also [data analysis](#data-analysis). [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
+A data point in a scatter plot [represents](#visualization) values of two variables with their horizontal and vertical position in a rectangular frame of reference. The scattering of multiple data points can show trends, groupings, linear, and non-linear relationships. See also [data analysis](#data-analysis). [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#lesson-14](#lesson-14)
 
 ### Schema (Database)
 
-Description of tabular data structure giving name and data type of the variable associated with each tabule column. See also [database](#database). [#storage](#storage) [#lesson-11](#lesson-11)
+Description of tabular data structure giving name and data type of the variable associated with each table column. See also [database](#database). [#storage](#storage) [#lesson-11](#lesson-11)
 
 ### Secure Computing
 
@@ -472,7 +472,7 @@ Skewness refers to a distortion or asymmetry that deviates from the symmetrical 
 
 ### Sort
 
-A type of data [transformations](#data-transformations) that orders rows by some chosen column. While simple, sorting is a is a powerful [operation](#operations) that supports many tasks, including ranking, extreme values, or duplicate detection. [#lesson-07](#lesson-07)
+A type of data [transformation](#data-transformations) that orders rows by some chosen column. While simple, sorting is a powerful [operation](#operations) that supports many tasks, including ranking, extreme values, or duplicate detection. [#lesson-07](#lesson-07)
 
 ### SQL
 
@@ -524,7 +524,7 @@ Narrow, stacked or long, is presented with one column containing all data values
 
 #### Wide table format 
 
-Wide, or unstacked tabular data presetns each [variable/attribute/feature]() in a separate column. Related topic [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
+Wide, or unstacked tabular data presents each [variable/attribute/feature](#feature) in a separate column. Related topic, [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
 
 ### Text Mining
 
@@ -571,7 +571,7 @@ The URL (short for Uniform Resource Locator) is the location of a webpage or fil
 
 ### Variance
 
-Measure of dispersion, indicating how far the values of a variable are spread out around its [sample](#sample) mean. Low varance indicates nearly constant values throughout the [population](#population). Also see [standard deviation](#standard-deviation). [^68] [#operations](#operations) [#lesson-05](#lesson-05)
+Measure of dispersion, indicating how far the values of a variable are spread out around its [sample](#sample) mean. Low variance indicates nearly constant values throughout the [population](#population). Also see [standard deviation](#standard-deviation). [^68] [#operations](#operations) [#lesson-05](#lesson-05)
 
 ### Violin Plot
 
@@ -597,7 +597,7 @@ The practice of extracting data from webpages by automatically requesting and pr
 
 ### Word Cloud
 
-Text summary method that displays important words from a document indicating varying degree of relevance by varying the font size of the words. The most important words stand out at a glance, giving an rough idea of the topic of a text.
+Text summary method that displays important words from a document indicating varying degrees of relevance by varying the font size of the words. The most important words stand out at a glance, giving a rough idea of the topic of a text.
 [visualization](#visualization) [#lesson-09](#lesson-09)
 
 # Categories
