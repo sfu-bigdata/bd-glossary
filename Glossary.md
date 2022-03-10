@@ -403,7 +403,7 @@ Null or NULL is a special marker to indicate that a value does not exist. A null
 
 ### Pictographs Plot
 
-Simlar to a [scatter plot](#scatter-plot) except using small thumbnail images in the position of the data points. [visualization](#visualization) [#lesson-14](#lesson-14)
+Like a [scatter plot](#scatter-plot) except using small thumbnail images in the position of the data points. [visualization](#visualization) [#lesson-14](#lesson-14)
 
 ### Pie Chart
 
