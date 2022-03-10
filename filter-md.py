@@ -62,6 +62,7 @@ def filter_to_hn(elems, skip=1, level=None):
 
 strin = sys.stdin.read()
 doc = fromstring(strin)
+doc0 = deepcopy(doc)
 
 # obtain all h2 headings that follow h1 Categories
 cat_headings = tuple_array(elementpath.select(doc, "//h1[text()='Categories']/following-sibling::h2/(a/@id,.)"))
@@ -88,12 +89,12 @@ for tag, elem in cat_headings:
 
 for tag, elem in lesson_headings:
     # obtain all terms that refer to this lesson's anchor
-    cat_term_sections = tuple_array(elementpath.select(doc, f"(//a[@href='#{tag}']/preceding::h3[1]/(text(),@id))"))
+    cat_term_sections = tuple_array(elementpath.select(doc0, f"(//a[@href='#{tag}']/preceding::h3[1]/(text(),@id))"))
     dprint(len(cat_term_sections))
     dprint(tag)
     for term, href in cat_term_sections:
         # get all nodes related to the term, it's h3 and following sibling nodes up to next h1-3 [complicated]
-        elems_after_term_h3 = elementpath.select(doc,f"//h3[text()='{term}']/(self::*,following-sibling::*)")
+        elems_after_term_h3 = elementpath.select(doc0,f"//h3[text()='{term}']/(self::*,following-sibling::*)")
         section_nodes = list(filter_to_hn(elems_after_term_h3, level=3))
         for sn in section_nodes:
             sn = deepcopy(sn) # without clone the paragraph would disappear in its original location
