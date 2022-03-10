@@ -10,7 +10,7 @@
 
 Advanced research computing (ARC) provides massive computational horsepower and [storage](#storage-and-physical-data-sources) in a [cloud environment](#cloud-computing) to handle problems and data that are too complex for a single desktop computer. [^1],[^2] [#disciplines](#disciplines)
 
-### Aggregation (Data) <a id="aggregations"/>
+### Aggregation (Data) <a id="aggregation"/>
 
 A cluster of things that have come or been brought together. [^53] [#operations](#operations) [#lesson-08](#lesson-08)
 
@@ -103,7 +103,7 @@ A [network](#network) of computers (or compute nodes) that work on tasks togethe
 
 A [machine learning](#machine-learning) technique that groups similar data points together to uncover hidden structure. Unlike [classification](#classification), clustering does not require labelled training data and is a type of unsupervised learning. [#data-analysis](#data-analysis)
 
-### Colour
+### Colour Map
 
 TODO: Colour ... Synonyms: Color map, Color palette, Color scheme. Color(Hue), Color(Shade) [visualization](#visualization) .... [#lesson-14](#lesson-14)
 
@@ -145,11 +145,13 @@ Data that contains erroneous or unreliable data points is called dirty data. Dir
 
 ### DATA AGGREGATION
 
-TODO: DATA AGGREGATION
+TODO: DATA AGGREGATION. And entry for "[Aggregation](#aggregation)" already exists.
 
 ### Data Analysis [TODO: Seems more like a definition for Data Transformation(?)]
 
 Data analysis is a process of inspecting, cleansing, transforming, and modelling data to discover useful information, informing conclusions, and supporting decision-making. [#lesson-09](#lesson-09)
+
+TODO: Change "Data Analysis" to "Analytics". However, an entry for "[Analytics](#analytics)" already exists. Compare and consolidate.
 
 ### Data Bias
 
@@ -195,10 +197,10 @@ Refers to the vast range of technologies, protocols, and concepts that give indi
 
 ### Data Quality 
 
-The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate, consistent, complete and accurate. 
+The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate (relevant and timely), consistent (coherent), complete (interpretable and accesible) and accurate. [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
 
-TODO: Data Quality ... Consolidate. The current description is provided by BCA ("_this is how we want to define it_"). Our description is from _Stats Canada_: 
-Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
+<!-- TODO: Data Quality ... Consolidate. The current description is provided by BCA ("_this is how we want to define it_"). Our description is from _Stats Canada_: 
+Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04)  -->
 
 ### DATA REPRESENTATION
 
@@ -210,11 +212,14 @@ A multidisciplinary activity combining programming skills, math and statistical 
 
 ### DATA TRANSFORMATION
 
+<!-- TODO: Data transformation future rework. Doesn't need aspect of "gain better insight". -->
 The process of converting data from [one form into another](#data-representation) to gain better [insight](#insight). For instance, converting [unstructured data](#unstructured-data) into [structured form](#structured-data) that can be analyzed further. [#processing](#processing) [#operations](#operations) [#lesson-03](#lesson-03) [#lesson-03](#lesson-03) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
 
 ### Data types
 
 For [data](#data) to be interpretable to a computer, it will be encoded among basic data types. [#data-types](#data-types) [#lesson-03](#lesson-03)
+
+TODO: Elevate level-4 headings to level-3 so that they are copied into appropriate sections.
 
 #### Float
 Any number, whole or fraction, with unknown decimal places.
@@ -286,6 +291,8 @@ A human-driven process of finding the most important [features](#feature) to dev
 
 A computer stores files in various formats. The file format, usually specified in the file extension, determines how the computer should read and process the information within. For example the extension `.jpeg` for images, `.docx` for Word. [Tabular data](#tabular-data) file formats for [structured](#structured-data) data include the following. [#data-types](#data-types) [#lesson-03](#lesson-03)
 
+TODO: Elevate level-4 headings to level-3 so that they are copied into appropriate sections.
+
 #### TXT
 A generic file format which may hold [structured](#structured-data) data. The structure is preserved with a delimiter or separator; comma, semicolon or tab indentations are common separators.
 
@@ -333,7 +340,7 @@ Summarizes how well the values observed in the data agree with those values expe
 
 ### Group by
 
-_Group by_ is a [transformation](#data-transformations) of a [table](#tabular-data) in which rows with the same value are collected _by_ and unchosen columns are [aggregated](#aggregations) or summarized ([arithmetic](#arithmetic-operations), [string](#string) or [logical](#logical-operations)). [#operations](#operations) [#lesson-07](#lesson-07)
+_Group by_ is a [transformation](#data-transformations) of a [table](#tabular-data) in which rows with the same value are collected _by_ and unchosen columns are [aggregated](#aggregation) or summarized ([arithmetic](#arithmetic-operations), [string](#string) or [logical](#logical-operations)). [#operations](#operations) [#lesson-07](#lesson-07)
 
 ### Heatmap
 
@@ -398,8 +405,7 @@ Also called "data about data" it provides a [structured description](#structured
 
 ### Model
 
-TODO: fix broken links
-A model simplifies or substitutes knowledge, information or understanding about a topic. Physical models (or replicas) like organisms, the solar system, structures are common. To a [data scientist](#data-science) models are abstractions, for example, theories, hypotheses, predictions, [algorithms](#algorithm), mathematical formulas or computer simulations. Techniques for construction models include (but are not limited to) artificial intelligence, machine learning, statistical, analytics, data mining or Big Data techniques. [^57] [#data-analysis](#data-analysis) [#lesson-09](#lesson-09)
+A model simplifies or substitutes knowledge, information or understanding about a topic. Physical models (or replicas) like organisms, the solar system, structures are common. To a [data scientist](#data-science) models are abstractions, for example, theories, hypotheses, predictions, [algorithms](#algorithm), mathematical formulas or computer simulations. Techniques for construction models include (but are not limited to) [artificial intelligence](#artificial-intelligence), [machine learning](#machine-learning), [statistical](#statistics), [analytics](#analytics), [data mining](#data-mining) or [Big Data](#big-data) techniques. [^57] [#data-analysis](#data-analysis) [#lesson-09](#lesson-09)
 
 ### MODEL FITTING
 
