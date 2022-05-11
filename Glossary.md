@@ -101,7 +101,7 @@ A [machine learning](#machine-learning) technique that groups similar data point
 ### Colour Map
 
 [Visual encoding](#visualization) of different levels of a variable by using a fixed scale (or map) of colours.
-Synonyms: Colour palette, Colour scheme. Colour (Hue), Colou (Shade) [^60] [#lesson-14](#lesson-14)
+Synonyms: Colour palette, Colour scheme. Colour (Hue), Colour (Shade) [^60] [#lesson-14](#lesson-14)
 
 ### Computing with Data
 
