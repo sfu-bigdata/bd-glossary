@@ -113,7 +113,7 @@ Correlation is a relationship between two variables in a dataset, indicating tha
 
 ### Correlation Mining
 
-As a measure of association between two variables, correlation can be used for [prediction](#predictive-analytics) and indicate the presence of a [causal relationship](#causal-inference). It does, however, not sufficiently imply causation. [^37] [#data-analysis](#data-analysis)
+As a measure of association between two variables, correlation can be used for [prediction](#predictive-analytics) and indicate the presence of a [causal relationship](#causal-inference). Correlation does not sufficiently imply causation. [^37] [#data-analysis](#data-analysis)
 
 ### Critical Thinking
 
@@ -133,7 +133,7 @@ Collection of examples, observations, measurements, facts, points, or other item
 
 ### Data (Clean, Dirty) <a id="clean-dirty"/>
 
-Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being outdated, insecure, incomplete, incomplete (missing), inaccurate, misplaced, inconsistent, or duplicated. [^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
+Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being outdated, insecure, incomplete, missing, inaccurate, misplaced, inconsistent, or duplicated. [^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
 
 ### Data Aggregation
 
@@ -145,7 +145,7 @@ Data analysis is a process of inspecting, [cleansing](#clean-dirty), [transformi
 
 ### Data Bias
 
-Whether the (sample) data’s [balance](#balance) is representative [sample](#sample) or not. If the balance is representative, then there is No Bias. When the balance is not representative, then the dataset is biased. [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
+Whether the data’s [balance](#balance) is representative [sample](#sample) or not. If the balance is representative, then there is no bias. When the balance is not representative, then the dataset is biased. [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
 ### Data Cleaning
 
@@ -215,7 +215,7 @@ Any number, whole or fraction, with unknown decimal places.
 A whole number.
 
 #### String
-Multiple characters together are called strings. e.g ‘aeiou’ is a string of the characters ‘a’, ‘e’, ‘i’, ‘o’, ‘u’.
+Multiple characters together are called strings. e.g. ‘aeiou’ is a string of the characters ‘a’, ‘e’, ‘i’, ‘o’, ‘u’.
 
 #### Date / Datetime
 A [representation](#data-representation) of a date (may include time) e.g. `YYYYMMDD` or  `YYYYMMDDhhmmss`. 
@@ -274,10 +274,10 @@ A computer stores files in various formats. The file format, usually specified i
 A generic file format which may hold [structured](#structured-data) data. The structure is preserved with a delimiter or separator; comma, semicolon or tab indentations are common separators.
 
 #### CSV
-A text file that uses commas as a delimiter. Often the file extension is .csv but the generic .txt is also used. The structured in the text file are _comma_-separated values.
+A text file that uses commas as a delimiter. Often the file extension is .csv but the generic .txt is also used. The structure in the text file are _comma_-separated values.
 
 #### TSV
-A text file that uses tab indentation as a delimiter. Often the file extension is .tsv but the generic .txt is also used. The structured in the text file are _tab_-separated values.
+A text file that uses tab indentation as a delimiter. Often the file extension is .tsv but the generic .txt is also used. The structure in the text file are _tab_-separated values.
 
 #### JSON
 _JavaScript Object Notation_ is a human-readable file format that stores [structured](#structured-data) data as attribute-value pairs. JSON is a language-independent data format and is a common format for use with web applications,
@@ -375,7 +375,7 @@ Also called "data about data" it provides a [structured description](#structured
 
 ### Model
 
-A model simplifies or substitutes knowledge, information or understanding about a topic. Physical models (or replicas) like organisms, the solar system, structures are common. To a [data scientist](#data-science), models are abstractions, for example, theories, hypotheses, predictions, [algorithms](#algorithm), mathematical formulas or computer simulations. Techniques for construction models include (but are not limited to) [artificial intelligence](#artificial-intelligence), [machine learning](#machine-learning), [statistical](#statistics), [analytics](#analytics), [data mining](#data-mining) or [Big Data](#big-data) techniques. [^57] [#data-analysis](#data-analysis) [#lesson-09](#lesson-09)
+A model simplifies or substitutes knowledge, information or understanding about a topic. Physical models (or replicas) like organisms, the solar system and structures are common. To a [data scientist](#data-science), models are abstractions, for example, theories, hypotheses, predictions, [algorithms](#algorithm), mathematical formulas or computer simulations. Techniques for construction models include (but are not limited to) [artificial intelligence](#artificial-intelligence), [machine learning](#machine-learning), [statistical](#statistics), [analytics](#analytics), [data mining](#data-mining) or [Big Data](#big-data) techniques. [^57] [#data-analysis](#data-analysis) [#lesson-09](#lesson-09)
 
 ### Model Fitting
 
@@ -691,11 +691,11 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^19]: "Computer network definition by Techopedia." [Online]. Available: <https://www.techopedia.com/definition/25597/computer-network>
 
-[^20]: "What is computer networking?" [Online]. Available: <https://www.lifewire.com/what-is-computer-networking-816249) [www.lifewire.com/what-is-computer-networking-816249.](https://www.lifewire.com/what-is-computer-networking-816249>
+[^20]: "What is computer networking?" [Online]. Available: <https://www.lifewire.com/what-is-computer-networking-816249>
 
 [^21]: "Social Network Analysis: An Introduction by Orgnet,LLC." [Online]. Available: <http://www.orgnet.com/sna.html>
 
-[^22]: "The myth of secure computing." [Online]. Available: <https://hbr.org/2003/06/the-myth-of-secure-computing) [hbr.org/2003/06/the-myth-of-secure-computing.](https://hbr.org/2003/06/the-myth-of-secure-computing>
+[^22]: "The myth of secure computing." [Online]. Available: <https://hbr.org/2003/06/the-myth-of-secure-computing>
 
 [^24]: "Introduction to Structured Data, by Google." [Online]. Available: <https://developers.google.com/search/docs/guides/intro-structured-data>
 
@@ -703,7 +703,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^26]: "Unstructured data definition by Techopedia." [Online]. Available: <https://www.techopedia.com/definition/13865/unstructured-data>
 
-[^27]: "Solving the Unstructured Data Challenge." [Online]. Available: <http://www.cio.com/article/2941015/big-data/solving-the-unstructured-data-challenge.html>
+[^27]: "Solving the Unstructured Data Challenge." [Online]. Available: <https://www.cio.com/article/244359/solving-the-unstructured-data-challenge.html>
 
 [^28]: Donoho, D. (2017). 50 years of data science. *Journal of Computational and Graphical Statistics*, *26*(4), 745-766.
 
@@ -717,74 +717,74 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^33]: Greenberg, J. (2003). Metadata and the world wide web. *Encyclopedia of library and information science*, *3*, 1876-1888.
 
-[^34]: "SQL Tutorial" [Online]. Available:  https://www.w3schools.com/sql/
+[^34]: "SQL Tutorial" [Online]. Available: <https://www.w3schools.com/sql>
 
-[^35]: "Overview of the KDD Process" [Online]. Available: http://www2.cs.uregina.ca/~dbd/cs831/notes/kdd/1_kdd.html
+[^35]: "Overview of the KDD Process" [Online]. Available: <http://www2.cs.uregina.ca/~dbd/cs831/notes/kdd/1_kdd.html>
 
-[^36]: "About Text Mining" [Online]. Available: https://www.ibm.com/support/knowledgecenter/en/SS3RA7_15.0.0/com.ibm.spss.ta.help/tm_intro_tm_defined.htm
+[^36]: "About Text Mining" [Online]. Available: <https://www.ibm.com/support/knowledgecenter/en/SS3RA7_15.0.0/com.ibm.spss.ta.help/tm_intro_tm_defined.htm>
 
-[^37]: "Introduction to Correlation" [Online]. Available: https://www.datascience.com/blog/introduction-to-correlation-learn-data-science-tutorials
+[^37]: "Introduction to Correlation" [Online]. Available: <https://www.datascience.com/blog/introduction-to-correlation-learn-data-science-tutorials>
 
-[^38]: "Data vs. Information vs. Insight" [Online]. Available: https://online.ben.edu/programs/mba/resources/data-vs-information-vs-insight
+[^38]: "Data vs. Information vs. Insight" [Online]. Available: <https://online.ben.edu/programs/mba/resources/data-vs-information-vs-insight>
 
-[^39]: "Artificial Intelligence" [Online]. Available: https://www.techopedia.com/definition/190/artificial-intelligence-ai
+[^39]: "Artificial Intelligence." [Online]. Available: <https://www.techopedia.com/definition/190/artificial-intelligence-ai>
 
-[^40]: "EI-ISAC Cybersecurity Spotlight – CIA Triad" [Online]. Available: https://www.cisecurity.org/spotlight/ei-isac-cybersecurity-spotlight-cia-triad/
+[^40]: "EI-ISAC Cybersecurity Spotlight – CIA Triad" [Online]. Available: <https://www.cisecurity.org/spotlight/ei-isac-cybersecurity-spotlight-cia-triad>
 
-[^41]: "Data Literacy: What It Is and How to Measure It in the Public Service". Statistics Canada. [Online]. Available: https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2019003-eng.htm
+[^41]: "Data Literacy: What It Is and How to Measure It in the Public Service". Statistics Canada. [Online]. Available: <https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2019003-eng.htm>
  
-[^42]: "Tree" from the National Institute of Standards and Technology. [Online]. Available: https://xlinux.nist.gov/dads/HTML/tree.html
+[^42]: "Tree" from the National Institute of Standards and Technology. [Online]. Available: <https://xlinux.nist.gov/dads/HTML/tree.html>
 
-[^43]: "Critical Thinking". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/critical_thinking
+[^43]: "Critical Thinking". Oxford University Press. [Online]. Available: <https://www.lexico.com/definition/critical_thinking>
 
-[^44]: "What is Cloud Storage? | AWS" . [Online]. Available: https://aws.amazon.com/what-is-cloud-storage/
+[^44]: "What is Cloud Storage? | AWS" . [Online]. Available: <https://aws.amazon.com/what-is-cloud-storage>
 
-[^45]: "Data, statistical information and statistics: Data quality" [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch3/quality-qualite/5214788-eng.htm.
+[^45]: "Data, statistical information and statistics: Data quality" [Online]. Available: <https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch3/quality-qualite/5214788-eng.htm>
 
-[^46]: "The 7 Most Common Types of Dirty Data (and how to clean them)". [Online]. Available: https://www.ringlead.com/blog/the-7-most-common-types-of-dirty-data-and-how-to-clean-them
+[^46]: "The 7 Most Common Types of Dirty Data (and how to clean them)". [Online]. Available: <https://www.ringlead.com/blog/the-7-most-common-types-of-dirty-data-and-how-to-clean-them>
 
-[^47]: "Population". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/population
+[^47]: "Population". Oxford University Press. [Online]. Available: <https://www.lexico.com/definition/population>
 
-[^48]: "Statistics: Power from Data! Glossary" [Online]. Available: https://www150.statcan.gc.ca/n1/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#Sample
+[^48]: "Statistics: Power from Data! Glossary" [Online]. Available: <https://www150.statcan.gc.ca/n1/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#Sample>
 
-[^49]: "Internet Privacy" [Online]. Available: https://www.techopedia.com/definition/24954/internet-privacy
+[^49]: "Internet Privacy" [Online]. Available: <https://www.techopedia.com/definition/24954/internet-privacy>
 
-[^50]: "Null (SQL)". [Online]. Wikipedia, The Free Encyclopedia. Available: https://en.wikipedia.org/w/index.php?title=Null_(SQL)
+[^50]: "Null (SQL)". [Online]. Wikipedia, The Free Encyclopedia. Available: <https://en.wikipedia.org/w/index.php?title=Null_(SQL)>
 
-[^51]: "Tidy Data". [Online]. R for Data Science. Available: https://r4ds.had.co.nz/tidy-data.html
+[^51]: "Tidy Data". [Online]. R for Data Science. Available: <https://r4ds.had.co.nz/tidy-data.html>
 
-[^52]: "Parse". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/parse
+[^52]: "Parse". Oxford University Press. [Online]. Available: <https://www.lexico.com/definition/parse>
 
-[^53]: "Aggregation". Oxford University Press. [Online]. Available: https://www.lexico.com/definition/aggregation
+[^53]: "Aggregation". Oxford University Press. [Online]. Available: <https://www.lexico.com/definition/aggregation>
 
-[^54]: "What is GIS?". [Online]. Available: https://www.esri.com/en-us/what-is-gis/overview
+[^54]: "What is GIS?". [Online]. Available: <https://www.esri.com/en-us/what-is-gis/overview>
 
-[^55]: "SQL Joins – W3 Schools". [Online]. Available: https://www.w3schools.com/sql/sql_join.asp
+[^55]: "SQL Joins – W3 Schools". [Online]. Available: <https://www.w3schools.com/sql/sql_join.asp>
 
-[^56]: Tufte, E. (1983). Theory of Data Graphics. _The Visual Display of Quantitative Information_, pp 57 and 91-123. Graphics Press. Available: https://archive.org/details/visualdisplayofq0000tuft
+[^56]: Tufte, E. (1983). Theory of Data Graphics. _The Visual Display of Quantitative Information_, pp 57 and 91-123. Graphics Press. Available: <https://archive.org/details/visualdisplayofq0000tuft>
 
-[^57]: Pease, Craig M. and Bull, James J. (2006). Models are the Building Blocks of Science. In _Scientific Decision-making_ [Course book] (The University of Texas at Austin, Bio301D)_. Available: http://utw10426.utweb.utexas.edu/Topics/Models/Text.html
+[^57]: Pease, Craig M. and Bull, James J. (2006). Models are the Building Blocks of Science. In _Scientific Decision-making_ [Course book] (The University of Texas at Austin, Bio301D)_. Available: <http://utw10426.utweb.utexas.edu/Topics/Models/Text.html>
 
-[^58]: Bradshaw, P. (2012). What is Data Journalism? In _The Data Journalism Handbook_. European Journalism Centre. Available: https://datajournalism.com/read/handbook/one
+[^58]: Bradshaw, P. (2012). What is Data Journalism? In _The Data Journalism Handbook_. European Journalism Centre. Available: <https://datajournalism.com/read/handbook/one>
 
-[^59]: "Data Storytelling: How to Effectively Tell a Story with Data". [Blog].Harvard Business School. Available: https://online.hbs.edu/blog/post/data-storytelling
+[^59]: "Data Storytelling: How to Effectively Tell a Story with Data". [Blog].Harvard Business School. Available: <https://online.hbs.edu/blog/post/data-storytelling>
 
-[^60]: "Choosing Colormaps in Matplotlib". [Online]. Available: https://matplotlib.org/stable/tutorials/colors/colormaps.html
+[^60]: "Choosing Colormaps in Matplotlib". [Online]. Available: <https://matplotlib.org/stable/tutorials/colors/colormaps.html>
 
-[^61]: "What is a Database?" [Online]. Available: https://www.oracle.com/database/what-is-database/
+[^61]: "What is a Database?" [Online]. Available: <https://www.oracle.com/database/what-is-database/>
 
-[^62]: "What Is a Data Lake?" Definition from SearchDataManagement. [Online]. Available: https://searchdatamanagement.techtarget.com/definition/data-lake
+[^62]: "What Is a Data Lake?" Definition from SearchDataManagement. [Online]. Available: <https://searchdatamanagement.techtarget.com/definition/data-lake>
 
-[^63]: [Online]. Available: https://en.wikipedia.org/wiki/Data_model
+[^63]: "Data model - Wikipedia". [Online]. Available: <https://en.wikipedia.org/wiki/Data_model>
 
-[^64]: Database model - Wikipedia. [Online]. Available: https://en.wikipedia.org/wiki/Database_model
+[^64]: "Database model - Wikipedia". [Online]. Available: <https://en.wikipedia.org/wiki/Database_model>
 
-[^65]: Models - Micron. [Online]. Available: https://kimtoo.gitbook.io/workspace/models
+[^65]: "Models - Micron". [Online]. Available: <https://kimtoo.gitbook.io/workspace/models>
 
-[^66]: Entity–relationship model wiki | TheReaderWiki. [Online]. Available: https://thereaderwiki.com/en/Entity_relationship_diagram
+[^66]: "Entity–relationship model wiki | TheReaderWiki". [Online]. Available: <https://thereaderwiki.com/en/Entity_relationship_diagram>
 
-[^67]: How Do You Explain A Dendrogram? – chetumenu.com. [Online]. Available: https://chetumenu.com/how-do-you-explain-a-dendrogram/
+[^67]: "How Do You Explain A Dendrogram? – chetumenu.com". [Online]. Available: <https://chetumenu.com/how-do-you-explain-a-dendrogram/>
 
-[^68]: Variance - Wikipedia. [Online]. Available: https://en.wikipedia.org/wiki/Variance
+[^68]: "Variance - Wikipedia". [Online]. Available: <https://en.wikipedia.org/wiki/Variance>
 
-[^69]: Heatmap – Biomedcourses. https://www.biomedcourses.com/2021/11/24/heatmap/
+[^69]: "Heatmap – Biomedcourses". [Online]. Available: <https://www.biomedcourses.com/2021/11/24/heatmap/>
