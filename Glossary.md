@@ -252,7 +252,7 @@ An initial stage of data processing that involves creating a summary of historic
 
 ### Distributed File System
 
-A mechanism that stores files on servers and allows clients, with permission, to store and process files as if they were stored on their own computer.[^15],[^16] [#storage](#storage)
+A mechanism that stores files on servers and allows clients, with permission, to store and process files as if they were stored on their own computer.[^16] [#storage](#storage)
 
 ### Entity–Relationship Model
 
@@ -679,9 +679,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^13]: "Descriptive analytics definition by Tech Target." [Online]. Available: <http://whatis.techtarget.com/definition/descriptive-analytics>
 
-[^14]: "Four Types of Big Data Analytics and Examples of Their Use." [Online]. Available: <http://www.ingrammicroadvisor.com/data-center/four-types-of-big-data-analytics-and-examples-of-their-use>
-
-[^15]: "Distributed file system definition by Tech Target." [Online]. Available: <http://searchwindowsserver.techtarget.com/definition/distributed-file-system-DFS>
+[^14]: "Four Types of Big Data Analytics and Examples of Their Use." [Online]. Available: <https://imaginenext.ingrammicro.com/data-center/four-types-of-big-data-analytics-and-examples-of-their-use-1>
 
 [^16]: "Distributed file system definition by Techopedia." [Online]. Available: <https://www.techopedia.com/definition/1825/distributed-file-system-dfs>
 
@@ -721,9 +719,9 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^35]: "Overview of the KDD Process" [Online]. Available: <http://www2.cs.uregina.ca/~dbd/cs831/notes/kdd/1_kdd.html>
 
-[^36]: "About Text Mining" [Online]. Available: <https://www.ibm.com/support/knowledgecenter/en/SS3RA7_15.0.0/com.ibm.spss.ta.help/tm_intro_tm_defined.htm>
+[^36]: "About Text Mining" [Online]. Available: <https://www.ibm.com/docs/vi/spss-modeler/18.0.0?topic=analytics-about-text-mining>
 
-[^37]: "Introduction to Correlation" [Online]. Available: <https://www.datascience.com/blog/introduction-to-correlation-learn-data-science-tutorials>
+[^37]: "Introduction to Correlation" [Online]. Available: <https://blogs.oracle.com/ai-and-datascience/post/introduction-to-correlation>
 
 [^38]: "Data vs. Information vs. Insight" [Online]. Available: <https://online.ben.edu/programs/mba/resources/data-vs-information-vs-insight>
 
@@ -783,7 +781,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^66]: "Entity–relationship model wiki | TheReaderWiki". [Online]. Available: <https://thereaderwiki.com/en/Entity_relationship_diagram>
 
-[^67]: "How Do You Explain A Dendrogram? – chetumenu.com". [Online]. Available: <https://chetumenu.com/how-do-you-explain-a-dendrogram/>
+[^67]: "What is a Dendrogram?". [Online]. Available: <https://www.displayr.com/what-is-dendrogram>
 
 [^68]: "Variance - Wikipedia". [Online]. Available: <https://en.wikipedia.org/wiki/Variance>
 
