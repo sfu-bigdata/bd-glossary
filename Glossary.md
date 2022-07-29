@@ -713,7 +713,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^31]: "Tabular Database" [Online]. Available: <https://www.techopedia.com/definition/26181/tabular-database>
 
-[^32]: "Data Modeling Introduction" [Online]. Available: <https://docs.mongodb.com/manual/core/data-modeling-introduction/>
+[^32]: "Data Modeling Introduction" [Online]. Available: <https://docs.mongodb.com/manual/core/data-modeling-introduction>
 
 [^33]: Greenberg, J. (2003). Metadata and the world wide web. *Encyclopedia of library and information science*, *3*, 1876-1888.
 
@@ -787,4 +787,4 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 
 [^68]: "Variance - Wikipedia". [Online]. Available: <https://en.wikipedia.org/wiki/Variance>
 
-[^69]: "Heatmap – Biomedcourses". [Online]. Available: <https://www.biomedcourses.com/2021/11/24/heatmap/>
+[^69]: "Heatmap – Biomedcourses". [Online]. Available: <https://www.biomedcourses.com/2021/11/24/heatmap>
