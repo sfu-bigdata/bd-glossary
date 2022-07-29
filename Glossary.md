@@ -55,9 +55,9 @@ Many describe it with "[The Four V’s](http://www.ibmbigdatahub.com/infographic
 
 ### Binning
 
-An operation on a range of numbers in which the entire range is divided into _bins_ (or _intervals_) of a _bin width_ (or _bin size_, _step size_). Another name for binning is *bucketing* [#operations](#operations) [#lesson-08](#lesson-08)
+An operation on a range of numbers in which the entire range is divided into _bins_ (or _intervals_) of a _bin width_ (or _bin size_, _step size_). Another name for binning is _bucketing_ [#operations](#operations) [#lesson-08](#lesson-08)
 
-### Box Plot 
+### Box Plot
 
 A type of data [visualization](#visualization) that shows how values of a variable are distributed. Line markers along an axis show how far the lower and upper quartiles are from the [median](#arithmetic-operations) giving an idea of central tendency, dispersion, and skew.
 See also [histogram](#histogram) and [violin plot](#violin-plot). [#lesson-09](#lesson-09)
@@ -165,10 +165,10 @@ Refers to the field that opens up when combining traditional investigative skill
 
 ### Data Lake
 
-[Cloud storage](#cloud-storage) that provides flat access to structured and unstructured datasets or objects using [URL](#url)s as identifiers. 
+[Cloud storage](#cloud-storage) that provides flat access to structured and unstructured datasets or objects using [URL](#url)s as identifiers.
 De-central alternative to [data warehouse](#data-warehouse). [^62] [#lesson-11](#lesson-11)
 
-### Data Literacy 
+### Data Literacy
 
 Data literacy is the intersection of verbal, numerical and graphical literacy. It is not a label reserved for data scientists or specialists. Data literacy should be considered "the ability of non-specialists to make use of data" and measure "a person’s ability to read, work with, analyze and argue with data", presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
 
@@ -184,9 +184,9 @@ A data model captures how elements of data relate to each other to describe prop
 
 Refers to the vast range of technologies, protocols, and concepts that give individual users or other parties more privacy protections in their online use. Online privacy takes many forms, including mandatory privacy statements on websites, data sharing controls, data transparency initiatives and more. [^49] [#disciplines](#disciplines) [#lesson-04](#lesson-04)
 
-### Data Quality 
+### Data Quality
 
-The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate (relevant and timely), consistent (coherent), complete (interpretable and accessible) and accurate. [^45] [#processing](#processing) [#lesson-04](#lesson-04) 
+The usefulness and reliability of data are assessed by its quality. High-quality data can be defined as appropriate (relevant and timely), consistent (coherent), complete (interpretable and accessible) and accurate. [^45] [#processing](#processing) [#lesson-04](#lesson-04)
 
 <!-- DONE: Data Quality ... Consolidate. The current description is provided by BCA ("_this is how we want to define it_"). Our description is from _Stats Canada_: 
 Dimensions that the quality can be assessed on include relevance (does the statistical information matter?), accessibility (can users access the statistical information?), accuracy (is the statistical information representative of the targeted measurement?), timeliness (is the lag between the period of reference and the availability of the statistical information acceptable?), interpretability (is metadata available and complete?), and coherence (is the statistical information consistent over time, between regions and across sub-populations?). [^45] [#processing](#processing) [#lesson-04](#lesson-04)  -->
@@ -201,7 +201,7 @@ A multidisciplinary activity combining programming skills, math and statistical 
 
 ### Data Transformation
 
-To convert data from [one form into another](#data-representation) using [arithmetic operations](#arithmetic-operations) or more complex [algorithms](#algorithm), possibly turning [unstructured data](#unstructured-data) into [structured form](#structured-data) to support [data analysis](#data-analysis). 
+To convert data from [one form into another](#data-representation) using [arithmetic operations](#arithmetic-operations) or more complex [algorithms](#algorithm), possibly turning [unstructured data](#unstructured-data) into [structured form](#structured-data) to support [data analysis](#data-analysis).
 [#processing](#processing) [#operations](#operations) [#lesson-03](#lesson-03) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
 
 ### Data types
@@ -218,7 +218,7 @@ A whole number.
 Multiple characters together are called strings. e.g. ‘aeiou’ is a string of the characters ‘a’, ‘e’, ‘i’, ‘o’, ‘u’.
 
 #### Date / Datetime
-A [representation](#data-representation) of a date (may include time) e.g. `YYYYMMDD` or  `YYYYMMDDhhmmss`. 
+A [representation](#data-representation) of a date (may include time) e.g. `YYYYMMDD` or  `YYYYMMDDhhmmss`.
 
 ### Data Warehouse
 
@@ -230,7 +230,7 @@ A measure of conciseness of a [visualization](#visualization) that discourages t
 
 ### Database
 
-An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3] [^61] [#storage](#storage) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11) 
+An organized collection of [data](#data) that allows easy access, management, updating and analysis of data. Commonly used databases are MySQL, PostgreSQL, as well as various [NoSQL](#no-sql-database) options.[^3] [^61] [#storage](#storage) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
 
 <!--
 ### Database 2
@@ -302,7 +302,7 @@ Specific column in a [data table](#tabular-data) that can be used to identify re
 
 ### Generative Modeling
 
-[Fitting](#model-fitting) a [model](#machine-learning) that can generate synthetic data beyond [given observations](#data). 
+[Fitting](#model-fitting) a [model](#machine-learning) that can generate synthetic data beyond [given observations](#data).
 For example, a language model trained on a collection of text can be used to suggest possible words to modify or continue a given phrase. [^28]
 
 ### GIS
@@ -379,7 +379,7 @@ A model simplifies or substitutes knowledge, information or understanding about 
 
 ### Model Fitting
 
-Optimizes [how well](#goodness-of-fit) a [machine learning model](#machine-learning) can make predictions for previously unseen test data. 
+Optimizes [how well](#goodness-of-fit) a [machine learning model](#machine-learning) can make predictions for previously unseen test data.
 
 ### Network
 
@@ -522,7 +522,7 @@ Data items or observations organized as rows, containing entries, under columns,
 
 Narrow, stacked or long, is presented with one column containing all data values and another column containing the kind of values. Related topic [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
 
-#### Wide table format 
+#### Wide table format
 
 Wide, or unstacked tabular data presents each [variable/attribute/feature](#feature) in a separate column. Related topic, [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
 
@@ -534,9 +534,9 @@ A process of analyzing [text](#unstructured-data) to capture key concepts, theme
 
 Datasets are commonly messy. Getting data into tidy [^51] format requires upfront work, but that work pays off in the long term. There are three interrelated rules which make a dataset tidy:
 
-1.	Each variable must have its own column.
-2.	Each observation must have its own row.
-3.	Each value must have its own cell.
+1. Each variable must have its own column.
+2. Each observation must have its own row.
+3. Each value must have its own cell.
 
 [#lesson-06](#lesson-06)
 
@@ -589,7 +589,7 @@ Sometimes referred to as _Viz_. The technique for creating images, diagrams, or 
 
 ### Visualization Dashboard
 
-Multiple interactive graphical views of [data](#data) that would be too complex if presented in a [single visualization](#visualization), for instance, to support complex narratives and [insights](#insight) by showing key performance indicators (KPIs) for monitoring of a business or other processes. [#data-analysis](#data-analysis) 
+Multiple interactive graphical views of [data](#data) that would be too complex if presented in a [single visualization](#visualization), for instance, to support complex narratives and [insights](#insight) by showing key performance indicators (KPIs) for monitoring of a business or other processes. [#data-analysis](#data-analysis)
 
 ### Web scraping
 
@@ -732,7 +732,7 @@ Available: <http://searchbusinessanalytics.techtarget.com/definition/data-visual
 [^40]: "EI-ISAC Cybersecurity Spotlight – CIA Triad" [Online]. Available: <https://www.cisecurity.org/spotlight/ei-isac-cybersecurity-spotlight-cia-triad>
 
 [^41]: "Data Literacy: What It Is and How to Measure It in the Public Service". Statistics Canada. [Online]. Available: <https://www150.statcan.gc.ca/n1/pub/11-633-x/11-633-x2019003-eng.htm>
- 
+
 [^42]: "Tree" from the National Institute of Standards and Technology. [Online]. Available: <https://xlinux.nist.gov/dads/HTML/tree.html>
 
 [^43]: "Critical Thinking". Oxford University Press. [Online]. Available: <https://www.lexico.com/definition/critical_thinking>
