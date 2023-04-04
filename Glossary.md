@@ -10,9 +10,13 @@
 
 Advanced research computing (ARC) provides massive computational horsepower and [storage](#storage-and-physical-data-sources) in a [cloud environment](#cloud-computing) to handle problems and data that are too complex for a single desktop computer. [^1],[^2] [#disciplines](#disciplines)
 
+### AirDrop
+
+A feature in Apple's operating systems that enables users to transfer data between devices on the same Wi-Fi network.[#EmergeTech](#EmergeTech)
+
 ### Algorithm
 
-A sequence of instructions telling a computer how to answer a specific question. [^3],[^4] [#processing](#processing)
+A sequence of instructions telling a computer how to answer a specific question. [^3],[^4] [#processing](#processing) [#EmergeTech](#EmergeTech)
 
 ### Analytics
 
@@ -20,7 +24,7 @@ The process of using [statistical models](#machine-learning) and software to [tr
 
 ### API
 
-API is an acronym for Application Programming Interface. Through the API, a Program (like a website or code) accesses an Application (a database or another application) through a common language, protocol (or Interface) through which the two systems interact. [#lesson-10](#lesson-10)
+API is an acronym for Application Programming Interface. Through the API, a Program (like a website or code) accesses an Application (a database or another application) through a common language, protocol (or Interface) through which the two systems interact. [#lesson-10](#lesson-10) [#EmergeTech](#EmergeTech)
 
 ### Arithmetic operations
 
@@ -28,7 +32,7 @@ Includes basic statistics: such as _sums_, _counts_, _means_ (or _averages_), _m
 
 ### Artificial Intelligence
 
-A branch of computer science that allows machines to acquire and apply knowledge to handle new inputs and analyze patterns to solve diverse problems. [^39] [#disciplines](#disciplines) [#lesson-03](#lesson-03)
+A branch of computer science that allows machines to acquire and apply knowledge to handle new inputs and analyze patterns to solve diverse problems. [^39] [#disciplines](#disciplines) [#lesson-03](#lesson-03) [#EmergeTech](#EmergeTech)
 
 ### Bar Chart
 
@@ -57,6 +61,14 @@ Many describe it with "[The Four V’s](http://www.ibmbigdatahub.com/infographic
 
 An operation on a range of numbers in which the entire range is divided into _bins_ (or _intervals_) of a _bin width_ (or _bin size_, _step size_). Another name for binning is _bucketing_ [#operations](#operations) [#lesson-08](#lesson-08)
 
+### Blockchain
+
+Designed to make data stored on it immutable and secure, making it impossible to hack or manipulate.[#EmergeTech](#EmergeTech)
+
+### Bluetooth
+
+A wireless technology that makes it easier to communicate with the internet and other gadgets. [#EmergeTech](#EmergeTech)
+
 ### Box Plot
 
 A type of data [visualization](#visualization) that shows how values of a variable are distributed. Line markers along an axis show how far the lower and upper quartiles are from the [median](#arithmetic-operations) giving an idea of central tendency, dispersion, and skew.
@@ -65,6 +77,10 @@ See also [histogram](#histogram) and [violin plot](#violin-plot). [#lesson-09](#
 ### Bucketing
 
 Another name for bucketing is [binning](#binning). [#operations](#operations) [#lesson-08](#lesson-08)
+
+### Business Analytics
+
+The use of skills, technologies, applications, and processes to gain insight into an organization's data and statistics to drive planning and decision-making. [#EmergeTech](#EmergeTech)
 
 ### Causal Inference
 
@@ -80,19 +96,19 @@ An approach in [machine learning](#machine-learning) where a program is [trained
 
 ### Cloud ("The Cloud") <a id="cloud"/>
 
-Any resource stored on the internet (instead of locally on a PC) is said to be stored on the cloud. Cloud storage is convenient in that clients do not have to manage the storage and infrastructure; they just access it from other internet-connected devices. [#disciplines](#disciplines) [#lesson-10](#lesson-10)
+Any resource stored on the internet (instead of locally on a PC) is said to be stored on the cloud. Cloud storage is convenient in that clients do not have to manage the storage and infrastructure; they just access it from other internet-connected devices. [#disciplines](#disciplines) [#lesson-10](#lesson-10) [#EmergeTech](#EmergeTech)
 
 ### Cloud Computing
 
-Access to data, [storage](#distributed-file-system), applications, and other computing resources made available to many users on-demand over the [Internet](#network) to improve [scalable computing power](#advanced-research-computing) and reliability. [^9],[^10] [#disciplines](#disciplines)
+Access to data, [storage](#distributed-file-system), applications, and other computing resources made available to many users on-demand over the [Internet](#network) to improve [scalable computing power](#advanced-research-computing) and reliability. [^9],[^10] [#disciplines](#disciplines) [#EmergeTech](#EmergeTech)
 
 ### Cloud Storage
 
-Stores data on the Internet with a [cloud computing](#cloud-computing) provider who manages and operates data storage as a service. [^44] [#storage](#storage) [#lesson-11](#lesson-11)
+Stores data on the Internet with a [cloud computing](#cloud-computing) provider who manages and operates data storage as a service. [^44] [#storage](#storage) [#lesson-11](#lesson-11) [#EmergeTech](#EmergeTech)
 
 ### Cluster (Compute)
 
-A [network](#network) of computers (or compute nodes) that work on tasks together in parallel. A cluster is one way to address [Big Data](#big-data) needs. The concept is different from [clustering](#clustering). [#lesson-10](#lesson-10)
+A [network](#network) of computers (or compute nodes) that work on tasks together in parallel. A cluster is one way to address [Big Data](#big-data) needs. The concept is different from [clustering](#clustering). [#lesson-10](#lesson-10) [#EmergeTech](#EmergeTech)
 
 ### Clustering
 
@@ -103,9 +119,21 @@ A [machine learning](#machine-learning) technique that groups similar data point
 [Visual encoding](#visualization) of different levels of a variable by using a fixed scale (or map) of colours.
 Synonyms: Colour palette, Colour scheme. Colour (Hue), Colour (Shade) [^60] [#lesson-14](#lesson-14)
 
+### Computational power
+
+Computational power refers to a computer's ability to process data, perform calculations, or run programs. [#EmergeTech](#EmergeTech)
+
+### Computer vision
+
+Computer vision is a field of study that helps computers read and understand digital images by interpreting visual context, using computational intelligence and machine learning. [#EmergeTech](#EmergeTech)
+
 ### Computing with Data
 
 Learning from data using computing tools and programming languages, such as Python or R with large ecosystems of libraries providing a convenient level of abstraction and statistical methods that can be organized into data processing pipelines.[^28] [#disciplines](#disciplines)
+
+### Cookies
+
+Websites use cookies, which are small data files they keep on a user's computer to help them customise their experience. Cookies may contain login credentials or user preferences. [#EmergeTech](#EmergeTech)
 
 ### Correlation
 
@@ -123,6 +151,14 @@ A thought process to determine whether we believe something to be true or false 
 
 A collaborative approach for collection and maintenance of data where people use websites to share information of common interest. The result can be large, high-quality datasets. [#lesson-03](#lesson-03)
 
+### Cryptocurrency
+
+Cryptocurrency is digital money that can be securely bought, transferred, and sold using cryptography to protect the data used to identify and track transactions. [#EmergeTech](#EmergeTech)
+
+### Cryptography
+
+Cryptography is a method of protecting information by using codes to ensure only authorized individuals can read or process it. [#EmergeTech](#EmergeTech)
+
 ### Cybersecurity
 
 A model in information security designed to govern and evaluate how an organization handles data when it is stored, transmitted or processed. This model emphasizes that data should not be accessed without authorization, should not be altered or compromised without authorization, and should be accessible upon legitimate request. See [Secure Computing](#secure-computing). [^40] [#disciplines](#disciplines)
@@ -133,7 +169,7 @@ Collection of examples, observations, measurements, facts, points, or other item
 
 ### Data (Clean, Dirty) <a id="clean-dirty"/>
 
-Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being outdated, insecure, incomplete, missing, inaccurate, misplaced, inconsistent, or duplicated. [^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06)
+Data that contains erroneous or unreliable data points is called dirty data. Dirty data must be cleaned to correct and adjusted before it is usable, usually a tedious task. Causes of dirty data include being outdated, insecure, incomplete, missing, inaccurate, misplaced, inconsistent, or duplicated. [^46] [#processing](#processing) [#lesson-04](#lesson-04) [#lesson-06](#lesson-06) [#EmergeTech](#EmergeTech)
 
 ### Data Aggregation
 
@@ -172,13 +208,17 @@ De-central alternative to [data warehouse](#data-warehouse). [^62] [#lesson-11](
 
 Data literacy is the intersection of verbal, numerical and graphical literacy. It is not a label reserved for data scientists or specialists. Data literacy should be considered "the ability of non-specialists to make use of data" and measure "a person’s ability to read, work with, analyze and argue with data", presumably using simple statistics such as means and percentages [^41]. [#disciplines](#disciplines) [#lesson-01](#lesson-01)
 
+### Data Manipulation
+
+Changing and organizing information in order to make it more structured and easier to understand. [#EmergeTech](#EmergeTech)
+
 ### Data Mining
 
-An analytical process where large datasets are explored or "mined" in search of meaningful patterns, relationships or insights. The process can include statistics, [machine learning](#machine-learning) or other forms of artificial intelligence.[^3],[^4] [#disciplines](#disciplines)
+An analytical process where large datasets are explored or "mined" in search of meaningful patterns, relationships or insights. The process can include statistics, [machine learning](#machine-learning) or other forms of artificial intelligence.[^3],[^4] [#disciplines](#disciplines) [#EmergeTech](#EmergeTech)
 
 ### Data Model
 
-A data model captures how elements of data relate to each other to describe properties of structured real-world entities. [^63] [#storage](#storage) [#lesson-11](#lesson-11)
+A data model captures how elements of data relate to each other to describe properties of structured real-world entities. [^63] [#storage](#storage) [#lesson-11](#lesson-11) [#EmergeTech](#EmergeTech)
 
 ### Data Privacy
 
@@ -198,6 +238,10 @@ The form in which [data](#data) is stored, processed and transmitted such that i
 ### Data Science
 
 A multidisciplinary activity combining programming skills, math and statistical analysis, and sector-specific expertise to extract [insights](#insight) from [data](#data). Often performed in stages: 1. [Data Exploration and Preparation](#data-exploration-and-preparation), 2. [Data Representation](#data-representation) and [Transformation](#data-transformation), 3. [Computing with Data](#computing-with-data), 4. [Machine Learning](#machine-learning), 5. [Data Visualization and Presentation](#visualization). [^28],[^29] [#disciplines](#disciplines)
+
+### Data simulation 
+
+Simulating real-world situations or circumstances using a lot of data is called data simulation. [#EmergeTech](#EmergeTech)
 
 ### Data Transformation
 
@@ -242,6 +286,14 @@ Organized collection of [structured](#structured) data stored electronically in 
 
 A [data model](#data-model) that determines the logical structure or type of a [database](#database). The most popular database model is the relational model, implemented using a [table-based](#tabular-data) format. [^64] [#storage](#storage) [#lesson-11](#lesson-11)
 
+### Decentralization
+
+In the context of blockchain technology, refers to the distribution of data across multiple network nodes. [#EmergeTech](#EmergeTech)
+ 
+### Deep Learning
+
+An artificial intelligence (AI) technique that instructs computers to handle data in a manner that is similar to the way the human brain does. [#EmergeTech](#EmergeTech)
+
 ### Dendrogram
 
 A [diagram](#visualization) that represents a tree, for instance, to show the nested grouping of points resulting from hierarchical [clustering](#clustering). [^67] [#lesson-09](#lesson-09)
@@ -250,9 +302,17 @@ A [diagram](#visualization) that represents a tree, for instance, to show the ne
 
 An initial stage of data processing that involves creating a summary of historical data with the goal of answering the question, "What happened?"[^13],[^14] [#data-analysis](#data-analysis)
 
+### Distributed Consensus
+
+The process by which nodes in a blockchain network must agree on the validity of a transaction or event in order to maintain a consistent, accurate ledger. [#EmergeTech](#EmergeTech)
+
 ### Distributed File System
 
 A mechanism that stores files on servers and allows clients, with permission, to store and process files as if they were stored on their own computer.[^16] [#storage](#storage)
+
+### Distributed Ledger
+
+A database that is synchronized and shared among several places in order to preserve accuracy and consistency. [#EmergeTech](#EmergeTech)
 
 ### Entity–Relationship Model
 
@@ -270,17 +330,26 @@ A human-driven process of finding the most important [features](#feature) to dev
 
 A computer stores files in various formats. The file format, usually specified in the file extension, determines how the computer should read and process the information within. For example the extension `.jpeg` for images, `.docx` for Word. [Tabular data](#tabular-data) file formats for [structured](#structured-data) data include the following. [#data-types](#data-types) [#lesson-03](#lesson-03)
 
-#### TXT
-A generic file format which may hold [structured](#structured-data) data. The structure is preserved with a delimiter or separator; comma, semicolon or tab indentations are common separators.
-
 #### CSV
 A text file that uses commas as a delimiter. Often the file extension is .csv but the generic .txt is also used. The structure in the text file are _comma_-separated values.
+
+#### JPEG
+ A standard file format used for compressing images in order to store or transmit them more efficiently. [#EmergeTech](#EmergeTech)
+ 
+#### JSON
+_JavaScript Object Notation_ is a human-readable file format that stores [structured](#structured-data) data as attribute-value pairs. JSON is a language-independent data format and is a common format for use with web applications. [#EmergeTech](#EmergeTech)
+
+#### MP4
+A digital multimedia container format used for storing audio and video, as well as other types of data such as subtitles and images. [#EmergeTech](#EmergeTech)
+
+#### PDF 
+Developed by Adobe, the Portable Document Format (PDF) is a flexible file format that enables users to share and present documents regardless of the operating system, software, or hardware being used.[#EmergeTech](#EmergeTech)
 
 #### TSV
 A text file that uses tab indentation as a delimiter. Often the file extension is .tsv but the generic .txt is also used. The structure in the text file are _tab_-separated values.
 
-#### JSON
-_JavaScript Object Notation_ is a human-readable file format that stores [structured](#structured-data) data as attribute-value pairs. JSON is a language-independent data format and is a common format for use with web applications,
+#### TXT
+A generic file format which may hold [structured](#structured-data) data. The structure is preserved with a delimiter or separator; comma, semicolon or tab indentations are common separators.
 
 #### XML
 _eXtensible Markup Language_ is a human-readable file format that stores [structured](#structured-data) data using _tags_, _elements_ and _attributes_. The XML format is commonly used across the Internet.
@@ -304,6 +373,10 @@ Specific column in a [data table](#tabular-data) that can be used to identify re
 
 [Fitting](#model-fitting) a [model](#machine-learning) that can generate synthetic data beyond [given observations](#data).
 For example, a language model trained on a collection of text can be used to suggest possible words to modify or continue a given phrase. [^28]
+
+### Geodata
+
+Information about geographic places that is kept in a format that can be used with a geographic information system (GIS). [#EmergeTech](#EmergeTech)
 
 ### GIS
 
@@ -329,6 +402,14 @@ Data [visualization](#visualization) technique that shows the magnitude of a phe
 
 HyperText Markup Language is a coding language for designing documents (webpages) displayed in a web browser. [#lesson-10](#lesson-10)
 
+### Immutable
+
+Refers to data that cannot be changed or altered. [#EmergeTech](#EmergeTech)
+
+### Inductive Reasoning
+
+A logical process used to evaluate situations and make decisions based on specific observations, experiences, or facts. [#EmergeTech](#EmergeTech)
+
 ### Infographics
 
 A type of presentation for data [storytelling](#storytelling) suitable for large display in poster form, visually grouping messages by themes, using data [vis](#visualization) and concise language. [#lesson-13](#lesson-13)
@@ -345,6 +426,10 @@ Actionable [information](#information) gained by interpreting [data analysis](#a
 
 A system of [connected](#network), "smart" objects, including smartphones, wearables and smart-appliances, that collect and exchange information without requiring human interaction. The IoT is a huge generator of data.[^17],[^18] [#storage](#storage)
 
+### Interoperability
+
+The capacity of software to exchange and use information (data). [#EmergeTech](#EmergeTech)
+
 ### Join
 
 A _join_ operation is used to [combine](#data-transformation) rows from two or more tables, based on a related column between them. [^55] [#query](#query) [#operations](#operations) [#lesson-06](#lesson-06) [#lesson-08](#lesson-08) [#lesson-12](#lesson-12)
@@ -352,6 +437,10 @@ A _join_ operation is used to [combine](#data-transformation) rows from two or m
 ### Knowledge Discovery
 
 Aims to extract [insight](#insight) from data in [databases](#database). It involves a [number of steps](#data-science) including the evaluation and possibly [interpretation](#visualization) of [patterns](#data-mining) to gather [insight](#insight) and knowledge.[^35] [#disciplines](#disciplines)
+
+### Knowledge Graph
+
+Databases that represent a network of real-world entities and their relationships. [#EmergeTech](#EmergeTech)
 
 ### Lie factor
 
@@ -367,15 +456,31 @@ Operations and manipulations according to the rules of logic and boolean algebra
 
 ### Machine Learning
 
-A part of [artificial intelligence](#artificial-intelligence) that enables machines to learn from experience to perform certain tasks by using [algorithmic](#algorithm) models that are [trained](#model-fitting) to imitate patterns present in [data](#data) to support [prediction](#predictive-analytics), [data generation](#generative-modeling) and other forms of [data analysis](#data-analysis). [#disciplines](#disciplines) [#lesson-03](#lesson-03)
+A part of [artificial intelligence](#artificial-intelligence) that enables machines to learn from experience to perform certain tasks by using [algorithmic](#algorithm) models that are [trained](#model-fitting) to imitate patterns present in [data](#data) to support [prediction](#predictive-analytics), [data generation](#generative-modeling) and other forms of [data analysis](#data-analysis). [#disciplines](#disciplines) [#lesson-03](#lesson-03) [#EmergeTech](#EmergeTech)
 
+### Market Analysis
+
+An assessment of a business's target market and its competitors, used to predict the success of introducing products or services to consumers. [#EmergeTech](#EmergeTech)
+ 
+### Mathematical Modelling
+
+Making predictions or learning new information through mathematical models that capture real-world situations. [#EmergeTech](#EmergeTech)
+ 
 ### Metadata
 
 Also called "data about data" it provides a [structured description](#structured-data) and context for a data point - document, image, or file - to help organize, find and understand the data. [^33] [#data-types](#data-types) [#lesson-03](#lesson-03) [#lesson-11](#lesson-11)
 
+### Metaverse
+
+A shared, immersive virtual environment where experiences not feasible in the real world are possible. [#EmergeTech](#EmergeTech)
+
+### Mixed Reality
+
+A technology that merges computer-generated images with real-world environments to create a new, interactive experience. [#EmergeTech](#EmergeTech)
+
 ### Model
 
-A model simplifies or substitutes knowledge, information or understanding about a topic. Physical models (or replicas) like organisms, the solar system and structures are common. To a [data scientist](#data-science), models are abstractions, for example, theories, hypotheses, predictions, [algorithms](#algorithm), mathematical formulas or computer simulations. Techniques for construction models include (but are not limited to) [artificial intelligence](#artificial-intelligence), [machine learning](#machine-learning), [statistical](#statistics), [analytics](#analytics), [data mining](#data-mining) or [Big Data](#big-data) techniques. [^57] [#data-analysis](#data-analysis) [#lesson-09](#lesson-09)
+A model simplifies or substitutes knowledge, information or understanding about a topic. Physical models (or replicas) like organisms, the solar system and structures are common. To a [data scientist](#data-science), models are abstractions, for example, theories, hypotheses, predictions, [algorithms](#algorithm), mathematical formulas or computer simulations. Techniques for construction models include (but are not limited to) [artificial intelligence](#artificial-intelligence), [machine learning](#machine-learning), [statistical](#statistics), [analytics](#analytics), [data mining](#data-mining) or [Big Data](#big-data) techniques. [^57] [#data-analysis](#data-analysis) [#lesson-09](#lesson-09) [#EmergeTech](#EmergeTech)
 
 ### Model Fitting
 
@@ -389,6 +494,10 @@ A system where multiple computing devices are connected to each other to exchang
 
 Mapping and measuring the relationships between people, groups, organizations, computers and other connected entities. It is used to simplify complex relationships, to make them easier to analyze. [^21]
 
+### Neural networks 
+
+Neural networks are a type of machine learning technique that utilizes interconnected nodes or neurons arranged in layers, inspired by the human brain, to process data. This method, known as deep learning, is a form of artificial intelligence. [#EmergeTech](#EmergeTech)
+
 ### No-SQL Database
 
 A type of database designed to handle [large](#advanced-research-computing) volumes of [tabular data](#tabular-data) that [may not have a structure](#flexible-schema).  [#storage](#storage)
@@ -396,6 +505,10 @@ A type of database designed to handle [large](#advanced-research-computing) volu
 ### Null values
 
 Null or NULL is a special marker to indicate that a value does not exist. A null value indicates a lack of a value, which is not the same thing as a value of zero. [^50] [#lesson-06](#lesson-06)
+
+### Open-source data
+ 
+Open-source data refers to data that is accessible, usable, and shareable by anyone, without any restrictions or limitations. [#EmergeTech](#EmergeTech)
 
 ### Pair plot
 
@@ -418,6 +531,10 @@ Pivoting is an extension of the [transpose](#transpose) operation. The pivot ope
 
 A collection of items under consideration. [^47] [#data-analysis](#data-analysis) [#lesson-04](#lesson-04)
 
+### Predictions 
+
+Predictions are the output of an algorithm after being trained on a historical dataset and applied to new data. This is used to forecast the probability of a particular outcome, such as customer churn in the next 30 days. [#EmergeTech](#EmergeTech)
+
 ### Predictive Analytics
 
 A process for analyzing current [data](#data) to determine future events or other unknowns. Related to [descriptive](#descriptive-analytics) and [prescriptive analytics](#prescriptive-analytics), it draws on techniques from [data mining](#data-mining), modelling, [machine learning](#machine-learning) and statistics.[^3],[^28]
@@ -430,9 +547,17 @@ A type of [analytics](#analytics) with the goal of using data to determine the b
 
 Specific attributes or table columns in a [relational](#database-model) data [table](#tabular-data) that uniquely identify a data point or row. Most commonly, a single attribute: a unique ID. [^65] [#query](#query) [#lesson-12](#lesson-12)
 
+### Process analysis 
+
+Process analysis is a methodical review of all the steps and procedures involved in carrying out a specific activity. [#EmergeTech](#EmergeTech)
+
 ### Query (Data) <a id="query" />
 
 Request for data from one or more [tables](#tabular). [SQL](#sql) is commonly used to express a query, but also plain text search is a type of query. [#lesson-07](#lesson-07) [#lesson-10](#lesson-10) [#lesson-11](#lesson-11)
+
+### Real-time analytics 
+
+Real-time analytics is a method that analyses data using logic and mathematics to produce quick insights for improved decision-making. [#EmergeTech](#EmergeTech)
 
 ### Regression
 
@@ -445,6 +570,10 @@ Relationship mining examines associations between two or more variables in a dat
 ### Repository (data repo) <a id="repository"/>
 
 Sometimes abbreviated as _repo_, it is often used as a synonym for a [database](#database). Generally, it means any place in which things may be stored. [#storage](#storage) [#lesson-10](#lesson-10)
+
+### Risk management 
+
+Risk management is a systematic process of identifying, evaluating, and controlling various risks that could affect an organization's capital and earnings, such as financial uncertainty, legal liabilities, strategic management errors, accidents,and natural disasters. [#EmergeTech](#EmergeTech)
 
 ### Sample (Representative, Proxy) <a id="sample"/>
 
@@ -470,6 +599,10 @@ A type of [query](#query) that requests certain columns, either by selecting exi
 
 Skewness refers to a distortion or asymmetry that deviates from the symmetrical bell curve, or normal distribution, in a set of data. If the curve is shifted to the left or the right, it is said to be skewed. [#lesson-09](#lesson-09)
 
+### Smart contracts 
+
+Smart contracts built on blockchain technology are computer programmes that launch autonomously when certain conditions are met. [#EmergeTech](#EmergeTech)
+
 ### Sort
 
 A type of data [transformation](#data-transformations) that orders rows by some chosen column. While simple, sorting is a powerful [operation](#operations) that supports many tasks, including ranking, extreme values, or duplicate detection. [#lesson-07](#lesson-07)
@@ -486,9 +619,21 @@ Standard deviation is the square root of [variance](#variance). It is a measure 
 
 Statistics is the discipline concerned with developing and studying methods for collecting, organizing, analyzing, interpreting, and presenting empirical data. Common statistical metrics are mean (average), median, mode and percentiles. [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#arithmetic-operations](#arithmetic-operations)
 
+### Statistical methods
+
+Statistical methods are ways to examine and understand data. Examples include regression analysis, hypothesis testing, and correlation analysis. [#EmergeTech](#EmergeTech)
+
 ### Storytelling
 
 The ability to tell or write stories and narratives to communicate insights and actions drawn data, optionally aided by effective [visualizations](#visualization). [^59] [#disciplines](#disciplines) [#lesson-13](#lesson-13)
+
+### Supervised learning
+
+Supervised learning is a type of machine learning that trains algorithms to classify data or predict outcomes by using labeled datasets. [#EmergeTech](#EmergeTech)
+
+### Synthetic data
+
+Synthetic data is artificially generated information used for testing datasets, validating mathematical models, and training machine learning models. [#EmergeTech](#EmergeTech)
 
 ### String or character operations
 
@@ -526,9 +671,17 @@ Narrow, stacked or long, is presented with one column containing all data values
 
 Wide, or unstacked tabular data presents each [variable/attribute/feature](#feature) in a separate column. Related topic, [pivot](#pivot). [#data-types](#data-types) [#lesson-03](#lesson-03)
 
+### Tamper-proofing
+
+Tamper-proofing is a security measure that detects any unauthorized modifications to an object. [#EmergeTech](#EmergeTech)
+
 ### Text Mining
 
 A process of analyzing [text](#unstructured-data) to capture key concepts, themes, relationships and trends.[^36] [#data-analysis](#data-analysis)
+
+### Text recognition
+
+Text recognition involves extracting text from images or documents using AI and ML algorithms. [#EmergeTech](#EmergeTech)
 
 ### Tidy tables
 
@@ -565,6 +718,10 @@ A _union_ operation that [combines](#data-transformation) tables with the same n
 
 Data that is not organized in a pre-defined way under a single data model. Examples include text, images, audio, or video. [^26],[^27] [#data-types](#data-types), [#lesson-03](#lesson-03)
 
+### Unsupervised learning
+
+Unsupervised learning trains models to identify patterns in data without explicit guidance or labeled examples. [#EmergeTech](#EmergeTech)
+
 ### URL
 
 The URL (short for Uniform Resource Locator) is the location of a webpage or file (including pictures, videos, or CSV) on the Internet. Files (or resources) stored on the cloud have unique URLs. [#lesson-10](#lesson-10)
@@ -577,9 +734,17 @@ Measure of dispersion, indicating how far the values of a variable are spread ou
 
 Similar to a [histogram](#histogram), this plot type shows how values of a variable are distributed in a dataset, indicating more often occurring values with thickness that extends symmetrically around a central axis. The name refers to the typical look that most datasets have in this [visualization](#visualization) method. [box plots](#box-plot) [#lesson-09](#lesson-09)
 
+### Virtual assistants
+
+Virtual assistants are self-employed professionals providing administrative services from remote locations. [#EmergeTech](#EmergeTech)
+
+### Virtual reality
+
+Virtual reality creates simulated 3D environments that can be interacted with using electronic equipment. [#EmergeTech](#EmergeTech)
+
 ### Visualization
 
-Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11], [^12], [^56] [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13)
+Visual representation of data including plots, charts, maps and infographics to support people with tasks such as sensemaking, effective communication of information, and improved pattern detection. For example, flight operations using a radar screen that displays sensor data in real-time. [^11], [^12], [^56] [#data-analysis](#data-analysis) [#lesson-05](#lesson-05) [#lesson-09](#lesson-09) [#lesson-13](#lesson-13) [#EmergeTech](#EmergeTech)
 
 <!--
 ### Visualization
@@ -590,6 +755,18 @@ Sometimes referred to as _Viz_. The technique for creating images, diagrams, or 
 ### Visualization Dashboard
 
 Multiple interactive graphical views of [data](#data) that would be too complex if presented in a [single visualization](#visualization), for instance, to support complex narratives and [insights](#insight) by showing key performance indicators (KPIs) for monitoring of a business or other processes. [#data-analysis](#data-analysis)
+
+### Web 1.0
+
+The initial iteration of the internet is referred to as web 1.0. The focus of Web 1.0 was retrieving and reading content. [#EmergeTech](#EmergeTech)
+
+### Web 2.0
+
+User-generated content and interactive web apps were introduced by Web 2.0. Reading, writing, creating, and engaging with the user are the four pillars of Web 2.0. It became known as the participative social web. [#EmergeTech](#EmergeTech)
+
+### Web 3.0
+
+Through its user interface, Web 3.0 seeks to produce a more intelligent, connected, and interactive web experience. The third iteration of the World Wide Web, or Web 3.0, is an ongoing project that envisions a decentralized internet. It all come down to reading, writing, and ownership. [#EmergeTech](#EmergeTech)
 
 ### Web scraping
 
@@ -609,6 +786,8 @@ The categories offer an alternative grouping that helps to find related terms.
 ## Data Analysis Techniques <a id="data-analysis"/>
 
 ## Data Processing <a id="processing"/>
+
+## Data in Emerging Technology <a id="EmergeTech"/>
 
 ## Storage and Physical Data Sources <a id="storage"/>
 
